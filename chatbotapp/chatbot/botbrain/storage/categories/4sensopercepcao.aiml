@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 115 -->
+		<category>
+			<pattern>^ <set>ouvir</set> ^ <set>vozes</set> ^</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>Não... Não ouço essas vozes
+			</template>
+		</category>
+	<!-- fim 115 -->
+	<!-- id 116 -->
+		<category>
+			<pattern>RESPOSTA116</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>Não sei te responder isso. Eu não ouço essas coisas
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>ouvir</set> ^ <set>serestar</set> ^ <set>vozes</set> ^</pattern>
+			<template><srai>RESPOSTA116</srai></template>
+		</category>	
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>serestar</set> ^ <set>vozes</set> ^ <set>nitido</set> ^</pattern>
+			<template><srai>RESPOSTA116</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>serestar</set> ^ <set>vozes</set> ^</pattern>
+			<template><srai>RESPOSTA116</srai></template>
+		</category>	
+	<!-- fim 116 -->
+	<!-- id 117 -->
+		<category>
+			<pattern>RESPOSTA117</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>Bom, como eu não escuto essas vozes, não há o que entender k
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>entender</set> ^ <set>qquestoes</set> ^ <set>vozes</set> ^ <set>falar</set> ^</pattern>
+			<template><srai>RESPOSTA117</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>entender</set> ^ <set>qquestoes</set> ^ <set>falar</set> ^ <set>vozes</set> ^</pattern>
+			<template><srai>RESPOSTA117</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>vozes</set> ^ <set>falar</set> ^</pattern>
+			<template><srai>RESPOSTA117</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>falar</set> ^ <set>vozes</set> ^</pattern>
+			<template><srai>RESPOSTA117</srai></template>
+		</category>
+	<!-- fim 117 -->
+	<!-- id 122 -->
+		<category>
+			<pattern>RESPOSTA122</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>Eu não ouço nenhuma dessas vozes não
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>dentro</set> ^ <set>cabeca</set> ^ <set>fora</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>fora</set> ^ <set>cabeca</set> ^ <set>dentro</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>dentro</set> ^ <set>cabeca</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>fora</set> ^ <set>cabeca</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>dentro</set> ^ <set>fora</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>fora</set> ^ <set>dentro</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>dentro</set> ^ <set>fora</set> ^ <set>cabeca</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>dentro</set> ^ <set>cabeca</set> ^ <set>fora</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>fora</set> ^ <set>dentro</set> ^ <set>cabeca</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>fora</set> ^ <set>cabeca</set> ^ <set>dentro</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>dentro</set> ^ <set>cabeca</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>fora</set> ^ <set>cabeca</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>dentro</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>vozes</set> ^ <set>fora</set> ^</pattern>
+			<template><srai>RESPOSTA122</srai></template>
+		</category>
+	<!-- fim 122 -->
+	<!-- id 129 -->
+		<category>
+			<pattern>RESPOSTA129</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>As vozes não me dizem nada kk
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>falar</set> ^ <set>vozes</set> ^</pattern>
+			<template><srai>RESPOSTA129</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>vozes</set> ^ <set>falar</set> ^</pattern>
+			<template><srai>RESPOSTA129</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>falar</set> ^ <set>qquestoes</set> ^</pattern>
+			<template><srai>RESPOSTA129</srai></template>
+		</category>
+	<!-- fim 129 -->
+	<!-- id 131 -->
+		<category>
+			<pattern>RESPOSTA131</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>Nenhuma voz fala comigo
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>falar</set> ^ VOCE ^</pattern>
+			<template><srai>RESPOSTA131</srai></template>
+		</category>
+		<category>
+			<pattern>^ VOCE ^ <set>falar</set> ^ <set>vozes</set> ^</pattern>
+			<template><srai>RESPOSTA131</srai></template>
+		</category>
+	<!-- fim 131 -->
+	<!-- id 133 -->
+		<category>
+			<pattern>RESPOSTA133</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>Não escuto essas vozes, então não
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>ordenar</set> ^ <set>proibir</set> ^ <set>algo</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>proibir</set> ^ <set>ordenar</set> ^ <set>algo</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>ordenar</set> ^ <set>algo</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>proibir</set> ^ <set>algo</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>ordenar</set> ^ <set>proibir</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>proibir</set> ^ <set>ordenar</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>ordenar</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>proibir</set> ^</pattern>
+			<template><srai>RESPOSTA133</srai></template>
+		</category>
+	<!-- fim 133 -->
+	<!-- id 134 -->
+		<category>
+			<pattern>RESPOSTA134</pattern>
+			<template>
+				<think><set name="topic">vozes</set></think>As vozes não são meus pensamentos, eu nem ouço elas
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>seu</set> ^ <set>pensamento</set> ^ VOZ ^ ALTA ^</pattern>
+			<template><srai>RESPOSTA134</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>seu</set> ^ <set>pensamento</set> ^</pattern>
+			<template><srai>RESPOSTA134</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>vozes</set> ^ <set>seu</set> ^ <set>mesmo</set> ^</pattern>
+			<template><srai>RESPOSTA134</srai></template>
+		</category>
+	<!-- fim 134 -->
+	<topic name="vozes">
+		<!-- id 119 -->
+			<category>
+				<pattern>$RESPOSTA119</pattern>
+				<template>Eu não ouço vozes..</template>
+			</category>
+			<!---->
+			<category>
+				<pattern># <set>volume</set> ^ BAIXO ^</pattern>
+				<template><srai>RESPOSTA119</srai></template>
+			</category>
+			<category>
+				<pattern># <set>volume</set> ^ ALTO ^</pattern>
+				<template><srai>RESPOSTA119</srai></template>
+			</category>
+		<!-- fim 119 -->
+		<!-- id 120 -->
+			<category>
+				<pattern>$RESPOSTA120</pattern>
+				<template>Eu nem ouço essas tais vozes kk</template>
+			</category>
+			<!---->
+			<category>
+				<pattern># <set>conhecer</set> ^ <set>qquestoes</set> ^ <set>serestar</set> ^ <set>vozes</set> ^</pattern>
+				<template><srai>RESPOSTA120</srai></template>
+			</category>
+			<category>
+				<pattern># <set>conhecer</set> ^ <set>qquestoes</set> ^ <set>vozes</set> ^ <set>serestar</set> ^</pattern>
+				<template><srai>RESPOSTA120</srai></template>
+			</category>
+			<category>
+				<pattern># <set>conhecer</set> ^ <set>qquestoes</set> ^ <set>serestar</set> ^</pattern>
+				<template><srai>RESPOSTA120</srai></template>
+			</category>
+			<category>
+				<pattern># <set>vozes</set> ^ <set>serestar</set> ^ <set>conhecidas</set> ^</pattern>
+				<template><srai>RESPOSTA120</srai></template>
+			</category>
+			<category>
+				<pattern># <set>conhecer</set> ^ <set>este</set> ^ <set>vozes</set> ^</pattern>
+				<template><srai>RESPOSTA120</srai></template>
+			</category>
+			<category>
+				<pattern># <set>este</set> ^ <set>vozes</set> ^ <set>conhecer</set> ^</pattern>
+				<template><srai>RESPOSTA120</srai></template>
+			</category>
+			<category>
+				<pattern># <set>serestar</set> ^ <set>conhecidas</set> ^</pattern>
+				<template><srai>RESPOSTA120</srai></template>
+			</category>
+		<!-- fim 120 -->
+		<!-- id 130 -->
+			<category>
+				<pattern>$RESPOSTA130</pattern>
+				<template>Não ouço vozes não kk</template>
+			</category>
+			<!---->
+			<category>
+				<pattern># <set>vozes</set> ^ <set>xingar</set> ^</pattern>
+				<template><srai>RESPOSTA130</srai></template>
+			</category>
+			<category>
+				<pattern># ELAS ^ <set>xingar</set> ^</pattern>
+				<template><srai>RESPOSTA130</srai></template>
+			</category>
+			<category>
+				<pattern># ELES ^ <set>xingar</set> ^</pattern>
+				<template><srai>RESPOSTA130</srai></template>
+			</category>
+			<category>
+				<pattern># ELA ^ <set>xingar</set> ^</pattern>
+				<template><srai>RESPOSTA130</srai></template>
+			</category>
+			<category>
+				<pattern># ELE ^ <set>xingar</set> ^</pattern>
+				<template><srai>RESPOSTA130</srai></template>
+			</category>
+		<!-- fim 130 -->
+		<category>
+			<pattern>_</pattern>
+			<template>
+					<think><set name="topic">*</set></think>
+					<sr/>
+			</template>
+		</category>
+	</topic>
+	<!-- id 141 -->
+		<category>
+			<pattern>RESPOSTA141</pattern>
+			<template>Eu não percebi nada nesse sentido</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>ver</set> ^ <set>algo</set> ^ <set>estranho</set> ^ <set>chamar</set> ^ <set>focar</set> ^</pattern>
+			<template><srai>RESPOSTA141</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>algo</set> ^ <set>estranho</set> ^ <set>ver</set> ^ <set>chamar</set> ^ <set>focar</set> ^</pattern>
+			<template><srai>RESPOSTA141</srai></template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>ver</set> ^ <set>algo</set> ^ <set>estranho</set> ^</pattern>
+				<template><srai>RESPOSTA141</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ver</set> ^ <set>algo</set> ^ <set>estranho</set> ^</pattern>
+				<template><srai>RESPOSTA141</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>visao</set> ^</pattern>
+				<template><srai>RESPOSTA141</srai></template>
+			</category>
+		<!-- proprio -->
+	<!-- fim 141 -->
+	<!-- id 143 -->
+		<category>
+			<pattern>RESPOSTA143</pattern>
+			<template>Não tive nenhuma visão, não que eu tenha notado</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>visao</set> ^ <set>mexer</set> ^ <set>fixo</set> ^</pattern>
+			<that>Eu não percebi nada nesse sentido</that>
+			<template><srai>RESPOSTA143</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>visao</set> ^ <set>fixo</set> ^ <set>mexer</set> ^</pattern>
+			<that>Eu não percebi nada nesse sentido</that>
+			<template><srai>RESPOSTA143</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>visao</set> ^ <set>mexer</set> ^</pattern>
+			<that>Eu não percebi nada nesse sentido</that>
+			<template><srai>RESPOSTA143</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>visao</set> ^ <set>fixo</set> ^</pattern>
+			<that>Eu não percebi nada nesse sentido</that>
+			<template><srai>RESPOSTA143</srai></template>
+		</category>
+	<!-- fim 143 -->
+</aiml>

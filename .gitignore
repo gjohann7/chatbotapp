@@ -1,0 +1,9 @@
+.vscode
+.env
+.env.example
+.prettierignore
+COPYRIGHT.md
+COPYRIGHT.txt
+LICENSE.md
+major_requirements.txt
+MANIFEST.in

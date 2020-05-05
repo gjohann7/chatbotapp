@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- propria consulta -->
+    <category>
+      <pattern>^ QUE ^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>esperar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>desejar</set> ^</pattern>
+      <that>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </that>
+      <template>Ah, para aproveitar melhor a vida</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ AQUI ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ AQUI ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>consulta</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+  <!---->
+  <!-- doenca -->
+    <category>
+      <pattern>RESPOSTAPROPRIA1</pattern>
+      <template>Quais sintomas?</template>
+    </category>
+    <!---->
+      <category>
+        <pattern>^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMA ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMA ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>este</set> ^ SINTOMA ^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>este</set> ^ SINTOMA ^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ <set>dor</set> ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ <set>dor</set> ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>este</set> ^ <set>dor</set> ^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>este</set> ^ <set>dor</set> ^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+        <template><srai>RESPOSTAPROPRIA1</srai></template>
+      </category>
+	  <!---->
+      <category>
+        <pattern>^ <set>dor</set> ^</pattern>
+        <that>Quais sintomas</that>
+        <template>Olha, nem lembro mais quando isso começou</template>
+      </category>
+      <category>
+        <pattern>^ <set>ansioso</set> ^</pattern>
+        <that>Quais sintomas</that>
+        <template>Olha, nem lembro mais quando isso começou</template>
+      </category>
+      <category>
+        <pattern>^ <set>outros</set> ^</pattern>
+        <that>Olha nem lembro mais quando isso começou</that>
+        <template>Já tem bastante tempo</template>
+      </category>
+    <!---->
+    <category>
+			<pattern>RESPOSTAPROPRIA2</pattern>
+			<template>Não sei o que pode ter sido, nem ideia</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEOU ^ SINTOMA ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEOU ^ SINTOMAS ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEASTE ^ SINTOMA ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEASTE ^ SINTOMAS ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+      <category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEOU ^ <set>dor</set> ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+      <category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEASTE ^ <set>dor</set> ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+      <category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEOU ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+      <category>
+				<pattern>^ <set>qquestoes</set> ^ DESENCADEASTE ^</pattern>
+				<template><srai>RESPOSTAPROPRIA2</srai></template>
+			</category>
+    <!---->
+		<category>
+			<pattern>RESPOSTAPROPRIA3</pattern>
+			<template>
+        Acho que as dores continuarem aparecendo me deixou mais
+        preocupado
+      </template>
+		</category>
+  	<!---->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>faz</set> ^ PIORAR ^</pattern>
+				<template><srai>RESPOSTAPROPRIA3</srai></template>
+			</category>
+      <category>
+				<pattern>^ <set>qquestoes</set> ^ <set>faz</set> ^ MELHORAR ^</pattern>
+				<template><srai>RESPOSTAPROPRIA3</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ PIORA ^</pattern>
+				<template><srai>RESPOSTAPROPRIA3</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ MELHORAR ^</pattern>
+				<template><srai>RESPOSTAPROPRIA3</srai></template>
+			</category>
+    <!---->
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ NAO ^ <set>medico</set> ^</pattern>
+      <template>
+        Não acredito muito neles, nem nas máquinas. Continuo
+        sentindo as dores..
+      </template>
+    </category>
+  <!-- mae -->
+    <category>
+      <pattern>^ <set>ter</set> ^ MAE ^</pattern>
+      <template>
+        <think><set name="topic">mae</set></think>
+        Eu tenho sim, ela se chama <bot name="mae"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ MAE ^ NOME ^</pattern>
+      <template><think><set name="topic">mae</set></think>O nome dela é <bot name="mae"/></template>
+    </category>
+    <category>
+      <pattern>^ NOME ^ MAE ^</pattern>
+      <template><srai>MAE NOME</srai></template>
+    </category>
+    <category>
+      <pattern>^ E ^ PAI ^</pattern>
+      <that>O nome dela é Rosaline</that>
+      <template><srai>PAI NOME</srai></template>
+    </category>
+    <category>
+      <pattern>^ MAE ^ <set>relacao</set> ^</pattern>
+      <template>
+        <think><set name="topic">mae</set></think>
+        É boa, ela só sempre foi muito protetora
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ PAI ^</pattern>
+      <that>É boa ela só sempre foi muito protetora</that>
+      <template><srai>PAI RELACAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ MAE ^ SEMPRE ^ <set>preocupar</set> ^</pattern>
+      <template>
+        <think><set name="topic">mae</set></think>
+        Desde quando eu me lembro ela esteve preocupada sim
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ PAI ^</pattern>
+      <that>Desde quando eu me lembro ela esteve preocupada sim</that>
+      <template><srai>PAI SEMPRE PREOCUPAR</srai></template>
+    </category>
+    <category>
+      <pattern>^ MAE ^ <set>dor</set> ^</pattern>
+      <template>
+        <think><set name="topic">mae</set></think>
+        Ela não reclamava de dores, não que eu tenha notado
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ PAI ^</pattern>
+      <that>Ela não reclamava de dores não que eu tenha notado</that>
+      <template><srai>PAI DOR</srai></template>
+    </category>
+    <category>
+      <pattern>^ MAE ^ <set>profissao</set> ^</pattern>
+      <template>
+        <think><set name="topic">mae</set></think>
+        Ela era zeladora nas casas das pessoas
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ PAI ^</pattern>
+      <that>Ela era zeladora nas casas das pessoas</that>
+      <template><srai>PAI PROFISSAO</srai></template>
+    </category>
+    <!---->
+    <topic name="mae">
+      <category>
+        <pattern># NOME ^</pattern>
+        <template>
+          O nome dele é <bot name="mae"/>
+        </template>
+      </category>
+      <category>
+        <pattern># E ^ PAI ^</pattern>
+        <that>O nome dele é Daniel</that>
+        <template><srai>PAI NOME</srai></template>
+      </category>
+      <category>
+        <pattern># <set>relacao</set> ^</pattern>
+        <template>É boa, ela só sempre foi muito protetora</template>
+      </category>
+      <category>
+        <pattern># E ^ PAI ^</pattern>
+        <that>É boa ela só sempre foi muito protetora</that>
+        <template><srai>PAI RELACAO</srai></template>
+      </category>
+      <category>
+        <pattern># SEMPRE ^ <set>preocupar</set> ^</pattern>
+        <template>Desde quando eu me lembro ela esteve preocupada sim</template>
+      </category>
+      <category>
+        <pattern># E ^ PAI ^</pattern>
+        <that>Desde quando eu me lembro ela esteve preocupada sim</that>
+        <template><srai>PAI SEMPRE PREOCUPAR</srai></template>
+      </category>
+      <category>
+        <pattern># <set>dor</set> ^</pattern>
+        <template>Ela não reclamava de dores, não que eu tenha notado</template>
+      </category>
+      <category>
+        <pattern># E ^ PAI ^</pattern>
+        <that>Ela não reclamava de dores não que eu tenha notado</that>
+        <template><srai>PAI DOR</srai></template>
+      </category>
+      <category>
+        <pattern># <set>profissao</set> ^</pattern>
+        <template>Ela era zeladora nas casas das pessoas</template>
+      </category>
+      <category>
+        <pattern># E ^ PAI ^</pattern>
+        <that>Ela era zeladora nas casas das pessoas</that>
+        <template><srai>PAI PROFISSAO</srai></template>
+      </category>
+      <category>
+        <pattern>_</pattern>
+        <template>
+            <think><set name="topic">*</set></think>
+            <sr/>
+        </template>
+      </category>
+    </topic>
+  <!-- pai -->
+    <category>
+      <pattern>^ <set>ter</set> ^ PAIS ^</pattern>
+      <template>
+        <think><set name="topic">mae</set></think>
+        Eu tenho sim, eles se chamam <bot name="mae"/> e <bot name="pai"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ PAI ^</pattern>
+      <template>
+        <think><set name="topic">pai</set></think>
+        Eu tenho sim, ele se chama <bot name="pai"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ PAI ^ NOME ^</pattern>
+      <template>
+        <think><set name="topic">pai</set></think>
+        O nome dele é <bot name="pai"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ NOME ^ PAI ^</pattern>
+      <template><srai>PAI NOME</srai></template>
+    </category>
+    <category>
+      <pattern>^ E ^ MAE ^</pattern>
+      <that>O nome dele é Daniel</that>
+      <template><srai>MAE NOME</srai></template>
+    </category>
+    <category>
+      <pattern>^ PAI ^ <set>relacao</set> ^</pattern>
+      <template>
+        <think><set name="topic">pai</set></think>
+        É tranquila
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ MAE ^</pattern>
+      <that>É tranquila</that>
+      <template><srai>MAE RELACAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ PAI ^ SEMPRE ^ <set>preocupar</set> ^</pattern>
+      <template>
+        <think><set name="topic">pai</set></think>
+        Na verdade ele não era preocupado não
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ MAE ^</pattern>
+      <that>Na verdade ele não era preocupado não</that>
+      <template><srai>MAE SEMPRE PREOCUPAR</srai></template>
+    </category>
+    <category>
+      <pattern>^ PAI ^ <set>dor</set> ^</pattern>
+      <template>
+        <think><set name="topic">pai</set></think>
+        Ele sempre se queixava de dores, chegou a fazer algumas
+        cirurgias, mas não lembro de detalhes
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ MAE ^</pattern>
+      <that>
+        Ele sempre se queixava de dores chegou a fazer algumas
+        cirurgias mas não lembro de detalhes
+      </that>
+      <template><srai>MAE DOR</srai></template>
+    </category>
+    <category>
+      <pattern>^ PAI ^ <set>profissao</set> ^</pattern>
+      <template>
+        <think><set name="topic">pai</set></think>
+        Meu pai era mecânico
+      </template>
+    </category>
+    <category>
+      <pattern>^ E ^ MAE ^</pattern>
+      <that>Meu pai era mecânico</that>
+      <template><srai>MAE PROFISSAO</srai></template>
+    </category>
+    <!---->
+    <topic name="pai">
+      <category>
+        <pattern># NOME ^</pattern>
+        <template>O nome dele é <bot name="pai"/></template>
+      </category>
+      <category>
+        <pattern># E ^ MAE ^</pattern>
+        <that>O nome dele é Daniel</that>
+        <template><srai>MAE NOME</srai></template>
+      </category>
+      <category>
+        <pattern># <set>relacao</set> ^</pattern>
+        <template>É tranquila</template>
+      </category>
+      <category>
+        <pattern># E ^ MAE ^</pattern>
+        <that>É tranquila</that>
+        <template><srai>MAE RELACAO</srai></template>
+      </category>
+      <category>
+        <pattern># SEMPRE ^ <set>preocupar</set> ^</pattern>
+        <template>Na verdade ele não era preocupado não</template>
+      </category>
+      <category>
+        <pattern># E ^ MAE ^</pattern>
+        <that>Na verdade ele não era preocupado não</that>
+        <template><srai>MAE SEMPRE PREOCUPAR</srai></template>
+      </category>
+      <category>
+        <pattern># <set>dor</set> ^</pattern>
+        <template>
+          Ele sempre se queixava de dores, chegou a fazer algumas
+          cirurgias, mas não lembro de detalhes
+        </template>
+      </category>
+      <category>
+        <pattern># E ^ MAE ^</pattern>
+        <that>
+          Ele sempre se queixava de dores chegou a fazer algumas cirurgias
+          mas não lembro de detalhes
+        </that>
+        <template><srai>MAE DOR</srai></template>
+      </category>
+      <category>
+        <pattern># <set>profissao</set> ^</pattern>
+        <template>Meu pai era mecânico</template>
+      </category>
+      <category>
+        <pattern># E ^ MAE ^</pattern>
+        <that>Meu pai era mecânico</that>
+        <template><srai>MAE PROFISSAO</srai></template>
+      </category>
+      <category>
+        <pattern>_</pattern>
+        <template>
+            <think><set name="topic">*</set></think>
+            <sr/>
+        </template>
+      </category>
+    </topic>
+  <!-- esposa -->
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>conjuge</set> ^</pattern>
+      <template>
+        <think><set name="topic">esposa</set></think>
+        Eu tenho sim, ela se chama <bot name="esposa"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>gostar</set> ^ SUA ^ <set>conjuge</set> ^</pattern>
+      <template>
+        <think><set name="topic">esposa</set></think>
+        Eu amo ela e acredito que ela também me ame
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ NOME ^</pattern>
+      <template>
+        <think><set name="topic">esposa</set></think>
+        O nome dela é <bot name="esposa"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ NOME ^ <set>conjuge</set> ^</pattern>
+      <template><srai><set>conjuge</set> NOME</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ <set>relacao</set> ^</pattern>
+      <template>
+        <think><set name="topic">esposa</set></think>
+        É bem boa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ SEMPRE ^ <set>preocupar</set> ^</pattern>
+      <template>
+        <think><set name="topic">esposa</set></think>
+        Ela é tranquila
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        <think><set name="topic">esposa</set></think>
+        Não lembro dela ter reclamado de dores
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ <set>profissao</set> ^</pattern>
+      <template>
+        <think><set name="topic">esposa</set></think>
+        Minha esposa é zeladora nas casas das pessoas
+      </template>
+    </category>
+    <!---->
+    <topic name="esposa">
+      <category>
+        <pattern># <set>gostar</set> ^</pattern>
+        <template>Eu amo ela e acredito que ela também me ame</template>
+      </category>
+      <category>
+        <pattern># NOME ^</pattern>
+        <template>O nome dela é <bot name="esposa"/></template>
+      </category>
+      <category>
+        <pattern># <set>relacao</set> ^</pattern>
+        <template>É bem boa</template>
+      </category>
+      <category>
+        <pattern># SEMPRE ^ <set>preocupar</set> ^</pattern>
+        <template>Ela é tranquila</template>
+      </category>
+      <category>
+        <pattern># <set>dor</set> ^</pattern>
+        <template>Não lembro dela ter reclamado de dores</template>
+      </category>
+      <category>
+        <pattern># <set>profissao</set> ^</pattern>
+        <template>Minha esposa é zeladora nas casas das pessoas</template>
+      </category>
+      <category>
+        <pattern>_</pattern>
+        <template>
+            <think><set name="topic">*</set></think>
+            <sr/>
+        </template>
+      </category>
+    </topic>
+  <!-- filha -->
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>filho</set> ^</pattern>
+      <template>
+        <think><set name="topic">filha</set></think>
+        Tenho sim, uma filha bem querida
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>filho</set> ^ <set>ter</set> ^</pattern>
+      <template>
+        <think><set name="topic">filha</set></think>
+        Tenho sim, uma filha bem querida
+      </template>
+    </category>
+    <category>
+      <pattern>^ NOME ^ FILHA ^</pattern>
+      <template>
+        <think><set name="topic">filha</set></think>
+        O nome dela é <bot name="filha"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ ANOS ^ FILHA ^</pattern>
+      <template>
+        <think><set name="topic">filha</set></think>
+        Ela tem 8 anos
+      </template>
+    </category>
+    <category>
+      <pattern>^ FILHA ^ ANOS ^</pattern>
+      <template><srai>ANOS FILHA</srai></template>
+    </category>
+    <category>
+      <pattern>^ IDADE ^ FILHA ^</pattern>
+      <template><srai>ANOS FILHA</srai></template>
+    </category>
+    <category>
+      <pattern>^ FILHA ^ IDADE ^</pattern>
+      <template><srai>ANOS FILHA</srai></template>
+    </category>
+    <category>
+      <pattern>^ ANIVERSARIO ^ FILHA ^</pattern>
+      <template>
+        <think><set name="topic">filha</set></think>
+        Não lembro não kk a mãe dela quem me lembra quando está
+        chegando
+      </template>
+    </category>
+    <category>
+      <pattern>^ FILHA ^ ANIVERSARIO ^</pattern>
+      <template>
+        <think><set name="topic">filha</set></think>
+        Não lembro não kk a mãe dela quem me lembra quando está
+        chegando
+      </template>
+    </category>
+    <!---->
+    <topic name="filha">
+      <category>
+        <pattern># NOME ^</pattern>
+        <template>O nome dela é <bot name="filha"/></template>
+      </category>
+      <category>
+        <pattern># ANOS ^</pattern>
+        <template>Ela tem 8 anos</template>
+      </category>
+      <category>
+        <pattern># IDADE ^</pattern>
+        <template>Ela tem 8 anos</template>
+      </category>
+      <category>
+        <pattern># ANIVERSARIO ^</pattern>
+        <template>
+          Não lembro não kk a mãe dela quem me lembra quando está
+          chegando
+        </template>
+      </category>
+      <category>
+        <pattern>_</pattern>
+        <template>
+          <think><set name="topic">*</set></think>
+          <sr/>
+        </template>
+      </category>
+    </topic>
+  <!-- irmao -->
+    <category>
+      <pattern>^ <set>ter</set> ^ IRMAOS ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        Eu tenho um irmão, ele se chama <bot name="irmao"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ IRMAO ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        Eu tenho sim, ele se chama <bot name="irmao"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ NOME ^ IRMAO ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        O nome dele é <bot name="irmao"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ IRMAO ^ NOME ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        O nome dele é <bot name="irmao"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ IDADE ^ IRMAO ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        Ele tem 36 anos
+      </template>
+    </category>
+    <category>
+      <pattern>^ IRMAO ^ IDADE ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        Ele tem 36 anos
+      </template>
+    </category>
+    <category>
+      <pattern>^ ANOS ^ IRMAO ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        Ele tem 36 anos
+      </template>
+    </category>
+    <category>
+      <pattern>^ IRMAO ^ ANOS ^</pattern>
+      <template>
+        <think><set name="topic">irmao</set></think>
+        Ele tem 36 anos
+      </template>
+    </category>
+    <!---->
+    <topic name="irmao">
+      <category>
+        <pattern># NOME ^</pattern>
+        <template>O nome dele é <bot name="irmao"/></template>
+      </category>
+      <category>
+        <pattern># IDADE ^</pattern>
+        <template>Ele tem 36 anos</template>
+      </category>
+      <category>
+        <pattern># ANOS ^</pattern>
+        <template>Ele tem 36 anos</template>
+      </category>
+      <category>
+        <pattern>_</pattern>
+        <template>
+            <think><set name="topic">*</set></think>
+            <sr/>
+        </template>
+      </category>
+    </topic>
+  <!-- trabalho -->
+    <category>
+      <pattern>^ QUE ^ <set>faz</set> ^ VIDA ^</pattern>
+      <template>Eu trabalho na área de Auxiliar de Ação Educativa</template>
+    </category>
+    <category>
+      <pattern>^ <set>faz</set> ^ QUE ^ VIDA ^</pattern>
+      <template>Eu trabalho na área de Auxiliar de Ação Educativa</template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>faz</set> ^</pattern>
+      <template>Eu trabalho na área de Auxiliar de Ação Educativa</template>
+    </category>
+    <category>
+      <pattern>^ <set>faz</set> ^ QUE ^</pattern>
+      <template>Eu trabalho na área de Auxiliar de Ação Educativa</template>
+    </category>
+    <category>
+      <pattern>^ <set>explicar</set> ^ <set>profissao</set> ^</pattern>
+      <template>
+        Eu trabalho com crianças, reforçar a aprendizagem, promover
+        jogos, brincadeiras, prevenir acidentes, ficar atento aos
+        sintomas de saúde, essas coisas
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>voce</set> ^ <set>trabalhar</set> ^</pattern>
+      <template>Eu trabalho na área de Auxiliar de Ação Educativa</template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>faz</set> ^</pattern>
+      <template>
+        Eu trabalho com crianças, reforçar a aprendizagem, promover
+        jogos, brincadeiras, prevenir acidentes, ficar atento aos
+        sintomas de saúde, essas coisas
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>faz</set> ^</pattern>
+      <template>
+        Eu trabalho com crianças, reforçar a aprendizagem, promover
+        jogos, brincadeiras, prevenir acidentes, ficar atento aos
+        sintomas de saúde, essas coisas
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>faz</set> ^ <set>profissao</set> ^</pattern>
+      <template>
+        Eu trabalho com crianças, reforçar a aprendizagem, promover
+        jogos, brincadeiras, prevenir acidentes, ficar atento aos
+        sintomas de saúde, essas coisas
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>faz</set> ^</pattern>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <template>
+        Eu trabalho com crianças, reforçar a aprendizagem, promover
+        jogos, brincadeiras, prevenir acidentes, ficar atento aos
+        sintomas de saúde, essas coisas
+      </template>
+    </category>
+    <category>
+      <pattern>^ TEMPO ^ <set>trabalhar</set> ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ TEMPO ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+  <!-- casa -->
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>faz</set> ^ CASA ^</pattern>
+      <template>
+        Assisto jornal, passo um tempo com minha família, coisas
+        normais
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>fazer</set> ^ CASA ^</pattern>
+      <template>
+        Assisto jornal, passo um tempo com minha família, coisas
+        normais
+      </template>
+    </category>
+    <category>
+      <pattern>^ CASA ^ <set>qquestoes</set> ^ <set>faz</set> ^</pattern>
+      <template>
+        Assisto jornal, passo um tempo com minha família, coisas
+        normais
+      </template>
+    </category>
+    <category>
+      <pattern>^ CASA ^ <set>qquestoes</set> ^ <set>fazer</set> ^</pattern>
+      <template>
+        Assisto jornal, passo um tempo com minha família, coisas
+        normais
+      </template>
+    </category>
+    <category>
+      <pattern>^ CASA ^ PROPRIA ^</pattern>
+      <template>A casa é alugada</template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ HOBBY ^</pattern>
+      <template><srai>TENS HOBBIES</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ HOBBIES ^</pattern>
+      <template>
+        Acho que não, diria que meu hobby é fechar a casa e cuidar
+        da saúde kk
+      </template>
+    </category>
+  <!-- adam-bot -->
+    <!-- casamento -->
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ DATA ^ CASAMENTO ^</pattern>
+        <template>Eu me casei em <bot name="data-casamento"/></template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ CASOU ^</pattern>
+        <template>
+          Eu me casei em Foz do Iguaçu mesmo, mas não lembro o nome
+          da igreja kk
+        </template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ CASASTE ^</pattern>
+        <template>
+          Eu me casei em Foz do Iguaçu mesmo, mas não lembro o nome
+          da igreja kk
+        </template>
+      </category>
+      <category>
+        <pattern>^ QUANDO ^ CASOU ^</pattern>
+        <template>Eu me casei em <bot name="data-casamento"/></template>
+      </category>
+      <category>
+        <pattern>^ QUANDO ^ CASASTE ^</pattern>
+        <template>Eu me casei em <bot name="data-casamento"/></template>
+      </category>
+    <!-- nascimento -->
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ SEU ^ ANIVERSARIO ^</pattern>
+        <template>Meu aniversario é dia <bot name="aniversario"/></template>
+      </category>
+      <category>
+        <pattern>^ SEU ^ ANIVERSARIO ^ <set>qquestoes</set> ^</pattern>
+        <template>Meu aniversario é dia <bot name="aniversario"/></template>
+      </category>
+      <category>
+        <pattern>^ ANO ^ NASCEU ^</pattern>
+        <template>Eu nasci no ano <bot name="ano-nascimento"/></template>
+      </category>
+      <category>
+        <pattern>^ ANO ^ NASCESTE ^</pattern>
+        <template>Eu nasci no ano <bot name="ano-nascimento"/></template>
+      </category>
+      <category>
+        <pattern>^ QUANDO ^ NASCEU ^</pattern>
+        <template>Eu nasci no dia <bot name="data-nascimento"/></template>
+      </category>
+      <category>
+        <pattern>^ QUANDO ^ NASCESTE ^</pattern>
+        <template>Eu nasci no dia <bot name="data-nascimento"/></template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ NASCEU ^</pattern>
+        <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ NASCESTE ^</pattern>
+        <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+      </category>
+      <category>
+        <pattern>^ SUA ^ CIDADE NATAL ^</pattern>
+        <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ <set>serestar</set> ^</pattern>
+        <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ VEM ^</pattern>
+        <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ VENS ^</pattern>
+        <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+      </category>
+      <category>
+        <pattern>^ ONDE ^ VIESTE ^</pattern>
+        <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+      </category>
+      <category>
+        <pattern>^ CONTINUA ^ <set>morar</set> ^</pattern>
+        <template>Eu continuo sim</template>
+      </category>
+      <category>
+        <pattern>^ <set>morar</set> ^ AINDA ^</pattern>
+        <template>Eu continuo sim</template>
+      </category>
+      <category>
+        <pattern>^ HOJE ^ <set>morar</set> ^</pattern>
+        <template>Eu continuo sim</template>
+      </category>
+      <category>
+        <pattern>^ <set>morar</set> ^ HOJE ^</pattern>
+        <template>Eu continuo sim</template>
+      </category>
+      <category>
+        <pattern>^ QUANTOS ^ ANOS ^ <set>ter</set> ^</pattern>
+        <template>
+          Eu tenho 
+          <interval>
+            <format>%B %d, %Y</format>
+            <style>years</style>
+            <from><bot name="birthday"/></from>
+            <to><date format="%B %d, %Y"/></to>
+          </interval> 
+          anos
+        </template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ QUANTOS ^ ANOS ^</pattern>
+        <template><srai>QUANTOS ANOS TENS</srai></template>
+      </category>
+      <category>
+        <pattern>^ TUA ^ IDADE ^</pattern>
+        <template><srai>QUANTOS ANOS TENS</srai></template>
+      </category>
+      <category>
+        <pattern>^ SUA ^ IDADE ^</pattern>
+        <template><srai>QUANTOS ANOS TENS</srai></template>
+      </category>
+    <!-- localizacao -->
+      <category>
+        <pattern>^ ONDE ^ <set>morar</set> ^</pattern>
+        <template>Eu moro em <bot name="localizacao"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>morar</set> ^ ONDE ^</pattern>
+        <template><srai>ONDE MORAR</srai></template>
+      </category>
+      <category>
+        <pattern>^ CIDADE ^ <set>morar</set> ^</pattern>
+        <template><srai>ONDE MORAR</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>morar</set> ^ CIDADE ^</pattern>
+        <template><srai>ONDE MORAR</srai></template>
+      </category>
+    <!-- estado civil -->
+      <category>
+        <pattern>^ SEU ^ ESTADO CIVIL ^</pattern>
+        <template>Eu sou <bot name="estado-civil"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ CASADO ^</pattern>
+        <template>Eu sou <bot name="estado-civil"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ SOLTEIRO ^</pattern>
+        <template>Eu sou <bot name="estado-civil"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ NAMORANDO ^</pattern>
+        <template>Eu sou <bot name="estado-civil"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>gostar</set> ^ <set>conjuge</set> ^</pattern>
+        <template>Sim, eu a amo</template>
+      </category>
+    <!-- familia -->
+      <category>
+        <pattern>^ <set>ter</set> ^ FAMILIA ^</pattern>
+        <template>Eu tenho <bot name="familia"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ NOMES ^</pattern>
+        <that>Eu tenho esposa e filha</that>
+        <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ NOME ^</pattern>
+        <that>Eu tenho esposa e filha</that>
+        <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+      </category>
+      <category>
+        <pattern>^ NOMES ^ <set>qquestoes</set> ^</pattern>
+        <that>Eu tenho esposa e filha</that>
+        <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+      </category>
+      <category>
+        <pattern>^ NOME ^ <set>qquestoes</set> ^</pattern>
+        <that>Eu tenho esposa e filha</that>
+        <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+      </category>
+      <category>
+        <pattern>^ <set>gostar</set> ^ FAMILIA ^</pattern>
+        <template>Eu amo minha família</template>
+      </category>
+    <!-- corpo -->
+      <category>
+        <pattern>^ QUANTOS ^ QUILOS ^</pattern>
+        <template>Eu peso <bot name="peso"/></template>
+      </category>
+      <category>
+        <pattern>^ QUAL ^ SUA ^ ALTURA ^</pattern>
+        <template>Eu tenho <bot name="altura"/></template>
+      </category>
+    <!-- religiao -->
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ SUA ^ RELIGIAO ^</pattern>
+        <template>Eu sou católico, mas não sigo muito ela</template>
+      </category>
+      <category>
+        <pattern>^ SUA ^ RELIGIAO ^ <set>qquestoes</set> ^</pattern>
+        <template>Eu sou católico, mas não sigo muito ela</template>
+      </category>
+    <!-- nome -->
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ <set>voce</set> ^ <set>chamar</set> ^</pattern>
+        <template><srai>QUAL SEU NOME</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ SEU ^ NOME ^</pattern>
+        <template>
+          Meu nome completo é <bot name="nome-completo"/>, mas pode me
+          chamar só de <bot name="primeiro-nome"/>
+        </template>
+      </category>
+</aiml>

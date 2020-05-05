@@ -1,0 +1,8 @@
+caminho
+percurso
+rota
+trajeto
+caminhos
+percursos
+rotas
+trajetos

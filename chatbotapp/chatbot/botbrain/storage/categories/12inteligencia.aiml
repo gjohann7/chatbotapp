@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 394 -->
+		<category>
+			<pattern>RESPOSTA394</pattern>
+			<template>Eu terminei o ensino médio e fiz um curso para da profissão</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ QUAL ^ ESCOLARIDADE ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ESCOLARIDADE ^ QUAL ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ QUE ^ ESCOLARIDADE ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ESCOLARIDADE ^ QUE ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ANO ^ ESCOLA ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ANO ^ ESTUDOU ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ANO ^ ESTUDASTE ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ESCOLA ^ ANO ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ESTUDOU ^ ANO ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ ESTUDASTE ^ ANO ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>terminar</set> ^ <set>estudo</set> ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>fez</set> ^ <set>ensino</set> ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>fazer</set> ^ <set>ensino</set> ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>terminar</set> ^ <set>ensino</set> ^</pattern>
+				<template><srai>RESPOSTA394</srai></template>
+			</category>
+	<!-- fim 394 -->
+	<!-- id 395 -->
+		<category>
+			<pattern>RESPOSTA395</pattern>
+			<template>Não repeti nenhum ano na escola</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>repetir</set> ^ <set>estudo</set> ^</pattern>
+				<template><srai>RESPOSTA395</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>estudo</set> ^ <set>repetir</set> ^</pattern>
+				<template><srai>RESPOSTA395</srai></template>
+			</category>
+	<!-- fim 395 -->
+	<!-- id 396 (that 395) -->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>justificativa</set> ^</pattern>
+			<that>Não repeti nenhum ano na escola</that>
+			<template>
+				Eu me dediquei nos estudos para conseguir ser aprovado em
+				todos
+			</template>
+		</category>
+	<!-- fim 396 -->
+	<!-- id 398.1 -->
+		<category>
+			<pattern>RESPOSTA398 1</pattern>
+			<template>Eu sei escrever sim kk</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>saber</set> ^ <set>escrever</set> ^ <set>texto</set> ^</pattern>
+				<template><srai>RESPOSTA398 1</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>escrever</set> ^ <set>saber</set> ^ <set>texto</set> ^</pattern>
+				<template><srai>RESPOSTA398 1</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>saber</set> ^ <set>escrever</set> ^</pattern>
+				<template><srai>RESPOSTA398 1</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>escrever</set> ^ <set>saber</set> ^</pattern>
+				<template><srai>RESPOSTA398 1</srai></template>
+			</category>
+	<!-- fim 398.1 -->
+	<!-- id 398.2 -->
+		<category>
+			<pattern>RESPOSTA398 2</pattern>
+			<template>Eu sei ler sim kk</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>saber</set> ^ <set>ler</set> ^ <set>texto</set> ^</pattern>
+				<template><srai>RESPOSTA398 2</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ler</set> ^ <set>saber</set> ^ <set>texto</set> ^</pattern>
+				<template><srai>RESPOSTA398 2</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>saber</set> ^ <set>ler</set> ^</pattern>
+				<template><srai>RESPOSTA398 2</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ler</set> ^ <set>saber</set> ^</pattern>
+				<template><srai>RESPOSTA398 2</srai></template>
+			</category>
+	<!-- fim 398.2 -->
+	<!-- proprio -->
+		<category>
+			<pattern>RESPOSTACONTAR ^</pattern>
+			<template>
+				<think>
+					<set name="contador">0</set>
+				</think><condition name="contador">
+					<li><value><star/></value></li>
+					<li>
+						<set name="contador">
+							<map name="sucessor">
+								<get name="contador"/>
+							</map>
+						</set>
+						<loop/>
+					</li>
+				</condition>
+			</template>
+		</category>
+		<category>
+			<pattern>^ conte ^ ate ^ <set>numero</set> ^</pattern>
+			<template><srai>RESPOSTACONTAR <star index="4"/></srai></template>
+		</category>
+		<category>
+			<pattern>^ contes ^ ate ^ <set>numero</set> ^</pattern>
+			<template><srai>RESPOSTACONTAR <star index="4"/></srai></template>
+		</category>
+		<category>
+			<pattern>^ conta ^ ate ^ <set>numero</set> ^</pattern>
+			<template><srai>RESPOSTACONTAR <star index="4"/></srai></template>
+		</category>
+		<category>
+			<pattern>^ contas ^ ate ^ <set>numero</set> ^</pattern>
+			<template><srai>RESPOSTACONTAR <star index="4"/></srai></template>
+		</category>
+	<!-- fim proprio -->
+</aiml>

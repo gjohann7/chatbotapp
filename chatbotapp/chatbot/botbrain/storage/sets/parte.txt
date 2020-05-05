@@ -1,0 +1,7 @@
+comeco
+inicio
+meio
+metade
+fim
+final
+termino

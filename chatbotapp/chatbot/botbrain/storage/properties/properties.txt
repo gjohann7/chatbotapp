@@ -1,0 +1,30 @@
+
+data-casamento:15 de junho de 2007
+aniversario:15 de junho
+ano-casamento:2007
+data-nascimento:29 de janeiro 1981
+birthday:January 29, 1981
+ano-nascimento:1981
+localizacao:Foz do Iguaçu
+estado-civil:casado
+filha:Isabel
+esposa:Lara
+pai:Daniel
+mae:Rosaline
+irmao:Davi
+familia:esposa e filha
+olhos:castanhos
+cabelo:castanho
+peso:68 quilos e pouco
+altura:1,69 metros
+genero:masculino
+nacionalidade:brasileiro
+nome-completo:Adam Almeida
+primeiro-nome:Adam
+ultimo-nome:Almeida
+default-get:unknown
+default-property:unknown
+default-map:unknown
+sentence-splitters:.!?
+learn-filename:pand_learn.aiml
+max-learn-file-size:1000000

@@ -1,0 +1,64 @@
+{% extends 'base.html' %} {% load static %} 
+{% block content %}
+<div class="content-form accessibility">
+<div class="scrollbar-style">
+  <h1>Informações sobre Acessibilidade</h1>
+  <h2>Navegação</h2>
+  <p>
+    É possível navegar no site com o rato (i.e., <i>mouse</i>), com as teclas de seu teclado e
+    com o toque, caso seu dispositivo seja sensível ao toque (i.e., <i>touchscreen</i>). A navegação
+    com o <i>mouse</i> ou toque não foi alterada. A navegação por meio do teclado recebeu melhorias.
+    Além da navegação com a tecla <b>Tab</b>, que avança ao próximo item, e a combinação de teclas
+    <span class="together"><b>Shift + Tab</b>,</span> que retrocede ao item anterior, permite-se também:
+    <ul>
+      <li>
+        Utilizar botões de acesso aos itens do menu por meio de combinação de teclas. O item tem sua
+        respectiva tecla de acesso como a primeira letra do item e está destacada para facilitar seu
+        reconhecimento. A tecla de combinação é a barra <span class="together">(<b><i> / </i></b>).</span>
+        Por exemplo, para acessar à página de acessibilidade, deve-se pressionar 
+        <span class="together"><b><i>/ </i>+ A</b>;</span>
+      </li>
+      <li>
+        Utilizar as setas do teclado. A <b>seta para direita</b> avança ao próximo item, enquanto que a 
+        <b>seta para esquerda</b>, retroce. <b>Atenção:</b> se estiver em um campo para digitar texto e
+        queira utilizar as setas para navegação, pressione a tecla <b>Ctrl +</b> a <b>seta</b> na direção
+        desejada.
+      </li>
+    </ul>
+  </p>
+  <h2>Tamanho da fonte das mensagens</h2>
+  <p>
+    O tamanho da fonte das mensagens pode ser regulado por meio do <b>botão "A", que está logo acima do
+    campo de mensagens</b>. O tamanho padrão é o botão A ao centro e com tamanho médio. O tamanho selecionado
+    está destacado com outra cor e com uma barra inferior. O primeiro e menor botão A, seleciona o menor
+    tamanho de fonte, o segundo, o tamanho padrão, e o terceiro e maior botão A, o maior tamanho.
+  </p>
+  <h2>Ouvir a mensagem recebida</h2>
+  <p>
+    Cada mensagem recebida possui a funcionalidade de ser sintetizada para áudio. Para utilizar está
+    função, clique no botão &nbsp; <i class="fa fa-volume-up" aria-hidden="true"><span class="hidden">"ouvir mensagem"</span></i>
+    &nbsp;ao lado da mensagem que deseja ouvir.
+  </p>
+  <h2>Considerações</h2>
+  <p>
+    Além do que foi exposto até agora nesta página, outras medidas foram empregadas para aumentar a acessibilidade
+    do site. Algumas delas: 
+    <ul>
+      <li>
+        Alto contraste na relação entre o conteúdo e a cor de fundo, facilitando a visualização do
+        conteúdo;
+      </li>
+      <li>
+        Atenções a manutenção do estilo do site independente de navegador;
+      </li>
+      <li>
+        Estruturação correta do documento HTML do site, permitindo que navegadores antigos acessem sua informação
+        sem impedimentos; e
+      </li>
+      <li>Cuidados adicionais na navegação no site.</li>
+    </ul>
+  </p>
+  <p>Desenvolvido por Guilherme Johann.</p>
+</div>
+</div>
+{% endblock content %}

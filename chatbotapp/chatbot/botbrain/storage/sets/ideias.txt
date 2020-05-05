@@ -1,0 +1,10 @@
+sentimento
+sentimentos
+ato
+atos
+ideia
+ideias
+pensamento
+pensamentos
+intencao
+intencoes

@@ -1,0 +1,6 @@
+tempo
+dura
+minuto
+minutos
+hora
+horas

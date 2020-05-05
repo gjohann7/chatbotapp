@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-BR">
+  <head>
+    <meta X-Content-Type-Options="nosniff" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Converse com um chatbot para uma investigação psicopatológica."
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+      integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css"
+      integrity="sha384-e+NM0rMilIXo+lz6+dXhoHMjd2iTSxNsCHpqkvuSBsAhwMDRF/Wn2QRRNaLxTcN/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      integrity="sha384-+2PnMSZobRWHUFuaarq2tDCtf7FFSZpeMRVRe7C0l8bRZMBTjUinKl1AuYRON/A2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'styles/pure-based.css' %}"
+    />
+    <link
+      rel="icon"
+      href="{% static 'images/msg-icon.ico' %}"
+      type="image/x-icon"
+    />
+    <title>Chatbot-App</title>
+  </head>
+  <body class="scrollbar-style">
+    <header id="header">
+      <a href="{% url 'core:index' %}#home" class="logo">Chatbot-App</a>
+      <input class="menu-btn" type="checkbox" id="btnMenu" aria-label="Menu" />
+      <label class="menu-icon" for="btnMenu"
+        ><span id="navicon"
+          ><span class="hidden">Botão do menu.</span></span
+        ></label
+      >
+      <ul id="menuList" class="menu">
+        <li><a id="btnHome" href="{% url 'core:index' %}">Início</a></li>
+        <li>
+          <a id="btnAccessibility" href="{% url 'core:accessibility' %}"
+            >Acessibilidade</a
+          >
+        </li>
+        {% if user.is_authenticated %}
+        <li>
+          <a id="btnChat" href="{% url 'chatbot:conversation' %}">Conversa</a>
+        </li>
+        <li>
+          <a id="btnProfile" href="{% url 'accounts:editable_profile' %}"
+            >Minha conta</a
+          >
+        </li>
+        <li><a id="btnLogout" href="{% url 'core:logout' %}">Sair</a></li>
+        {% else %}
+        <li>
+          <a id="btnLogin" href="{% url 'core:login' %}">Entrar</a>
+        </li>
+        {% endif %}
+      </ul>
+    </header>
+    {% block content %} {% endblock content %} {% if request.path != '/' %}
+    {%block footer %}
+    <footer id="footer">
+      <i>“Tudo é possível. O impossível apenas demora mais.”</i> - Dan Brown
+    </footer>
+    {% endblock footer %} {% endif %}
+    <script
+      type="text/javascript"
+      src="{% static 'scripts/shared-data.js' %}"
+    ></script>
+    {% block script %}{% endblock script %}
+    <script
+      type="text/javascript"
+      src="{% static 'scripts/script.js' %}"
+    ></script>
+  </body>
+</html>

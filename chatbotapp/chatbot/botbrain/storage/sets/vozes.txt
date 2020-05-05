@@ -1,0 +1,16 @@
+vozes
+palavras
+frases
+falas
+conversas
+sons
+ruidos
+murmurios
+voz
+palavra
+frase
+fala
+conversa
+som
+ruido
+murmurio

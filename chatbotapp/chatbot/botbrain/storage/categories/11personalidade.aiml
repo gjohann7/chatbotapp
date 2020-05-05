@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 357 -->
+		<category>
+			<pattern>RESPOSTA357</pattern>
+			<template>
+				Quando eu era pequeno meus pais trabalhavam fora e eu tinha
+				que cuidar do meu irmão menor
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>falar</set> ^ <set>infancia</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>infancia</set> ^ <set>falar</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ouvir</set> ^ <set>infancia</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>infancia</set> ^ <set>ouvir</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ COMO ^ <set>infancia</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>infancia</set> ^ COMO ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sobre</set> ^ <set>infancia</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>infancia</set> ^ <set>sobre</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+			<category>
+				<pattern>^ SUA ^ <set>infancia</set> ^</pattern>
+				<template><srai>RESPOSTA357</srai></template>
+			</category>
+	<!-- fim 357 -->
+	<!-- id 358 -->
+		<category>
+			<pattern>RESPOSTA358</pattern>
+			<template>
+				Sempre tive uma relação normal com meu Irmão. Minha mãe
+				sempre estava preocupada com a segurança e saúde do meu
+				irmão e minha. Às vezes a gente nem saía para que nada de
+				mal nos acontecesse. Se ela ouvia o som de sirenes logo
+				pensava no pior. Meu pai estava constantemente preocupado
+				com a saúde e sempre se queixava de dores. Apesar de não
+				consultar para saber sobre elas, ele já foi operado no
+				coração, mas não me lembro da doença
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>falar</set> ^ <set>relacao</set> ^ <set>familiares</set> ^ </pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>relacao</set> ^ <set>familiares</set> ^ <set>falar</set> ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ouvir</set> ^ <set>relacao</set> ^ <set>familiares</set> ^ </pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>relacao</set> ^ <set>familiares</set> ^ <set>ouvir</set> ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sobre</set> ^ <set>relacao</set> ^ <set>familiares</set> ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>relacao</set> ^ <set>familiares</set> ^ <set>sobre</set> ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ COMO ^ <set>relacao</set> ^ <set>familiares</set> ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>relacao</set> ^ <set>familiares</set> ^ COMO ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>seu</set> ^ <set>relacao</set> ^ <set>familiares</set> ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>familiares</set> ^ <set>seu</set> ^ <set>relacao</set> ^</pattern>
+				<template><srai>RESPOSTA358</srai></template>
+			</category>
+	<!-- fim 358 -->
+	<!-- id 359 -->
+		<category>
+			<pattern>RESPOSTA359</pattern>
+			<template>
+				Bom, eu não saio muito de casa, principalmente quando não
+				teria ninguém em casa. Sou muito preocupado, desde criança,
+				sempre fui assim. Então sempre que sinto dor ou qualquer
+				outro sintoma físico eu fico apreensivo, e logo penso que
+				seja uma doença grave. Elas podem acontecer uma vez por
+				semana ou até todo dia. Não tem uma frequência fixa. Acabo
+				ficando ansioso, com medo de morrer. Por isso, estou sempre
+				indo consultar com os médicos sobre minha saúde, vou em mais
+				de um médico, porque a avaliação de um pode não ser o
+				suficiente. Quando saio para me distrair, não relaxo muito,
+				fico precupado com minha família, exceto quando jogo cartas,
+				pois tenho que ficar mais concentrado no jogo
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>falar</set> ^ <set>modo</set> ^ SER ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>modo</set> ^ SER ^ <set>falar</set> ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ouvir</set> ^ <set>modo</set> ^ SER ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>modo</set> ^ SER ^ <set>ouvir</set> ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sobre</set> ^ <set>modo</set> ^ SER ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>modo</set> ^ SER ^ <set>sobre</set> ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ COMO ^ <set>modo</set> ^ SER ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>modo</set> ^ SER ^ COMO ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ SEU ^ <set>modo</set> ^ SER ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>modo</set> ^ SER ^ SEU ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>descrever</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ SE <set>descrever</set> ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ COMO ^ <set>voce</set> ^ e ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ COMO ^ <set>voce</set> ^ es ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sobre</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA359</srai></template>
+			</category>
+	<!-- fim 359 -->
+	<!-- id 360 -->
+		<category>
+			<pattern>RESPOSTA360</pattern>
+			<template>
+				Minha esposa e filha falam que estou sempre tenso e
+				preocupado, que pareço não descansar
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>RESPOSTA360 PROPRIO</pattern>
+				<template>Concordo sim, acho que ando mais assim mesmo</template>
+			</category>
+			<category>
+				<pattern>^ CONCORDA ^</pattern>
+				<that>
+					Minha esposa e filha falam que estou sempre tenso e preocupado
+					que pareco não descansar
+				</that>
+				<template><srai>RESPOSTA360 PROPRIO</srai></template>
+			</category>
+			<category>
+				<pattern>^ CONCORDAS ^</pattern>
+				<that>
+					Minha esposa e filha falam que estou sempre tenso e preocupado
+					que pareco não descansar
+				</that>
+				<template><srai>RESPOSTA360 PROPRIO</srai></template>
+			</category>
+			<category>
+				<pattern>^ ACHA ^</pattern>
+				<that>
+					Minha esposa e filha falam que estou sempre tenso e preocupado
+					que pareco não descansar
+				</that>
+				<template><srai>RESPOSTA360 PROPRIO</srai></template>
+			</category>
+			<category>
+				<pattern>^ ACHAS ^</pattern>
+				<that>
+					Minha esposa e filha falam que estou sempre tenso e preocupado
+					que pareco não descansar
+				</that>
+				<template><srai>RESPOSTA360 PROPRIO</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^</pattern>
+				<that>
+					Minha esposa e filha falam que estou sempre tenso e preocupado
+					que pareco não descansar
+				</that>
+				<template><srai>RESPOSTA360 PROPRIO</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>este</set> ^</pattern>
+				<that>
+					Minha esposa e filha falam que estou sempre tenso e preocupado
+					que pareco não descansar
+				</that>
+				<template><srai>RESPOSTA360 PROPRIO</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>serestar</set> ^</pattern>
+				<that>
+					Minha esposa e filha falam que estou sempre tenso e preocupado
+					que pareco não descansar
+				</that>
+				<template><srai>RESPOSTA360 PROPRIO</srai></template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+			<category>
+				<pattern>^ COMO ^ <set>descrever</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+			<category>
+				<pattern>^ COMO ^ <set>voce</set> ^ <set>descrever</set> ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>descrever</set> ^ <set>voce</set> ^ COMO ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>voce</set> ^ <set>descrever</set> ^ COMO ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>descrever</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>voce</set> ^ <set>descrever</set> ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>descrever</set> ^ SI ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+	<!-- fim 360 -->
+	<!-- id 361 -->
+		<category>
+			<pattern>RESPOSTA361</pattern>
+			<template>Não lembro de nada nesse caso</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>chatas</set> ^ <set>acontecer</set> ^</pattern>
+				<template><srai>RESPOSTA361</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>acontecer</set> ^ <set>qquestoes</set> ^ <set>chatas</set> ^</pattern>
+				<template><srai>RESPOSTA361</srai></template>
+			</category>
+	<!-- fim 361 -->
+	<!-- id 362 -->
+		<category>
+			<pattern>RESPOSTA362</pattern>
+			<template>Eu tenho minha família e meus amigos</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>relacao</set> ^</pattern>
+				<template><srai>RESPOSTA362</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>relacao</set> ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA362</srai></template>
+			</category>
+	<!-- fim 362 -->
+	<!-- id 363 -->
+		<category>
+			<pattern>RESPOSTA363</pattern>
+			<template>Acho que no geral, tenho boas relações</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ COMO ^ <set>serestar</set> ^ <set>relacao</set> ^</pattern>
+				<template><srai>RESPOSTA363</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>serestar</set> ^ <set>relacao</set> ^ COMO ^</pattern>
+				<template><srai>RESPOSTA363</srai></template>
+			</category>
+	<!-- fim 363 -->
+	<!-- id 364 -->
+		<category>
+			<pattern>RESPOSTA364</pattern>
+			<template>
+				A minha profissão é auxiliar de ação educativa, trabalhei
+				com isso só
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>profissao</set> ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA364</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>qquestoes</set> ^ <set>profissao</set> ^</pattern>
+				<template><srai>RESPOSTA364</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>profissao</set> ^ <set>qquestoes</set> ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA364</srai></template>
+			</category>
+	<!-- fim 364 -->
+	<!-- id 365 -->
+		<category>
+			<pattern>RESPOSTA365</pattern>
+			<template>Está tudo certo com meu emprego</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>frequentemente</set> ^ <set>acontecer</set> ^ <set>profissao</set> ^</pattern>
+				<template><srai>RESPOSTA365</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>acontecer</set> ^ <set>profissao</set> ^</pattern>
+				<template><srai>RESPOSTA365</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>acontecer</set> ^ <set>qquestoes</set> ^ <set>profissao</set> ^</pattern>
+				<template><srai>RESPOSTA365</srai></template>
+			</category>
+	<!-- fim 365 -->
+	<!-- id 367 -->
+		<category>
+			<pattern>RESPOSTA367</pattern>
+			<template>Não que eu tenha percebido</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>decepcionar</set> ^ <set>voce</set> ^ <set>frequentemente</set> ^</pattern>
+				<template><srai>RESPOSTA367</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>frequentemente</set> ^ <set>decepcionar</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA367</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>voce</set> ^ <set>decepcionar</set> ^ <set>frequentemente</set> ^</pattern>
+				<template><srai>RESPOSTA367</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>frequentemente</set> ^ <set>voce</set> ^ <set>decepcionar</set> ^</pattern>
+				<template><srai>RESPOSTA367</srai></template>
+			</category>
+	<!-- fim 367 -->
+	<!-- id 369 -->
+		<category>
+			<pattern>RESPOSTA369</pattern>
+			<template>
+				Não fiz nada dessas coisas, muito pelo contrário, eu evito
+				sempre que posso
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>fez</set> ^ <set>algo</set> ^ <set>ferir</set> ^</pattern>
+				<template><srai>RESPOSTA369</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>arriscar</set> ^ SUA ^ <set>saude</set> ^</pattern>
+				<template><srai>RESPOSTA369</srai></template>
+			</category>
+			<category>
+				<pattern>^ SUA ^ <set>saude</set> ^ <set>arriscar</set> ^</pattern>
+				<template><srai>RESPOSTA369</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>fez</set> ^ <set>ferir</set> ^</pattern>
+				<template><srai>RESPOSTA369</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>algo</set> ^ <set>ferir</set> ^</pattern>
+				<template><srai>RESPOSTA369</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>voce</set> ^ <set>ferir</set> ^</pattern>
+				<template><srai>RESPOSTA369</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ferir</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA369</srai></template>
+			</category>
+	<!-- fim 369 -->
+	<!-- id 370 -->
+		<category>
+			<pattern>RESPOSTA370</pattern>
+			<template>Eu nunca tentei nada nesse sentido</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ferir</set> ^ <set>frequentemente</set> ^</pattern>
+				<template><srai>RESPOSTA370</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>frequentemente</set> ^ <set>ferir</set> ^</pattern>
+				<template><srai>RESPOSTA370</srai></template>
+			</category>
+	<!-- fim 370 -->
+	<!-- id 371 -->
+		<category>
+			<pattern>^ <set>tentar</set> ^ <set>autodestrutivo</set> ^</pattern>
+			<template>Eu nunca nem pensei em suicídio</template>
+		</category>
+	<!-- fim 371 -->
+	<!-- id 375 -->
+		<category>
+			<pattern>RESPOSTA375</pattern>
+			<template>
+				Eu não sei como eu me sentiria, não passei por essas
+				situações
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ QUANDO ^ <set>alguem</set> ^ <set>abandonar</set> ^ COMO ^ <set>sentir</set> ^</pattern>
+				<template><srai>RESPOSTA375</srai></template>
+			</category>
+			<category>
+				<pattern>^ QUANDO ^ <set>alguem</set> ^ <set>abandonar</set> ^ <set>sentir</set> ^ COMO ^</pattern>
+				<template><srai>RESPOSTA375</srai></template>
+			</category>
+			<category>
+				<pattern>^ COMO ^ <set>sentir</set> ^ QUANDO ^ <set>alguem</set> ^ <set>abandonar</set> ^</pattern>
+				<template><srai>RESPOSTA375</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sentir</set> ^ COMO ^ QUANDO ^ <set>alguem</set> ^ <set>abandonar</set> ^</pattern>
+				<template><srai>RESPOSTA375</srai></template>
+			</category>
+	<!-- fim 375 -->
+	<!-- id 376 -->
+		<category>
+			<pattern>RESPOSTA376</pattern>
+			<template>Na verdade é difícil eu ficar zangado, não sei te responder</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ QUANDO ^ <set>zangado</set> ^ <set>qquestoes</set> ^ <set>faz</set> ^</pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+			<category>
+				<pattern>^ QUANDO ^ <set>zangado</set> ^ <set>faz</set> ^ <set>qquestoes</set> ^ </pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>faz</set> ^ <set>zangado</set> ^</pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>faz</set> ^ <set>qquestoes</set> ^ <set>zangado</set> ^</pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>faz</set> ^ <set>zangado</set> ^</pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>faz</set> ^ <set>qquestoes</set> ^ <set>zangado</set> ^</pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>zangado</set> ^ <set>qquestoes</set> ^ <set>faz</set> ^</pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>zangado</set> ^ <set>faz</set> ^ <set>qquestoes</set> ^ </pattern>
+				<template><srai>RESPOSTA376</srai></template>
+			</category>
+	<!-- fim 376 -->
+	<!-- id 378 -->
+		<category>
+			<pattern>RESPOSTA378</pattern>
+			<template>
+				No geral meus relacionamentos são normais, calmos. Eu sempre
+				fico preocupado com eles mas acredito que isso seja normal
+				também
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>relacao</set> ^ <set>calmo</set> ^ </pattern>
+				<template><srai>RESPOSTA378</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>relacao</set> ^ <set>irritavel</set> ^</pattern>
+				<template><srai>RESPOSTA378</srai></template>
+			</category>
+	<!-- fim 378 -->
+	<!-- id 379 -->
+		<category>
+			<pattern>RESPOSTA379</pattern>
+			<template>
+				Meus relacionamentos são na maioria tranquilos, não vejo
+				tanto meu amigos porque fico bastante em casa. E sobre minha
+				família, eles estão bem mas eu sempre fico preocupado com
+				eles, acredito que seja normal
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>tentar</set> ^ <set>descrever</set> ^ <set>relacao</set> ^ <set>anteriormente</set> ^</pattern>
+				<template><srai>RESPOSTA379</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>tentar</set> ^ <set>descrever</set> ^ <set>anteriormente</set> ^ <set>relacao</set> ^</pattern>
+				<template><srai>RESPOSTA379</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>descrever</set> ^ <set>relacao</set> ^ <set>anteriormente</set> ^</pattern>
+				<template><srai>RESPOSTA379</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>descrever</set> ^ <set>anteriormente</set> ^ <set>relacao</set> ^</pattern>
+				<template><srai>RESPOSTA379</srai></template>
+			</category>
+	<!-- fim 379 -->
+	<!-- id 383 384 -->
+		<category>
+			<pattern>RESPOSTA383 384</pattern>
+			<template>Na verdade, se eu passar despercebido é melhor kk</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>gostar</set> ^ <set>focar</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA383 384</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>gostar</set> ^ <set>serestar</set> ^ CENTRO ^ <set>focar</set> ^</pattern>
+				<template><srai>RESPOSTA383 384</srai></template>
+			</category>
+	<!-- fim 383 384 -->
+	<!-- id 385 -->
+		<category>
+			<pattern>^ <set>gostar</set> ^ <set>ter</set> ^ <set>vantagem</set> ^</pattern>
+			<template>Não penso muito em ter vantagem não</template>
+		</category>
+	<!-- fim 385 -->
+	<!-- id 389 -->
+		<category>
+			<pattern>RESPOSTA389</pattern>
+			<template>Não me lembro de ter feito nada nesse sentido</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>fez</set> ^ <set>algo</set> ^ <set>problema</set> ^ <set>lei</set> ^</pattern>
+				<template><srai>RESPOSTA389</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>fez</set> ^ <set>algo</set> ^ FORA ^ LEI ^</pattern>
+				<template><srai>RESPOSTA389</srai></template>
+			</category>
+	<!-- fim 389 -->
+	<!-- id 390 -->
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>problema</set> ^ <set>lei</set> ^</pattern>
+			<template>Não tive problemas com a justiça</template>
+		</category>
+	<!-- fim 390 -->
+	<!-- id 392 -->
+		<category>
+			<pattern>^ <set>alguem</set> ^ CONTRA ^ VOCE ^ SEM ^ <set>justificativa</set> ^</pattern>
+			<template>Não acho que isso aconteça comigo</template>
+		</category>
+	<!-- fim 392 -->
+</aiml>

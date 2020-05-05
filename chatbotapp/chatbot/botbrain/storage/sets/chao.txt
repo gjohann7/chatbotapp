@@ -1,0 +1,8 @@
+calcada
+rua
+chao
+caminho
+via
+avenida
+passarela
+praca

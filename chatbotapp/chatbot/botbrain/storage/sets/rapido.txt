@@ -1,0 +1,4 @@
+rapido
+ligeiro
+veloz
+acelerado

@@ -1,0 +1,6 @@
+volume
+altura
+intensidade
+forca
+energia
+animo

@@ -1,0 +1,10 @@
+crime
+crimes
+infracao
+infracoes
+violacao
+violacoes
+delito
+delitos
+vandalismo
+vandalismos

@@ -1,0 +1,132 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="splash-container">
+  <div class="splash">
+    <h1 class="splash-head">Chatbot-App</h1>
+    <p class="splash-subhead">
+      O aplicativo online para você praticar seus conhecimentos e dar um
+      descanso aos livros
+    </p>
+    <p>
+      <a id="btnIntro" href="#about" class="pure-button pure-button-alt"
+        >Comece agora!</a
+      >
+    </p>
+  </div>
+</div>
+
+<div id="contentWrapper" class="content-wrapper">
+  <div class="ribbon center pure-g" id="about">
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+      <img
+        width="300"
+        alt="Investigar a conversa"
+        class="pure-img-responsive"
+        src="{% static 'images/chat-search.png' %}"
+      />
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+      <h2 class="content-header">
+        Sistema de conversação online para investigação psicopatológica
+      </h2>
+      <p>
+        A aplicação propõe uma conversa por meio de mensagens de texto em que o
+        usuário está encarregado de entrevistar o paciente à procura de sintomas
+        psicopatológicos
+      </p>
+    </div>
+  </div>
+
+  <div class="content-info">
+    <h2 class="content-header">
+      Sugestões de uso e benefícios do Chatbot-App
+    </h2>
+
+    <div class="pure-g">
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3>
+          <i class="fa fa-rocket" aria-hidden="true"></i>
+          Dicas
+        </h3>
+        <p>
+          Faça uma pergunta por mensagem. Prefira por digitar as palavras
+          inteiras, evitando repetições de palavras e/ou sinais de pontuação.
+        </p>
+      </div>
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3>
+          <i class="fa fa-user" aria-hidden="true"></i>
+          Chatbot
+        </h3>
+        <p>
+          Não tenha vergonha ao entrevistar o chatbot, afinal, ele é apenas um
+          aplicativo. Interaja como se estivesse em um atendimento real. Bom
+          treino!
+        </p>
+      </div>
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3>
+          <i class="fa fa-home" aria-hidden="true"></i>
+          Onde estudar?
+        </h3>
+        <p>
+          Estude onde você estiver! Na sala de aula, no parque ou no ônibus.
+          Basta ter acesso a Internet e vontade de desenvolver suas habilidades.
+        </p>
+      </div>
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3>
+          <i class="fa fa-check-square-o" aria-hidden="true"></i>
+          Praticar
+        </h3>
+        <p>
+          O que você acha de pôr em prática os conhecimentos adquiridos até
+          agora com seus estudos? Essa hora é agora!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="contenctContact" class="content-contact">
+    <h2 class="content-header">
+      Entre em contato
+    </h2>
+
+    <div class="pure-g center jus-cont-spa-a">
+      <div class="pure-u-1 pure-u-md-1-4">
+        <form
+          class="pure-form pure-form-stacked"
+          method="POST"
+          action="#contenctContact"
+        >
+          {% csrf_token %}
+          <fieldset>
+            <legend>Formulário para fazer contato com o desenvolvedor:</legend>
+            {% for field in form %} {{field.label_tag}}{{field}}{{field.errors}}
+            {% endfor %}
+            <div class="center jus-cont-spa-b">
+              <button type="submit" class="pure-button">Enviar</button>
+              {% if request.session.success %}
+              <div class="bar success">Sucesso!</div>
+              {%endif%}
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="pure-u-1 pure-u-md-3-8 about">
+        <h3>Sobre o desenvolvedor</h3>
+        <p>
+          Oi, meu nome é Guilherme Johann. Eu sou aluno de Ciência da Computação
+          da Universidade Tecnológica Federal do Paraná (UTFPR) e de Engenharia
+          de Software do Instituto Politécnico de Setúbal (IPS - Portugal). Eu
+          participo do projeto de Dupla Diplomação pela UTFPR em conjunto com o
+          IPS e este é meu Trabalho de Conclusão de Curso e Projeto Final. Estou
+          sob orientação dos professores Cláudio Miguel Sapateiro e Jorge Aikes
+          Junior, com coorientação da professora Monica Mombelli.
+        </p>
+      </div>
+    </div>
+  </div>
+  {% block footer %} {{block.super}} {% endblock footer %}
+</div>
+{% endblock content %}

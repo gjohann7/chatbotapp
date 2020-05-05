@@ -1,0 +1,10 @@
+vez
+hora
+turno
+chance
+chances
+momento
+momentos
+oportunidade
+oportunidades
+tempo

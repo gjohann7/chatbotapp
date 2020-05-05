@@ -1,0 +1,32 @@
+{% extends 'base.html' %}{% block content %} 
+<div class="content-form">
+  {% if request.path == '/profile/' %}
+  <h1 class="content-header-alt">
+  {% else %}
+  <h1 class="content-header">
+  {% endif %}
+    {% block heading %}{% endblock heading %}
+  </h1>
+  {% block subheading %}{% endblock subheading %}
+  <div class="pure-g center">
+    {% block main_content %}
+    <div class="pure-u-1 pure-u-md-1">
+      {% block form_content %}
+      <form class="pure-form pure-form-stacked form-space" method="POST">
+        {% csrf_token %}
+        <fieldset>
+          {% block form_loop %} {{form.non_field_errors}} {% for field in form %}
+          <div class="pure-control-group">
+            {{field.label_tag}}{{field}}{{field.errors}}
+          </div>
+          {% endfor %} {% endblock form_loop %} {% block inner_fieldset %}
+          {% endblock inner_fieldset %}
+        </fieldset>
+        {% block outer_fielset %} {% endblock outer_fielset %}
+      </form>
+      {% endblock form_content %}
+    </div>
+    {% endblock main_content %}
+  </div>
+</div>
+{% endblock content %}

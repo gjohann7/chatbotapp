@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 258 259 260 -->
+		<category>
+			<pattern>RESPOSTA258 259 260</pattern>
+			<template>Não tenho nenhum desejo desse tipo</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>maumal</set> ^ <set>desejar</set> ^ <set>desaparecer</set> ^</pattern>
+			<template><srai>RESPOSTA258 259 260</srai></template>
+		</category>
+		<category>
+			<pattern>^ POR QUE ^ <set>desejar</set> ^ <set>desaparecer</set> ^</pattern>
+			<template><srai>RESPOSTA258 259 260</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ <set>desaparecer</set> ^ POR QUE ^</pattern>
+			<template><srai>RESPOSTA258 259 260</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ <set>desaparecer</set> ^</pattern>
+			<template><srai>RESPOSTA258 259 260</srai></template>
+		</category>
+	<!-- fim 258 259 260 -->
+	<!-- id that 261 -->
+		<category>
+			<pattern>RESPOSTA261</pattern>
+			<template>Nunca fiz nada em busca disso</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ POR QUE ^ <set>fez</set> ^ <set>algo</set> ^ <set>fazer</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ <set>algo</set> ^ <set>fazer</set> ^ <set>objetivo</set> ^ POR QUE ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^<set>fez</set> ^ <set>algo</set> ^ <set>fazer</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ POR QUE ^ <set>fez</set> ^ <set>fazer</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ <set>fazer</set> ^ <set>objetivo</set> ^ POR QUE ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ <set>fazer</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ POR QUE ^ <set>fazer</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>objetivo</set> ^ POR QUE ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ POR QUE ^ <set>fez</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ <set>objetivo</set> ^ POR QUE ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>objetivo</set> ^</pattern>
+			<that>Não tenho nenhum desejo desse tipo</that>
+			<template><srai>RESPOSTA261</srai></template>
+		</category>
+	<!-- fim 261 -->
+	<!-- id 262 -->
+		<category>
+			<pattern>RESPOSTA262</pattern>
+			<template>Não não</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ POR QUE ^ <set>desejar</set> ^ <set>adquirir</set> ^ <set>recursoperigoso</set> ^</pattern>
+			<template><srai>RESPOSTA262</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ <set>adquirir</set> ^ <set>recursoperigoso</set> ^ POR QUE ^</pattern>
+			<template><srai>RESPOSTA262</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ <set>adquirir</set> ^ <set>recursoperigoso</set> ^</pattern>
+			<template><srai>RESPOSTA262</srai></template>
+		</category>
+	<!-- fim 262 -->
+	<!-- id 263 -->
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>ideias</set> ^ <set>autodestrutivo</set> ^</pattern>
+			<template>
+				Até onde eu me lembro, eu não tenho nenhum pensamento nesse
+				sentido
+			</template>
+		</category>
+	<!-- fim 263 -->
+	<!-- id 264 -->
+		<category>
+			<pattern>RESPOSTA264</pattern>
+			<template>Eu não tentei me matar nenhuma vez</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>tentar</set> ^ SUICIDIO ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ <set>voce</set> ^ MATAR ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ MATAR ^ <set>voce</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ <set>voce</set> ^ MATA ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ MATA ^ <set>voce</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ <set>voce</set> ^ MATA ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ <set>voce</set> ^ MATAR ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ MATAR ^ <set>voce</set> ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ MATA ^ <set>voce</set> ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tentar</set> ^ SUICIDIO ^</pattern>
+			<template><srai>RESPOSTA264</srai></template>
+		</category>
+	<!-- fim 264 -->
+	<!-- id 265 -->
+		<category>
+			<pattern>RESPOSTA265</pattern>
+			<template>Eu tenho trabalhado e ficado em casa mesmo</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>feito</set> ^ <set>ultimos</set> ^</pattern>
+			<template><srai>RESPOSTA265</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>feito</set> ^ <set>qquestoes</set> ^ <set>ultimos</set> ^</pattern>
+			<template><srai>RESPOSTA265</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>fez</set> ^ <set>ultimos</set> ^</pattern>
+			<template><srai>RESPOSTA265</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ <set>qquestoes</set> ^ <set>ultimos</set> ^</pattern>
+			<template><srai>RESPOSTA265</srai></template>
+		</category>
+	<!-- fim 265 -->
+	<!-- id 266 -->
+		<category>
+			<pattern>RESPOSTA266</pattern>
+			<template>
+				Eu tenho conseguido trabalhar, mas muitas vezes é difícil.
+				Eu fico muito preocupado com as dores que sinto no corpo
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>conseguir</set> ^ <set>trabalhar</set> ^ <set>ultimos</set> ^</pattern>
+			<template><srai>RESPOSTA266</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>conseguir</set> ^ ESTUDAR ^ <set>ultimos</set> ^</pattern>
+			<template><srai>RESPOSTA266</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ter</set> ^ ESTUDADO ^ <set>ultimos</set> ^</pattern>
+			<template><srai>RESPOSTA266</srai></template>
+		</category>
+	<!-- fim 266 -->
+	<!-- id 267 -->
+		<category>
+			<pattern>RESPOSTA267</pattern>
+			<template>
+				Ah, eu faço as coisas de sempre, mas essas mesmas coisas
+				ficam difíceis quando fico muito ansioso por causa de alguma
+				dor física
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ O QUE ^ <set>conseguir</set> ^ <set>fazer</set> ^</pattern>
+			<template><srai>RESPOSTA267</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>conseguir</set> ^ <set>fazer</set> ^ O QUE ^</pattern>
+			<template><srai>RESPOSTA267</srai></template>
+		</category>
+	<!-- fim 267 -->
+	<!-- id 268 -->
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ <set>terminar</set> ^ O QUE ^ <set>iniciar</set> ^</pattern>
+			<template>Não tenho. Eu termino o que começo</template>
+		</category>
+	<!-- fim 268 -->
+	<!-- id 269 -->
+		<category>
+			<pattern>RESPOSTA269</pattern>
+			<template>Eu vou jogar cartas com amigos, às vezes saio para comer</template>
+		</category>
+		<!---->
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>gostar</set> ^</pattern>
+				<that>Eu vou jogar cartas com amigos as vezes saio para comer</that>
+				<template>Eu gosto sim de jogar com eles</template>
+			</category>
+			<category>
+				<pattern>^ ONDE ^</pattern>
+				<that>Eu vou jogar cartas com amigos as vezes saio para comer</that>
+				<template>Gosto de ir a uma pizzaria perto de casa mesmo</template>
+			</category>
+			<category>
+				<pattern>^ AONDE ^</pattern>
+				<that>Eu vou jogar cartas com amigos as vezes saio para comer</that>
+				<template>Gosto de ir a uma pizzaria perto de casa mesmo</template>
+			</category>
+		<!-- fim proprio -->
+		<category>
+			<pattern>^ O QUE ^ <set>faz</set> ^ <set>divertir</set> ^</pattern>
+			<template><srai>RESPOSTA269</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>faz</set> ^ O QUE <set>divertir</set> ^</pattern>
+			<template><srai>RESPOSTA269</srai></template>
+		</category>
+		<category>
+			<pattern>^ COMO ^ SE ^ <set>divertir</set> ^</pattern>
+			<template><srai>RESPOSTA269</srai></template>
+		</category>
+		<category>
+			<pattern>^ SE ^ <set>divertir</set> ^ COMO ^</pattern>
+			<template><srai>RESPOSTA269</srai></template>
+		</category>
+	<!-- fim 269 -->
+	<!-- id 270 -->
+		<category>
+			<pattern>RESPOSTA270</pattern>
+			<template>Dificilmente eu respondo sem pensar</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ RESPONDE ^ SEM ^ <set>pensar</set> ^</pattern>
+			<template><srai>RESPOSTA270</srai></template>
+		</category>
+		<category>
+			<pattern>^ RESPONDES ^ SEM ^ <set>pensar</set> ^</pattern>
+			<template><srai>RESPOSTA270</srai></template>
+		</category>
+		<category>
+			<pattern>^ RESPONDESTE ^ SEM ^ <set>pensar</set> ^</pattern>
+			<template><srai>RESPOSTA270</srai></template>
+		</category>
+	<!-- fim 270 -->
+	<!-- id 271 -->
+		<category>
+			<pattern>RESPOSTA271</pattern>
+			<template>
+				Não é comum que eu interrompa as pessoas enquanto falam ou
+				fazem algo
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>interromper</set> ^ <set>frequentemente</set> ^ <set>alguem</set> ^</pattern>
+			<template><srai>RESPOSTA271</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>frequentemente</set> ^ <set>interromper</set> ^ <set>alguem</set> ^</pattern>
+			<template><srai>RESPOSTA271</srai></template>
+		</category>
+	<!-- fim 271 -->
+	<!-- id 272 -->
+		<category>
+			<pattern>RESPOSTA272</pattern>
+			<template>Eu consigo esperar a minha vez kk</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ POR QUE ^ NAO ^ <set>conseguir</set> ^ <set>esperar</set> ^ <set>oportunidade</set> ^</pattern>
+			<template><srai>RESPOSTA272</srai></template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>conseguir</set> ^ <set>esperar</set> ^ <set>oportunidade</set> ^ POR QUE ^</pattern>
+			<template><srai>RESPOSTA272</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>conseguir</set> ^ <set>esperar</set> ^ <set>oportunidade</set> ^</pattern>
+			<template><srai>RESPOSTA272</srai></template>
+		</category>
+	<!-- fim 272 -->
+	<!-- id 273 -->
+		<category>
+			<pattern>RESPOSTA273</pattern>
+			<template>Eu tenho estado meio nervoso</template>
+		</category>
+		<!---->
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^</pattern>
+				<that>Eu tenho estado meio nervoso e ansioso</that>
+				<template>Principalmente, eu fico preocupado com as dores mesmo</template>
+			</category>
+			<category>
+				<pattern>^ QUE ^ <set>irritavel</set> ^</pattern>
+				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
+			</category>
+			<category>
+				<pattern>^ <set>irritavel</set> ^ QUE ^</pattern>
+				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
+			</category>
+			<category>
+				<pattern>^ QUE ^ PREOCUPADO ^</pattern>
+				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
+			</category>
+			<category>
+				<pattern>^ PREOCUPADO ^ QUE ^</pattern>
+				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
+			</category>
+		<!-- fim proprio -->
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>irritavel</set> ^</pattern>
+			<template><srai>RESPOSTA273</srai></template>
+		</category>
+		<category>
+			<pattern>^ E ^ <set>irritavel</set> ^</pattern>
+			<template><srai>RESPOSTA273</srai></template>
+		</category>
+		<category>
+			<pattern>^ ES ^ <set>irritavel</set> ^</pattern>
+			<template><srai>RESPOSTA273</srai></template>
+		</category>
+		<category>
+			<pattern>^ VOCE ^ <set>irritavel</set> ^</pattern>
+			<template><srai>RESPOSTA273</srai></template>
+		</category>
+	<!-- fim 273 -->
+	<!-- id that 274 -->
+		<category>
+			<pattern>RESPOSTA274</pattern>
+			<template>
+				Eu não sou explosivo, nem lembro da última vez que algo
+				assim aconteceu
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>descrever</set> ^ EXPLOSOES ^</pattern>
+			<template><srai>RESPOSTA274</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>descrever</set> ^ EXPLOSAO ^</pattern>
+			<template><srai>RESPOSTA274</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>descrever</set> ^ <set>este</set> ^</pattern>
+			<that>Eu não sou explosivo nem lembro da última vez que algo assim aconteceu</that>
+			<template><srai>RESPOSTA274</srai></template>
+		</category>
+	<!-- fim 274 -->
+	<!-- id 275 276 -->
+		<category>
+			<pattern>RESPOSTA275 276</pattern>
+			<template>Eu buscaria devolver ao dono ou então na polícia</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ O QUE ^ FARIA ^ ENCONTRASSE ^ <set>documento</set> ^ ENDERECADO ^ SELADO ^ <set>chao</set> ^</pattern>
+			<template><srai>RESPOSTA275 276</srai></template>
+		</category>
+		<category>
+			<pattern>^ O QUE ^ FARIA ^ ENCONTRASSE ^ <set>documento</set> ^ ENDERECADO ^ <set>chao</set> ^</pattern>
+			<template><srai>RESPOSTA275 276</srai></template>
+		</category>
+		<category>
+			<pattern>^ O QUE ^ FARIA ^ ENCONTRASSE ^ <set>documento</set> ^ SELADO ^ <set>chao</set> ^</pattern>
+			<template><srai>RESPOSTA275 276</srai></template>
+		</category>
+		<category>
+			<pattern>^ O QUE ^ FARIA ^ ENCONTRASSE ^ <set>documento</set> ^ <set>chao</set> ^</pattern>
+			<template><srai>RESPOSTA275 276</srai></template>
+		</category>
+	<!-- fim 275 276 -->
+</aiml>

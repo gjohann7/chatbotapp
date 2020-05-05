@@ -1,0 +1,8 @@
+medico
+hospital
+consulta
+consultar
+remedio
+remedios
+doutor
+clinica

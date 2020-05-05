@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 93 -->
+		<category>
+			<pattern>RESPOSTA93</pattern>
+			<template>
+				Hoje é dia <date format="%d"/> de <think>
+					<set name="mespt">
+						<date format="%B"/>
+					</set>
+				</think><condition name="mespt">
+					<li value="January">janeiro</li>
+					<li value="February">fevereiro</li>
+					<li value="March">março</li>
+					<li value="April">abril</li>
+					<li value="May">maio</li>
+					<li value="June">junho</li>
+					<li value="July">julho</li>
+					<li value="August">agosto</li>
+					<li value="September">setembro</li>
+					<li value="October">outubro</li>
+					<li value="November">novembro</li>
+					<li value="December">dezembro</li>
+					<li>algum mes aí</li>
+				</condition>
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ HOJE ^</pattern>
+			<template><srai>RESPOSTA93</srai></template>
+		</category>
+		<category>
+			<pattern>^ HOJE ^ <set>qquestoes</set> ^ DIA ^</pattern>
+			<template><srai>RESPOSTA93</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA93</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>qquestoes</set> ^ DIA ^</pattern>
+			<template><srai>RESPOSTA93</srai></template>
+		</category>
+	<!-- fim 93 -->
+	<!-- id 94 -->
+		<category>
+			<pattern>RESPOSTA94</pattern>
+			<template>
+				Hoje é <think>
+					<set name="mespt">
+						<date format="%A"/>
+					</set>
+				</think><condition name="mespt">
+					<li value="Monday">segunda-feira</li>
+					<li value="Tuesday">terça-feira</li>
+					<li value="Wednesday">quarta-feira</li>
+					<li value="Thursday">quinta-feira</li>
+					<li value="Friday">sexta-feira</li>
+					<li value="Saturday">sábado</li>
+					<li value="Sunday">domingo</li>
+					<li>algum dia aí</li>
+				</condition>	
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ SEMANA ^ HOJE ^</pattern>
+			<template><srai>RESPOSTA94</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ SEMANA ^</pattern>
+			<template><srai>RESPOSTA94</srai></template>
+		</category>
+		<category>
+			<pattern>^ HOJE ^ <set>qquestoes</set> ^ DIA ^ SEMANA ^</pattern>
+			<template><srai>RESPOSTA94</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ SEMANA ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA94</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>qquestoes</set> ^ DIA ^ SEMANA ^</pattern>
+			<template><srai>RESPOSTA94</srai></template>
+		</category>
+	<!-- fim 94 -->
+	<!-- id 95 -->
+		<category>
+			<pattern>RESPOSTA95</pattern>
+			<template>Hoje é dia <date format="%d"/></template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ MES ^ HOJE ^</pattern>
+			<template><srai>RESPOSTA95</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ MES ^</pattern>
+			<template><srai>RESPOSTA95</srai></template>
+		</category>
+		<category>
+			<pattern>^ HOJE ^ <set>qquestoes</set> ^ DIA ^ MES ^</pattern>
+			<template><srai>RESPOSTA95</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ DIA ^ MES ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA95</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>qquestoes</set> ^ DIA ^ MES ^</pattern>
+			<template><srai>RESPOSTA95</srai></template>
+		</category>
+	<!-- fim 95 -->
+	<!-- id 96 -->
+		<category>
+			<pattern>RESPOSTA96</pattern>
+			<template>
+				A gente está em <think>
+					<set name="mespt">
+						<date format="%B"/>
+					</set>
+				</think><condition name="mespt">
+					<li value="January">janeiro</li>
+					<li value="February">fevereiro</li>
+					<li value="March">março</li>
+					<li value="April">abril</li>
+					<li value="May">maio</li>
+					<li value="June">junho</li>
+					<li value="July">julho</li>
+					<li value="August">agosto</li>
+					<li value="September">setembro</li>
+					<li value="October">outubro</li>
+					<li value="November">novembro</li>
+					<li value="December">dezembro</li>
+					<li>algum mes aí</li>
+				</condition>	
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ MES ^ <set>este</set> ^</pattern>
+			<template><srai>RESPOSTA96</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>este</set> ^ <set>qquestoes</set> ^ MES ^</pattern>
+			<template><srai>RESPOSTA96</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ MES ^ <set>qquestoes</set> ^</pattern>
+			<template><srai>RESPOSTA96</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ MES ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA96</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>qquestoes</set> ^ MES ^</pattern>
+			<template><srai>RESPOSTA96</srai></template>
+		</category>
+	<!-- fim 96 -->
+	<!-- id 98 -->
+		<category>
+			<pattern>RESPOSTA98</pattern>
+			<template>
+				<think>
+					<set name="epocaano">
+						<date format="%B"/>
+					</set>
+				</think><condition name="epocaano">
+					<li value="January">Acredito que seja o início do ano ainda</li>
+					<li value="February">Acredito que seja o início do ano ainda</li>
+					<li value="March">Acredito que seja o início do ano ainda</li>
+					<li value="April">Acredito que seja o início do ano ainda</li>
+					<li value="May">Estamos no meio do ano</li>
+					<li value="June">Estamos no meio do ano</li>
+					<li value="July">Estamos no meio do ano</li>
+					<li value="August">Estamos no meio do ano</li>
+					<li>Acredito que seja final do ano já</li>
+				</condition>
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>epoca</set> ^ ANO ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA98</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>epoca</set> ^ ANO ^ <set>este</set> ^</pattern>
+			<template><srai>RESPOSTA98</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>epoca</set> ^ ANO ^</pattern>
+			<template><srai>RESPOSTA98</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>qquestoes</set> ^ <set>epoca</set> ^ ANO ^</pattern>
+			<template><srai>RESPOSTA98</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>este</set> ^ <set>qquestoes</set> ^ <set>epoca</set> ^ ANO ^</pattern>
+			<template><srai>RESPOSTA98</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>parte</set> ^ ANO ^</pattern>
+			<template><srai>RESPOSTA98</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>este</set> ^ <set>parte</set> ^ ANO ^</pattern>
+			<template><srai>RESPOSTA98</srai></template>
+		</category>
+	<!-- fim 98 -->
+	<!-- id 99 -->
+		<category>
+			<pattern>RESPOSTA99</pattern>
+			<template>Acho que deve ser umas <date format="%H"/>h, algo assim</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ HORA ^ <set>aproximadamente</set> ^</pattern>
+			<template><srai>RESPOSTA99</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>aproximadamente</set> ^ <set>qquestoes</set> ^ HORA ^</pattern>
+			<template><srai>RESPOSTA99</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ HORA ^</pattern>
+			<template><srai>RESPOSTA99</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ HORAS ^ <set>aproximadamente</set> ^</pattern>
+			<template><srai>RESPOSTA99</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>aproximadamente</set> ^ <set>qquestoes</set> ^ HORAS ^</pattern>
+			<template><srai>RESPOSTA99</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ HORAS ^</pattern>
+			<template><srai>RESPOSTA99</srai></template>
+		</category>
+	<!-- fim 99 -->
+	<!-- id 103 -->
+		<category>
+			<pattern>RESPOSTA103</pattern>
+			<template>Eu não me atentei a isso quando estava vindo</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>deslocar</set> ^ <set>moradia</set> ^ AQUI ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>deslocar</set> ^ AQUI ^ <set>moradia</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>deslocar</set> ^ AQUI ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>deslocar</set> ^ <set>moradia</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>deslocar</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ <set>moradia</set> ^ AQUI ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ AQUI ^ <set>moradia</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ <set>moradia</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ AQUI ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ <set>moradia</set> ^ AQUI ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ AQUI ^ <set>moradia</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>deslocar</set> ^ <set>moradia</set> ^ AQUI ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>deslocar</set> ^ AQUI ^ <set>moradia</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ AQUI ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^ <set>moradia</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>caminho</set> ^ <set>qquestoes</set> ^ <set>tempo</set> ^ <set>deslocar</set> ^</pattern>
+			<template><srai>RESPOSTA103</srai></template>
+		</category>
+	<!-- fim 103 -->
+</aiml>

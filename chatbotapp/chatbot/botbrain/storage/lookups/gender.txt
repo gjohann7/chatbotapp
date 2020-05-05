@@ -1,0 +1,8 @@
+" ele "," ela "
+" ela "," ele "
+" nele "," nela "
+" nela "," nele "
+" dele "," dela "
+" dela "," dele "
+" seu "," sua "
+" sua "," seu "

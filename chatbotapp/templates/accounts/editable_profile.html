@@ -1,0 +1,20 @@
+{% extends 'base_content.html' %} {% block heading %} Dados de usuário
+{%endblock heading %} {% block subheading %}
+<span class="content-subheader"
+  ><br />Os campos são editáveis, para salvar, clique em "Alterar Dados"</span
+>
+{%endblock subheading %}
+{% block inner_fieldset %}
+<legend>Formulário com os dados de usuário:</legend>
+<div class="pure-u-1 pure-u-md-1 center jus-cont-spa-b">
+  <button type="submit" class="pure-button" aria-label="Alterar Dados.">
+    Alterar Dados
+  </button>
+  <a class="pure-button" href="{% url 'accounts:change_password' %}">
+    Alterar Senha
+  </a>
+</div>
+{% endblock inner_fieldset %} {% block outer_fielset %}
+<a href="{% url 'chatbot:conversation' %}" class="simple-link center"
+  >Voltar à conversa</a
+>{% endblock outer_fielset %}

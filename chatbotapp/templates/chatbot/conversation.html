@@ -1,0 +1,74 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="chat-view">
+  <div class="inner-chat-view">
+    <div class="chat-header">
+      <span class="hidden">Nome do Chatbot: </span>
+      Adam
+      <span class="hidden">. Selecionar: </span>
+      <span>
+        <a id="smallerFontSize" class="not-selected" href="#">A<span class="hidden"> um. Tamanho de fonte mínimo.</span></a>
+        <a id="defaultFontSize" class="selected" href="#">A<span class="hidden"> dois. Tamanho de fonte padrão.</span></a>
+        <a id="largerFontSize" class="not-selected" href="#">A<span class="hidden"> três. Tamanho de fonte máximo.</span></a>
+      </span>
+    </div>
+    <article id="chat" class="scrollbar-style ss2 font-size-default" tabindex="0">
+      <h1 class="hidden">Campo de mensagens</h1>
+      <p class="hidden">Espaço onde são mostradas as mensagens da conversa.</p>
+      <div id="chatMessages" class="padding-all">
+        <button id="btnSkipMessages" class="hidden">Pular mensagens.</button>
+        {% if show_button %}
+        <div id="btnLoadMessages" class="pure-button center">Ver mensagens anteriores</div>
+        {% endif %}
+        {% for message in last_messages %}
+        {% if message.is_bot %}
+        <div class="bot-message-field">
+          <p class="hidden">Chabot disse:</p>
+          <button class="btnVolumeUp">
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+            <span class="hidden">Ouvir mensagem.</span>
+          </button>{% else %}
+        <div class="user-message-field">
+          <p class="hidden">Tu enviaste:</p>
+          {% endif %}<span>{{message.content}}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </article>
+    <div id="inputs" class="center">
+      <input
+        id="messageField"
+        type="text"
+        minlength="2"
+        maxlength="89"
+        aria-label="Campo para digitar a mensagem."
+        placeholder="Digite uma mensagem"
+        autofocus
+      />
+      <button
+        id="btnSend"
+        class="send-msg-button"
+        aria-label="Enviar mensagem."
+      >
+        <span class="hidden">Enviar mensagem.</span>
+        <i class="fa fa-reply-all fa-rotate-90 fa-lg" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+{% block script %}
+<script type="text/javascript">
+  const Messages = (function Messages(){
+    const load = parseInt("{{ messages_load }}");
+
+    let rawMessages = decodeURI("{{ messages|escapejs }}");
+    rawMessages = rawMessages.replace(/True/g,"true");
+    rawMessages = rawMessages.replace(/False/g,"false");
+    rawMessages = rawMessages.replace(/'/g,"\"");
+
+    const all = JSON.parse(rawMessages);
+
+    return { all, load };
+  })();
+</script>
+{% endblock script %}

@@ -1,0 +1,9 @@
+envelope
+carta
+carteira
+carteira de identidade
+rg
+cpf
+carteira de motorista
+carta de motorista
+licenca de motorista

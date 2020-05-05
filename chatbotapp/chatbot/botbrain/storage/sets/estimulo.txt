@@ -1,0 +1,6 @@
+forca
+forcas
+agente
+estimulo
+impulso
+imposicao

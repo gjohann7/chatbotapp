@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 87 -->
+		<category>
+			<pattern>RESPOSTA87</pattern>
+			<template>
+				<think><set name="topic">atencao</set></think>
+				Tenho sim, fico muito preocupado com a saúde que às vezes
+				não consigo pensar em outra coisa
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ <set>pensar</set> ^</pattern>
+			<template><srai>RESPOSTA87</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ <set>focar</set> ^</pattern>
+			<template><srai>RESPOSTA87</srai></template>
+		</category>
+	<!-- fim 87 -->
+	<!-- id 88 -->
+		<category>
+			<pattern>RESPOSTA88</pattern>
+			<template>
+				<think><set name="topic">atencao</set></think>
+				Ah, eu me distraio às vezes
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>distrair</set> ^ <set>frequentemente</set> ^</pattern>
+			<template><srai>RESPOSTA88</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>frequentemente</set> ^ <set>distrair</set> ^</pattern>
+			<template><srai>RESPOSTA88</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>perder</set> ^ <set>focar</set> ^ <set>frequentemente</set> ^</pattern>
+			<template><srai>RESPOSTA88</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>perder</set> ^ <set>frequentemente</set> ^ <set>focar</set> ^</pattern>
+			<template><srai>RESPOSTA88</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>frequentemente</set> ^ <set>perder</set> ^ <set>focar</set> ^</pattern>
+			<template><srai>RESPOSTA88</srai></template>
+		</category>
+	<!-- fim 88 -->
+	<topic name="atencao">
+		<category>
+			<pattern>$RESPOSTAATENCAO</pattern>
+			<template>
+				É porque quando estou fazendo algo e do nada vem alguma dor,
+				eu fico pensando nela e fico bem preocupado com isso
+			</template>
+		</category>
+		<category>
+			<pattern># <set>qquestoes</set> ^</pattern>
+			<template><srai>RESPOSTAATENCAO</srai></template>
+		</category>
+		<category>
+			<pattern># <set>explicar</set> ^</pattern>
+			<template><srai>RESPOSTAATENCAO</srai></template>
+		</category>
+		<category>
+			<pattern># <set>justificativa</set> ^</pattern>
+			<template><srai>RESPOSTAATENCAO</srai></template>
+		</category>
+		<category>
+			<pattern>_</pattern>
+			<template>
+				<think><set name="topic">*</set></think>
+				<sr/>
+			</template>
+		</category>
+	</topic>
+</aiml>

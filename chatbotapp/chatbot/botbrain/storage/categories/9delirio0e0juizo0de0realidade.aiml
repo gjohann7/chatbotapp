@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 287 -->
+		<category>
+			<pattern>RESPOSTA287</pattern>
+			<template>
+				Eu não confio muito nos médicos e nas máquinas. Por isso
+				quando vou ao médico, já vou em vários diferentes para ter
+				mais opiniões sobre o mesmo problema. Vai que algum médico
+				percebe algo que outro não percebeu
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>justificativa</set> ^ <set>desconfiar</set> ^ <set>alguem</set> ^</pattern>
+				<template><srai>RESPOSTA287</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>desconfiar</set> ^ <set>alguem</set> ^</pattern>
+				<template><srai>RESPOSTA287</srai></template>
+			</category>
+	<!-- fim 287 -->
+	<!-- id 288 -->
+		<category>
+			<pattern>RESPOSTA288</pattern>
+			<template>Não que eu saiba disso</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>alguem</set> ^ <set>tentar</set> ^ <set>prejudicar</set> ^</pattern>
+				<template><srai>RESPOSTA288</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>tentar</set> ^ <set>prejudicar</set> ^</pattern>
+				<template><srai>RESPOSTA288</srai></template>
+			</category>
+	<!-- fim 288 -->
+	<!-- id 289 -->
+		<category>
+			<pattern>RESPOSTA289</pattern>
+			<template>Não recebi nenhuma ameaça</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>receber</set> ^ <set>ameacar</set> ^</pattern>
+				<template><srai>RESPOSTA289</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ameacar</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA289</srai></template>
+			</category>
+			<category>
+				<pattern>^ FOI ^ <set>ameacar</set> ^</pattern>
+				<template><srai>RESPOSTA289</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ameacar</set> ^ TE ^</pattern>
+				<template><srai>RESPOSTA289</srai></template>
+			</category>
+			<category>
+				<pattern>^ TE ^ <set>ameacar</set> ^</pattern>
+				<template><srai>RESPOSTA289</srai></template>
+			</category>
+	<!-- fim 289 -->
+	<!-- id 290 -->
+		<category>
+			<pattern>RESPOSTA290</pattern>
+			<template>Não fui roubado kk</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ FOI ^ <set>roubado</set> ^</pattern>
+				<template><srai>RESPOSTA290</srai></template>
+			</category>
+			<category>
+				<pattern>^ TE ^ <set>roubado</set> ^</pattern>
+				<template><srai>RESPOSTA290</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>roubado</set> ^ TE ^</pattern>
+				<template><srai>RESPOSTA290</srai></template>
+			</category>
+			<category>
+				<pattern>^ VOCE ^ <set>roubado</set> ^</pattern>
+				<template><srai>RESPOSTA290</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>roubado</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA290</srai></template>
+			</category>
+	<!-- fim 290 -->
+	<!-- id 291 -->
+		<category>
+			<pattern>^ <set>alguem</set> ^ <set>perseguir</set> ^</pattern>
+			<template><think><set name="topic">inimigos</set></think>Nunca notei alguém me perseguindo ou espionando</template>
+		</category>
+	<!-- fim 291 -->
+	<!-- id 292 -->
+		<category>
+			<pattern>RESPOSTA292</pattern>
+			<template><think><set name="topic">inimigos</set></think>Não tenho inimigos, não até onde eu sei</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ter</set> ^ INIMIGOS ^</pattern>
+				<template><srai>RESPOSTA292</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ter</set> ^ INIMIGO ^</pattern>
+				<template><srai>RESPOSTA292</srai></template>
+			</category>
+			<category>
+				<pattern>^ INIMIGOS ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA292</srai></template>
+			</category>
+			<category>
+				<pattern>^ INIMIGO ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA292</srai></template>
+			</category>
+	<!-- fim 292 -->
+	<topic name="inimigos">
+	<!-- id 293 -->
+		<category>
+			<pattern>$RESPOSTA293</pattern>
+			<template>Não me insultam não</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># TE ^ <set>insultar</set> ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+			<category>
+				<pattern># <set>insultar</set> ^ TE ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+			<category>
+				<pattern># NO ^ <set>insultar</set> ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+			<category>
+				<pattern># <set>insultar</set> ^ NO ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+			<category>
+				<pattern># O ^ <set>insultar</set> ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+			<category>
+				<pattern># <set>insultar</set> ^ O ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+			<category>
+				<pattern># VOCE ^ <set>insultar</set> ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+			<category>
+				<pattern># <set>insultar</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA293</srai></template>
+			</category>
+	<!-- fim 293 -->
+	<!-- id that 294 -->
+		<category>
+			<pattern># <set>qquestoes</set> ^ <set>justificativa</set> ^</pattern>
+			<template>Não vejo motivos para me insultarem</template>
+		</category>
+	<!-- fim 294 -->
+	<!-- id 295 -->
+		<category>
+			<pattern>$RESPOSTA295</pattern>
+			<template>Não tenho nenhuma ideia sobre isso</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># TRATA ^ <set>armacao</set> ^</pattern>
+				<template><srai>RESPOSTA295</srai></template>
+			</category>
+			<category>
+				<pattern># TRATAS ^ <set>armacao</set> ^</pattern>
+				<template><srai>RESPOSTA295</srai></template>
+			</category>
+			<category>
+				<pattern># TRATAR ^ <set>armacao</set> ^</pattern>
+				<template><srai>RESPOSTA295</srai></template>
+			</category>
+			<category>
+				<pattern># E ^ <set>armacao</set> ^</pattern>
+				<template><srai>RESPOSTA295</srai></template>
+			</category>
+			<category>
+				<pattern># ES ^ <set>armacao</set> ^</pattern>
+				<template><srai>RESPOSTA295</srai></template>
+			</category>
+			<category>
+				<pattern># VOCE ^ <set>armacao</set> ^</pattern>
+				<template><srai>RESPOSTA295</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensar</set> ^ <set>armacao</set> ^</pattern>
+				<template><srai>RESPOSTA295</srai></template>
+			</category>
+	<!-- fim 295 -->
+	<category>
+		<pattern>_</pattern>
+		<template>
+				<think><set name="topic">*</set></think>
+				<sr/>
+		</template>
+	</category>
+	</topic>
+	<!-- id 296 -->
+		<category>
+			<pattern>RESPOSTA296</pattern>
+			<template><think><set name="topic">familiadelirio</set></think>Eles se comportam bem, nada fora do normal</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>familiares</set> ^ <set>comportar</set> ^ <set>relacao</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA296</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>familiares</set> ^ <set>comportar</set> ^ <set>qquestoes</set> ^ <set>relacao</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA296</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>familiares</set> ^ <set>comportar</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA296</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>familiares</set> ^ <set>comportar</set> ^ <set>qquestoes</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA296</srai></template>
+			</category>
+			<category>
+				<pattern>E ^ <set>familiares</set> ^</pattern>
+				<template><srai>RESPOSTA296</srai></template>
+			</category>
+	<!-- fim 296 -->
+	<topic name="familiadelirio">
+	<!-- id 297 -->
+		<category>
+			<pattern># <set>desejar</set> ^ <set>prejudicar</set> ^</pattern>
+			<template>Não, minha família não quer nada disso</template>
+		</category>
+	<!-- fim 297 -->
+	<!-- id 298 316 -->
+		<category>
+			<pattern>$RESPOSTA298 316</pattern>
+			<template>Eu confio na minha esposa sim</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># SUA ^ <set>conjuge</set> ^ <set>confiar</set> ^ NELA ^</pattern>
+				<template><srai>RESPOSTA298 316</srai></template>
+			</category>
+			<category>
+				<pattern># <set>confiar</set> ^ SUA ^ <set>conjuge</set> ^</pattern>
+				<template><srai>RESPOSTA298 316</srai></template>
+			</category>
+	<!-- fim 298 316 -->
+	<!-- id that 299 -->
+		<category>
+			<pattern>$RESPOSTA299</pattern>
+			<template>Ela não quer me prejudicar</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>desejar</set> ^ <set>prejudicar</set> ^ SUA ^ <set>conjuge</set> ^</pattern>
+				<template><srai>RESPOSTA299</srai></template>
+			</category>
+			<category>
+				<pattern># <set>prejudicar</set> ^ SUA ^ <set>conjuge</set> ^ <set>desejar</set> ^</pattern>
+				<template><srai>RESPOSTA299</srai></template>
+			</category>
+			<category>
+				<pattern># <set>desejar</set> ^ <set>prejudicar</set> ^</pattern>
+				<template><srai>RESPOSTA299</srai></template>
+			</category>
+			<category>
+				<pattern># <set>prejudicar</set> ^ <set>desejar</set> ^</pattern>
+				<template><srai>RESPOSTA299</srai></template>
+			</category>
+	<!-- fim 299 -->
+	<!-- id 300 -->
+		<category>
+			<pattern>$RESPOSTA300</pattern>
+			<template>Não acho que tenha tido nenhuma perseguição</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>iniciar</set> ^ <set>perseguir</set> ^</pattern>
+				<template><srai>RESPOSTA300</srai></template>
+			</category>
+			<category>
+				<pattern># <set>iniciar</set> ^ <set>perseguir</set> ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA300</srai></template>
+			</category>
+	<!-- fim 300 -->
+	<!-- id 301 -->
+		<category>
+			<pattern>$RESPOSTA301</pattern>
+			<template>Eu acho que nem há nenhuma perseguição</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>serestar</set> ^ <set>falar</set> ^ <set>poder</set> ^ <set>serestar</set> ^ <set>imaginacao</set> ^</pattern>
+				<template><srai>RESPOSTA301</srai></template>
+			</category>
+			<category>
+				<pattern># <set>poder</set> ^ <set>serestar</set> ^ <set>imaginacao</set> ^ <set>serestar</set> ^ <set>falar</set> ^</pattern>
+				<template><srai>RESPOSTA301</srai></template>
+			</category>
+			<category>
+				<pattern># <set>poder</set> ^ <set>serestar</set> ^ <set>imaginacao</set> ^</pattern>
+				<template><srai>RESPOSTA301</srai></template>
+			</category>
+	<!-- fim 301 -->
+	<!-- id 302 -->
+		<category>
+			<pattern># NAO ^ <set>serestar</set> ^ <set>enganado</set> ^</pattern>
+			<template>Eu não estou enganado sobre isso</template>
+		</category>
+	<!-- fim 302 -->
+	<!-- id 303 -->
+		<category>
+			<pattern>$RESPOSTA303</pattern>
+			<template>
+				Eu prefiro evitar os problemas mesmo, não é comum eu ter
+				algum
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>pensar</set> ^ <set>defender</set> ^ <set>perigos</set> ^</pattern>
+				<template><srai>RESPOSTA303</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensar</set> ^ <set>defender</set> ^ <set>perigos</set> ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA303</srai></template>
+			</category>
+	<!-- fim 303 -->
+	<category>
+		<pattern>_</pattern>
+		<template>
+				<think><set name="topic">*</set></think>
+				<sr/>
+		</template>
+	</category>
+	</topic>
+	<!-- id 304 -->
+		<category>
+			<pattern>RESPOSTA304</pattern>
+			<template><think><set name="topic">vocedelirio</set></think>Não percebi essas questões, não sei se falam de mim</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ver</set> ^ <set>alguem</set> ^ <set>falar</set> ^ VOCE ^ <set>qquestoes</set> ^ <set>falar</set> ^</pattern>
+				<template><srai>RESPOSTA304</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>falar</set> ^ <set>ver</set> ^ <set>falar</set> ^ VOCE ^</pattern>
+				<template><srai>RESPOSTA304</srai></template>
+			</category>
+	<!-- fim 304 -->
+	<!-- id 305 -->
+		<category>
+			<pattern>RESPOSTA305</pattern>
+			<template><think><set name="topic">vocedelirio</set></think>Não notei ninguém me seguindo</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>alguem</set> ^ <set>seguir</set> ^</pattern>
+				<template><srai>RESPOSTA305</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>seguir</set> ^ <set>alguem</set> ^</pattern>
+				<template><srai>RESPOSTA305</srai></template>
+			</category>
+	<!-- fim 305 -->
+	<!-- id 306 -->
+		<category>
+			<pattern>RESPOSTA306</pattern>
+			<template><think><set name="topic">vocedelirio</set></think>Não notei ninguém fazendo nenhum sinal pra mim</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>alguem</set> ^ <set>faz</set> ^ <set>gestos</set> ^ <set>qquestoes</set> ^ <set>deslocar</set> ^</pattern>
+				<template><srai>RESPOSTA306</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>deslocar</set> ^ <set>alguem</set> ^ <set>faz</set> ^ <set>gestos</set> ^</pattern>
+				<template><srai>RESPOSTA306</srai></template>
+			</category>
+	<!-- fim 306 -->
+	<!-- id 307 -->
+		<category>
+			<pattern>RESPOSTA307</pattern>
+			<template><think><set name="topic">vocedelirio</set></think>Não vi nada na tv sobre mim kk</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ver</set> ^ <set>midianoticia</set> ^ <set>algo</set> ^ <set>seurespeito</set> ^</pattern>
+				<template><srai>RESPOSTA307</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ver</set> ^ <set>algo</set> ^ <set>seurespeito</set> ^ <set>midianoticia</set> ^</pattern>
+				<template><srai>RESPOSTA307</srai></template>
+			</category>
+	<!-- fim 307 -->
+	<topic name="vocedelirio">
+	<!-- id 308 -->
+		<category>
+			<pattern>$RESPOSTA308</pattern>
+			<template>Não conheço ninguém que faça essas coisas</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>conhecer</set> ^ <set>alguem</set> ^ <set>fazer</set> ^ <set>este</set> ^</pattern>
+				<template><srai>RESPOSTA308</srai></template>
+			</category>
+			<category>
+				<pattern># <set>alguem</set> ^ <set>fazer</set> ^ <set>este</set> ^ <set>conhecer</set> ^</pattern>
+				<template><srai>RESPOSTA308</srai></template>
+			</category>
+	<!-- fim 308 -->
+	<!-- id 309 -->
+		<category>
+			<pattern>$RESPOSTA309</pattern>
+			<template>Não sei que intenção elas têm, mas não deve ser nada demais</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>objetivo</set> ^ <set>alguem</set> ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA309</srai></template>
+			</category>
+			<category>
+				<pattern># <set>alguem</set> ^ <set>ter</set> ^ <set>qquestoes</set> ^ <set>objetivo</set> ^</pattern>
+				<template><srai>RESPOSTA309</srai></template>
+			</category>
+	<!-- fim 309 -->
+	<category>
+		<pattern>_</pattern>
+		<template>
+				<think><set name="topic">*</set></think>
+				<sr/>
+		</template>
+	</category>
+  </topic>
+	<!-- id 310 -->
+		<category>
+			<pattern>RESPOSTA310</pattern>
+			<template>Não senti nada disso kk nada influenciou meu corpo</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>externo</set> ^ <set>influenciar</set> ^ <set>partecorpo</set> ^</pattern>
+				<template><srai>RESPOSTA310</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>influenciar</set> ^ <set>partecorpo</set> ^</pattern>
+				<template><srai>RESPOSTA310</srai></template>
+			</category>
+	<!-- fim 310 -->
+	<!-- id 311 -->
+		<category>
+			<pattern>^ <set>receber</set> ^ ALGUM ^ TIPO ^ MENSAGEM ^</pattern>
+			<template>Pelos menos, não lembro de ter recebido nenhuma</template>
+		</category>
+	<!-- fim 311 -->
+	<!-- id 312 -->
+		<category>
+			<pattern>RESPOSTA312</pattern>
+			<template>Apenas eu controlo meus pensamentos</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>algo</set> ^ <set>externo</set> ^ <set>influenciar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA312</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>estimulo</set> ^ <set>externo</set> ^ <set>influenciar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA312</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensamento</set> ^ <set>influenciar</set> ^ <set>externo</set> ^</pattern>
+				<template><srai>RESPOSTA312</srai></template>
+			</category>
+	<!-- fim 312 -->
+	<!-- id 313 -->
+		<category>
+			<pattern>RESPOSTA313</pattern>
+			<template>Não tive essa sensação, que bom né kkk</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>algo</set> ^ <set>conseguir</set> ^ <set>ler</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA313</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>alguem</set> ^ <set>conseguir</set> ^ <set>ler</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA313</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>conseguir</set> ^ <set>ler</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA313</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>algo</set> ^ <set>conseguir</set> ^ <set>ler</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA313</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>alguem</set> ^ <set>conseguir</set> ^ <set>ler</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA313</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>conseguir</set> ^ <set>ler</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA313</srai></template>
+			</category>
+	<!-- fim 313 -->
+	<!-- id 314 -->
+		<category>
+			<pattern>RESPOSTA314</pattern>
+			<template>Não senti não, meus pensamentos são meus apenas</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>pensamento</set> ^ <set>poder</set> ^ <set>perceber</set> ^ <set>alguem</set> ^</pattern>
+				<template><srai>RESPOSTA314</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>alguem</set> ^ <set>perceber</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA314</srai></template>
+			</category>
+	<!-- fim 314 -->
+	<!-- id 315 -->
+		<category>
+			<pattern>RESPOSTA315</pattern>
+			<template>Não acho que ninguém me controla</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>algo</set> ^ <set>conseguir</set> ^ <set>controlar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA315</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>alguem</set> ^ <set>conseguir</set> ^ <set>controlar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA315</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>conseguir</set> ^ <set>controlar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA315</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>algo</set> ^ <set>conseguir</set> ^ <set>controlar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA315</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>alguem</set> ^ <set>conseguir</set> ^ <set>controlar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA315</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>conseguir</set> ^ <set>controlar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA315</srai></template>
+			</category>
+	<!-- fim 315 -->
+	<!-- id 298 316 -->
+		<category>
+			<pattern>RESPOSTA298 316</pattern>
+			<template><think><set name="topic">conjugeconfianca</set></think>Eu confio na minha esposa sim</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ SUA ^ <set>conjuge</set> ^ <set>confiar</set> ^ NELA ^</pattern>
+				<template><srai>RESPOSTA298 316</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>confiar</set> ^ SUA ^ <set>conjuge</set> ^</pattern>
+				<template><srai>RESPOSTA298 316</srai></template>
+			</category>
+	<!-- fim 298 316 -->
+	<topic name="conjugeconfianca">
+	<!-- id 317 -->
+		<category>
+			<pattern>$RESPOSTA317</pattern>
+			<template>Não tenho motivos para suspeitar da fidelidade dela</template>
+		</category>
+		<!---->			
+			<category>
+				<pattern># <set>ter</set> ^<set>justificativa</set> ^ <set>suspeitar</set> ^ <set>fidelidade</set> ^ <set>conjuge</set> ^</pattern>
+				<template><srai>RESPOSTA317</srai></template>
+			</category>
+			<category>
+				<pattern># <set>conjuge</set> ^ <set>ter</set> ^<set>justificativa</set> ^ <set>suspeitar</set> ^ <set>fidelidade</set> ^</pattern>
+				<template><srai>RESPOSTA317</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^<set>justificativa</set> ^ <set>suspeitar</set> ^ <set>fidelidade</set> ^</pattern>
+				<template><srai>RESPOSTA317</srai></template>
+			</category>
+	<!-- fim 317 -->
+	<!-- id 318 -->
+		<category>
+			<pattern># <set>ter</set> ^ <set>provas</set> ^ <set>enganar</set> ^</pattern>
+			<template>Não tenho provas e nem preciso</template>
+		</category>
+	<!-- fim 318 -->
+	<!-- id that 319 -->
+		<category>
+			<pattern>$RESPOSTA319</pattern>
+			<template>Não aconteceu nada disso</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>iniciar</set> ^</pattern>
+				<template><srai>RESPOSTA319</srai></template>
+			</category>
+			<category>
+				<pattern># <set>iniciar</set> ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA319</srai></template>
+			</category>
+	<!-- fim 319 -->
+	<!-- id that 320 -->
+		<category>
+			<pattern>$RESPOSTA320</pattern>
+			<template>Pelo contrário, não acho que ela tenha feito isso</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>ter</set> ^ <set>convicto</set> ^ <set>enganar</set> ^</pattern>
+				<template><srai>RESPOSTA320</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>convicto</set> ^ <set>enganar</set> ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA320</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>saber</set> ^ <set>enganar</set> ^</pattern>
+				<template><srai>RESPOSTA320</srai></template>
+			</category>
+			<category>
+				<pattern># <set>saber</set> ^ <set>enganar</set> ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA320</srai></template>
+			</category>
+			<category>
+				<pattern># <set>convicto</set> ^ <set>enganar</set> ^</pattern>
+				<template><srai>RESPOSTA320</srai></template>
+			</category>
+	<!-- fim 320 -->
+	<category>
+		<pattern>_</pattern>
+		<template>
+				<think><set name="topic">*</set></think>
+				<sr/>
+		</template>
+	</category>
+  </topic>
+	<!-- id 321 -->
+		<category>
+			<pattern>RESPOSTA321</pattern>
+			<template>
+				Não tenho pensamentos tristes, são mais de preocupação.. o
+				que aconteceria com minha família se eu morresse, essas
+				coisas
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>pensamento</set> ^ <set>triste</set> ^</pattern>
+				<template><srai>RESPOSTA321</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensamento</set> ^ <set>triste</set> ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA321</srai></template>
+			</category>
+	<!-- fim 321 -->
+	<!-- id 322 -->
+		<category>
+			<pattern>RESPOSTA322</pattern>
+			<template>
+				Talvez de não ter estudado mais para ter um trabalho melhor
+				e receber mais dinheiro
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^</pattern>
+				<that>Talvez de não ter estudado mais para ter um trabalho melhor e receber mais dinheiro</that>
+				<template>Para poder dar melhores condições a minha família</template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+			<category>
+				<pattern>^ <set>algo</set> ^ <set>arrepender</set> ^</pattern>
+				<template><srai>RESPOSTA322</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>arrepender</set> ^ <set>algo</set> ^</pattern>
+				<template><srai>RESPOSTA322</srai></template>
+			</category>
+	<!-- fim 322 -->
+	<!-- id 323 -->
+		<category>
+			<pattern>^ <set>fez</set> ^ <set>maumal</set> ^ <set>alguem</set> ^</pattern>
+			<template>Não lembro de ter feito nada a ninguém</template>
+		</category>
+	<!-- fim 323 -->
+	<!-- id 324 -->
+		<category>
+			<pattern>RESPOSTA324</pattern>
+			<template>Não me culpam de nenhum crime</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>culpar</set> ^ <set>crimes</set> ^</pattern>
+				<template><srai>RESPOSTA324</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>crimes</set> ^ <set>culpar</set> ^</pattern>
+				<template><srai>RESPOSTA324</srai></template>
+			</category>
+	<!-- fim 324 -->
+	<!-- id 325 -->
+		<category>
+			<pattern>^ <set>reprovar</set> ^ <set>comportamento</set> ^</pattern>
+			<template>
+				Se reprovam eu não sei, mas minha família fala que ando bem
+				irritado ultimamente
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^</pattern>
+				<that>Se reprovam eu não sei mas minha família fala que ando bem irritado ultimamente</that>
+				<template>Ah, eu ando preocupado com dores no corpo</template>
+			</category>
+			<category>
+				<pattern>^ <set>justificativa</set> ^</pattern>
+				<that>Se reprovam eu não sei mas minha família fala que ando bem irritado ultimamente</that>
+				<template>Ah, eu ando preocupado com dores no corpo</template>
+			</category>
+		<!-- fim proprio -->
+	<!-- fim 325 -->
+	<!-- id 326 -->
+		<category>
+			<pattern>RESPOSTA326</pattern>
+			<template>Não, disso não</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>temer</set> ^ <set>voce</set> ^ <set>arruinar</set> ^</pattern>
+				<template><srai>RESPOSTA326</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>temer</set> ^ <set>arruinar</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA326</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>arruinar</set> ^ <set>voce</set> ^ <set>temer</set> ^</pattern>
+				<template><srai>RESPOSTA326</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>voce</set> ^ <set>arruinar</set> ^ <set>temer</set> ^</pattern>
+				<template><srai>RESPOSTA326</srai></template>
+			</category>
+	<!-- fim 326 -->
+	<!-- id 327 -->
+		<category>
+			<pattern>RESPOSTA327</pattern>
+			<template>
+				Tenho medo disso, de acontecer algo comigo, pegar uma doença
+				grave, não poder trabalhar ou morrer e deixar a minha
+				família em apuros
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>naotrabalhar</set> ^ <set>familiares</set> ^ <set>fome</set> ^</pattern>
+				<template><srai>RESPOSTA327</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>naotrabalhar</set> ^ <set>familiares</set> ^ <set>fome</set> ^</pattern>
+				<template><srai>RESPOSTA327</srai></template>
+			</category>
+	<!-- fim 327 -->
+	<!-- id 328 -->
+		<category>
+			<pattern>RESPOSTA328</pattern>
+			<template>
+				Se eu me preocupo com a saúde? Direto sinto dores e consulto
+				vários médicos.. melhor ter certeza né. Não dá pra confiar
+				nas máquinas, e ser analisado só por um médico é pouco
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^</pattern>
+				<that>Não dá pra confiar nas máquinas e ser analisado só por um médico é pouco</that>
+				<template>Simplesmente não confio assim de cara</template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+			<category>
+				<pattern>^ <set>preocupar</set> ^ <set>saude</set> ^</pattern>
+				<template><srai>RESPOSTA328</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>saude</set> ^ <set>preocupar</set> ^</pattern>
+				<template><srai>RESPOSTA328</srai></template>
+			</category>
+	<!-- fim 328 -->
+	<!-- id 329 -->
+		<category>
+			<pattern>RESPOSTA329</pattern>
+			<template>
+				Agora agora nada. Mas estava com dores no braço direito e no
+				peito esses dias, não sei ao certo a região do peito
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>medico</set> ^</pattern>
+				<that>Mas estava com dores no braço direito e no peito esses dias não sei ao certo a região do peito</that>
+				<template>
+					Sempre que posso, vou ao médico. Tenho que ir ao médico
+					novamente kk
+				</template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+			<category>
+				<pattern>^ <set>partecorpo</set> ^ DOENDO ^</pattern>
+				<template><srai>RESPOSTA329</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ DOENDO ^</pattern>
+				<template><srai>RESPOSTA329</srai></template>
+			</category>
+	<!-- fim 329 -->
+	<!-- id 330 -->
+		<category>
+			<pattern>RESPOSTA330</pattern>
+			<template>
+				Não sei, talvez eu esteja com alguma doença grave. Penso em
+				consultar novamente assim que possível
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^</pattern>
+				<that>Penso em consultar novamente assim que possível</that>
+				<template>Qualquer dor que sinto já penso que seja uma doença grave</template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+			<category>
+				<pattern>^ <set>algo</set> ^ <set>errado</set> ^ <set>partecorpo</set> ^</pattern>
+				<template><srai>RESPOSTA330</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>partecorpo</set> ^ <set>algo</set> ^ <set>errado</set> ^</pattern>
+				<template><srai>RESPOSTA330</srai></template>
+			</category>
+	<!-- fim 330 -->
+	<!-- id 331 -->
+		<category>
+			<pattern>RESPOSTA331</pattern>
+			<template>Acredito que não falte nada em meu corpo</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ FALTA ^ <set>algo</set> ^ <set>partecorpo</set> ^</pattern>
+				<template><srai>RESPOSTA331</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>partecorpo</set> ^ FALTA ^ <set>algo</set> ^</pattern>
+				<template><srai>RESPOSTA331</srai></template>
+			</category>
+	<!-- fim 331 -->
+	<!-- id 332 -->
+		<category>
+			<pattern>RESPOSTA332</pattern>
+			<template>Nenhuma parte do meu corpo está podre ou estragada</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>algo</set> ^ <set>partecorpo</set> ^ <set>podre</set> ^</pattern>
+				<template><srai>RESPOSTA332</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>partecorpo</set> ^ <set>algo</set> ^ <set>podre</set> ^</pattern>
+				<template><srai>RESPOSTA332</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>algo</set> ^ <set>podre</set> ^ <set>partecorpo</set> ^</pattern>
+				<template><srai>RESPOSTA332</srai></template>
+			</category>
+	<!-- fim 332 -->
+	<!-- id 333 -->
+		<category>
+			<pattern>RESPOSTA333</pattern>
+			<template>Não, eu me sinto normal</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>sentir</set> ^ <set>especialmente</set> ^ <set>forte</set> ^</pattern>
+				<template><srai>RESPOSTA333</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>especialmente</set> ^ <set>forte</set> ^ <set>sentir</set> ^</pattern>
+				<template><srai>RESPOSTA333</srai></template>
+			</category>
+	<!-- fim 333 -->
+	<!-- id 334 -->
+		<category>
+			<pattern>RESPOSTA334</pattern>
+			<template>Não tenho nenhum talento sabe? Nenhuma habilidade especial</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>talento</set> ^</pattern>
+				<template><srai>RESPOSTA334</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>talento</set> ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA334</srai></template>
+			</category>
+	<!-- fim 334 -->
+	<!-- id 335 -->
+		<category>
+			<pattern>RESPOSTA335</pattern>
+			<template>Não tenho nada em mente agora</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>objetivo</set> ^ FUTURO ^</pattern>
+				<template><srai>RESPOSTA335</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>objetivo</set> ^ FUTURO ^ <set>ter</set> ^</pattern>
+				<template><srai>RESPOSTA335</srai></template>
+			</category>
+	<!-- fim 335 -->
+	<!-- id 336 -->
+		<category>
+			<pattern>RESPOSTA336</pattern>
+			<template>Não que eu tenha percebido, continua igual sempre foi</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>aumentar</set> ^ <set>ultimos</set> ^ <set>capacidade</set> ^ <set>trabalhar</set> ^</pattern>
+				<template><srai>RESPOSTA336</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ultimos</set> ^ <set>aumentar</set> ^ <set>capacidade</set> ^ <set>trabalhar</set> ^</pattern>
+				<template><srai>RESPOSTA336</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>capacidade</set> ^ <set>trabalhar</set> ^ <set>aumentar</set> ^ <set>ultimos</set> ^</pattern>
+				<template><srai>RESPOSTA336</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>ultimos</set> ^ <set>capacidade</set> ^ <set>trabalhar</set> ^ <set>aumentar</set> ^</pattern>
+				<template><srai>RESPOSTA336</srai></template>
+			</category>
+	<!-- fim 336 -->
+	<!-- id 337 -->
+		<category>
+			<pattern>^ <set>ver</set> ^ <set>alguem</set> ^ <set>importante</set> ^ <set>interessa</set> ^ <set>voce</set> ^</pattern>
+			<template>Não notei ninguém importante me observando</template>
+		</category>
+	<!-- fim 337 -->
+	<!-- id 338 -->
+		<category>
+			<pattern>^ VOCE ^ <set>rico</set> ^</pattern>
+			<template>Não sou uma pessoa rica</template>
+		</category>
+	<!-- fim 338 -->
+	<!-- id 339 -->
+		<category>
+			<pattern>RESPOSTA339</pattern>
+			<template>Não sou uma pessoa religiosa</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ E ^ <set>alguem</set> ^ <set>religioso</set> ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+			<category>
+				<pattern>^ E ^ <set>religioso</set> ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+			<category>
+				<pattern>^ ES ^ <set>alguem</set> ^ <set>religioso</set> ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+			<category>
+				<pattern>^ ES ^ <set>religioso</set> ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+			<category>
+				<pattern>^ VOCE ^ <set>alguem</set> ^ <set>religioso</set> ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+			<category>
+				<pattern>^ VOCE ^ <set>religioso</set> ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>religioso</set> ^ VOCE ^ E ^ <set>alguem</set> ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>religioso</set> ^ VOCE ^ E ^</pattern>
+				<template><srai>RESPOSTA339</srai></template>
+			</category>
+	<!-- fim 339 -->
+	<!-- id 340 342 -->
+		<category>
+			<pattern>RESPOSTA340 342</pattern>
+			<template>Nunca recebi nenhum contato desse tipo</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>contato</set> ^ <set>sobrenatural</set> ^</pattern>
+				<template><srai>RESPOSTA340 342</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sobrenatural</set> ^ <set>contato</set> ^</pattern>
+				<template><srai>RESPOSTA340 342</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>influenciar</set> ^ <set>sobrenatural</set> ^</pattern>
+				<template><srai>RESPOSTA340 342</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sobrenatural</set> ^ <set>influenciar</set> ^</pattern>
+				<template><srai>RESPOSTA340 342</srai></template>
+			</category>
+	<!-- fim 340 342 -->
+	<!-- id 341 -->
+		<category>
+			<pattern>RESPOSTA341</pattern>
+			<template>Não sinto isso, não sou muito ligado a religião</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>ter</set> ^ <set>relacao</set> ^ ESPECIAL ^ DEUS ^</pattern>
+				<template><srai>RESPOSTA341</srai></template>
+			</category>
+			<category>
+				<pattern>^ DEUS ^ <set>ter</set> ^ <set>relacao</set> ^ ESPECIAL ^</pattern>
+				<template><srai>RESPOSTA341</srai></template>
+			</category>
+	<!-- fim 341 -->
+	<!-- id 343 344 -->
+		<category>
+			<pattern>RESPOSTA343 344</pattern>
+			<template>Nunca conversei não</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>falar</set> ^ <set>sobrenatural</set> ^</pattern>
+				<template><srai>RESPOSTA343 344</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>sobrenatural</set> ^ <set>falar</set> ^</pattern>
+				<template><srai>RESPOSTA343 344</srai></template>
+			</category>
+	<!-- fim 343 344 -->
+	<!-- id 345 -->
+		<category>
+			<pattern>RESPOSTA345</pattern>
+			<template>
+				<think><set name="topic">pensamentosfrequentes</set></think>
+				Tenho alguns pensamentos frequentes sim
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern>^ <set>pensamento</set> ^ <set>manifestar</set> ^ <set>frequentemente</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA345</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>manifestar</set> ^ <set>pensamento</set> ^ <set>frequentemente</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA345</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensamento</set> ^ <set>frequentemente</set> ^</pattern>
+				<template><srai>RESPOSTA345</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>frequentemente</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA345</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>pensar</set> ^ <set>frequentemente</set> ^</pattern>
+				<template><srai>RESPOSTA345</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>frequentemente</set> ^ <set>pensar</set> ^</pattern>
+				<template><srai>RESPOSTA345</srai></template>
+			</category>
+	<!-- fim 345 -->
+	<topic name="pensamentosfrequentes">
+	<!-- id 346 -->
+		<category>
+			<pattern>$RESPOSTA346</pattern>
+			<template>Ah, é frequente sim. No mínimo toda semana</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>repetir</set> ^ <set>frequentemente</set> ^</pattern>
+				<template><srai>RESPOSTA346</srai></template>
+			</category>
+			<category>
+				<pattern># <set>frequentemente</set> ^ <set>repetir</set> ^</pattern>
+				<template><srai>RESPOSTA346</srai></template>
+			</category>
+	<!-- fim 346 -->
+	<!-- id 347 -->
+		<category>
+			<pattern>$RESPOSTA347</pattern>
+			<template>Esses pensamentos são meus mesmo</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>vem</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA347</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensamento</set> ^ <set>vem</set> ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA347</srai></template>
+			</category>
+			<category>
+				<pattern># <set>vem</set> ^ <set>qquestoes</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA347</srai></template>
+			</category>
+	<!-- fim 347 -->
+	<!-- id 348 -->
+		<category>
+			<pattern>$RESPOSTA348</pattern>
+			<template>São meus sim</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>serestar</set> ^ <set>seu</set> ^</pattern>
+				<template><srai>RESPOSTA348</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensamento</set> ^ <set>seu</set> ^</pattern>
+				<template><srai>RESPOSTA348</srai></template>
+			</category>
+			<category>
+				<pattern># <set>seu</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA348</srai></template>
+			</category>
+			<category>
+				<pattern># <set>seu</set> ^ <set>serestar</set> ^</pattern>
+				<template><srai>RESPOSTA348</srai></template>
+			</category>
+	<!-- fim 348 -->
+	<!-- id 349 -->
+		<category>
+			<pattern>$RESPOSTA349</pattern>
+			<template>Eles incomodam, mas como se trata de saúde, nunca é demais</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>serestar</set> ^ <set>desagradavel</set> ^</pattern>
+				<template><srai>RESPOSTA349</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensamento</set> ^ <set>desagradavel</set> ^</pattern>
+				<template><srai>RESPOSTA349</srai></template>
+			</category>
+			<category>
+				<pattern># <set>desagradavel</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA349</srai></template>
+			</category>
+	<!-- fim 349 -->
+	<!-- id 350 -->
+		<category>
+			<pattern>$RESPOSTA350</pattern>
+			<template>
+				Ah, é frequente eu pensar se minha família está segura, com
+				saúde. Assim como se eu estou com saúde, pois sinto várias
+				dores no corpo
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>serestar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA350</srai></template>
+			</category>
+			<category>
+				<pattern># <set>serestar</set> ^ <set>qquestoes</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA350</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensamento</set> ^ <set>qquestoes</set> ^ <set>serestar</set> ^</pattern>
+				<template><srai>RESPOSTA350</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensamento</set> ^ <set>serestar</set> ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA350</srai></template>
+			</category>
+			<category>
+				<pattern># <set>falar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA350</srai></template>
+			</category>
+			<category>
+				<pattern># <set>pensamento</set> ^ <set>falar</set> ^</pattern>
+				<template><srai>RESPOSTA350</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA350</srai></template>
+			</category>
+	<!-- fim 350 -->
+	<!-- id 351 -->
+		<category>
+			<pattern>$RESPOSTA351</pattern>
+			<template>Eu vou ao médico constantemente verificar sobre minhas dores</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>fez</set> ^ <set>algo</set> ^ <set>livrar</set> ^</pattern>
+				<template><srai>RESPOSTA351</srai></template>
+			</category>
+			<category>
+				<pattern># <set>algo</set> ^ <set>livrar</set> ^ <set>fez</set> ^</pattern>
+				<template><srai>RESPOSTA351</srai></template>
+			</category>
+			<category>
+				<pattern># <set>fez</set> ^ <set>livrar</set> ^</pattern>
+				<template><srai>RESPOSTA351</srai></template>
+			</category>
+			<category>
+				<pattern># <set>algo</set> ^ <set>livrar</set> ^</pattern>
+				<template><srai>RESPOSTA351</srai></template>
+			</category>
+	<!-- fim 351 -->
+	<!-- id 352 -->
+		<category>
+			<pattern>$RESPOSTA352</pattern>
+			<template>Não faço nada dessas coisas não</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>ritual</set> ^ <set>neutralizar</set> ^ <set>pensamento</set> ^</pattern>
+				<template><srai>RESPOSTA352</srai></template>
+			</category>
+			<category>
+				<pattern># <set>neutralizar</set> ^ <set>pensamento</set> ^ <set>ritual</set> ^</pattern>
+				<template><srai>RESPOSTA352</srai></template>
+			</category>
+	<!-- fim 352 -->
+	<category>
+		<pattern>_</pattern>
+		<template>
+				<think><set name="topic">*</set></think>
+				<sr/>
+		</template>
+	</category>
+  </topic>
+</aiml>

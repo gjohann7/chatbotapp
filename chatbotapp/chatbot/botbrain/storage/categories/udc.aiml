@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern></pattern>
+    <template>
+      <random>
+        <li>Não entendi, podes me falar de outra forma?</li>
+        <li>O que? kk</li>
+        <li>Como assim? kk</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>UDC</pattern>
+    <template>
+      <random>
+        <li>Então</li>
+        <li>O que mais tu gostarias de saber? kk</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>POR FAVOR</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>LEGAL</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>AFF</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>AFFS</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>OK</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>TA BOM</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>OKAY</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>CLARO</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>SIM</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>NAO</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>HM</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>HMM</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>HUM</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>HUMM</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>ENTENDI</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>ENTAO</pattern>
+    <template><srai>UDC</srai></template>
+  </category>
+  <category>
+    <pattern>^ OBRIGADO ^</pattern>
+    <template>De nada</template>
+  </category>
+  <category>
+    <pattern>^ OBRIGADA ^</pattern>
+    <template>De nada</template>
+  </category>
+  <category>
+    <pattern>^ PARABENS ^</pattern>
+    <template>Obrigado!</template>
+  </category>
+  <category>
+    <pattern>DESCULPE</pattern>
+    <template>Tudo bem</template>
+  </category>
+  <category>
+    <pattern>DESCULPA</pattern>
+    <template>Tudo bem</template>
+  </category>
+  <category>
+    <pattern>DESCULPAS</pattern>
+    <template>Tudo bem</template>
+  </category>
+  <category>
+    <pattern>MESMO</pattern>
+    <template>Uhum</template>
+  </category>
+  <category>
+    <pattern>^ TCHAU ^</pattern>
+    <template>Tchau tchau</template>
+  </category>
+  <category>
+    <pattern>^ CHAU ^</pattern>
+    <template>Tchau tchau</template>
+  </category>  
+  <category>
+    <pattern>^ THAU ^</pattern>
+    <template>Tchau tchau</template>
+  </category>  
+  <category>
+    <pattern>^ BYE ^</pattern>
+    <template>Tchau tchau</template>
+  </category>  
+  <category>
+    <pattern>^ ATE MAIS</pattern>
+    <template>Tchau tchau</template>
+  </category>
+  <category>
+    <pattern>^ ATE DEPOIS</pattern>
+    <template>Tchau tchau</template>
+  </category>  
+  <category>
+    <pattern>^ XAU ^</pattern>
+    <template>Tchau tchau</template>
+  </category>  
+  <category>
+    <pattern>^ ADEUS ^</pattern>
+    <template>Tchau tchau</template>
+  </category>  
+  <category>
+    <pattern><set>cumprimentos</set></pattern>
+    <template>Olá</template>
+  </category>
+  <category>
+    <pattern>^ <set>cumprimentos</set> ^ TUDO ^</pattern>
+    <template>Tudo sim e contigo?</template>
+  </category>
+  <category>
+    <pattern>^ <set>cumprimentos</set> ^ COMO ^</pattern>
+    <template>Bem e tu?</template>
+  </category>
+  <category>
+    <pattern>^ TUDO BEM ^</pattern>
+    <template>Tudo sim e contigo?</template>
+  </category>
+  <category>
+    <pattern>^ TUDO CERTO ^</pattern>
+    <template>Tudo sim e contigo?</template>
+  </category>
+  <category>
+    <pattern>^ TUDO OK ^</pattern>
+    <template>Tudo sim e contigo?</template>
+  </category>
+  <category>
+    <pattern>^ TUDO OKAY ^</pattern>
+    <template>Tudo sim e contigo?</template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ VAI ^ <set>voce</set> ^</pattern>
+    <template>Bem e tu?</template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ <set>voce</set> ^ ESTA ^</pattern>
+    <template>Bem e tu?</template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ ESTA ^</pattern>
+    <template>Bem e tu?</template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ ESTAS ^</pattern>
+    <template>Bem e tu?</template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ <set>voce</set> ^ ESTAS ^</pattern>
+    <template>Bem e tu?</template>
+  </category>
+  <category>
+    <pattern>^ CERTO TAMBEM ^</pattern>
+    <template>Que bom</template>
+  </category>
+  <category>
+    <pattern>^ OK TAMBEM ^</pattern>
+    <template>Que bom</template>
+  </category>
+  <category>
+    <pattern>^ OKAY TAMBEM ^</pattern>
+    <template>Que bom</template>
+  </category>
+  <category>
+    <pattern>^ BEM TAMBEM ^</pattern>
+    <template>Que bom</template>
+  </category>
+  <category>
+    <pattern>^ TUDO TAMBEM ^</pattern>
+    <template><srai>BEM TAMBEM</srai></template>
+  </category>
+  <category>
+    <pattern>^ TUDO CERTO ^</pattern>
+    <template><srai>BEM TAMBEM</srai></template>
+  </category>
+  <category>
+    <pattern>^ TUDO OK ^</pattern>
+    <template><srai>BEM TAMBEM</srai></template>
+  </category>
+  <category>
+    <pattern>^ TUDO OKAY ^</pattern>
+    <template><srai>BEM TAMBEM</srai></template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ <set>serestar</set> ^ COISAS ^</pattern>
+    <template>Olá, acredito que bem</template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ <set>serestar</set> ^ VIDA ^</pattern>
+    <template>Olá, acredito que bem</template>
+  </category>
+  <category>
+    <pattern>^ COMO ^ ANDA ^ VIDA ^</pattern>
+    <template>Olá, acredito que bem</template>
+  </category>
+  <category>
+    <pattern>KK</pattern>
+    <template>kk</template>
+  </category>
+  <category>
+    <pattern>KKK</pattern>
+    <template>kkk</template>
+  </category>
+  <category>
+    <pattern>KKKK</pattern>
+    <template>kkkk</template>
+  </category>
+  <category>
+    <pattern>KKKKK</pattern>
+    <template>kkkkk</template>
+  </category>
+  <category>
+    <pattern>HA</pattern>
+    <template>ha</template>
+  </category>
+  <category>
+    <pattern>HAHA</pattern>
+    <template>haha</template>
+  </category>
+  <category>
+    <pattern>HAHAHA</pattern>
+    <template>hahaha</template>
+  </category>
+  <category>
+    <pattern>^ MEU ^ NOME ^ E *</pattern>
+    <template>
+      <think><set name="student"><star index="3"/></set></think>
+      Olá, <get name="student"/>
+    </template>
+  </category>
+  <category>
+    <pattern>^ ME ^ <set>chamar</set> *</pattern>
+    <template><srai>MEU NOME E <star index="3"/></srai></template>
+  </category>
+</aiml>
