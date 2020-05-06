@@ -28,7 +28,7 @@ body {
 }
 #header a {
   font-size: 120%;
-  color: whitesmoke;
+  color: #f5f5f5;
   outline: none;
 }
 #header ul {
@@ -98,7 +98,7 @@ body {
   user-select: none;
 }
 #header .menu-icon #navicon {
-  background: whitesmoke;
+  background: #f5f5f5;
   display: block;
   height: 2px;
   position: relative;
@@ -108,7 +108,7 @@ body {
 }
 #header .menu-icon #navicon:before,
 #header .menu-icon #navicon:after {
-  background: whitesmoke;
+  background: #f5f5f5;
   content: "";
   display: block;
   height: 100%;
@@ -127,6 +127,7 @@ body {
   display: none;
 }
 #header .menu-btn:checked ~ .menu {
+  max-height: -moz-fit-content;
   max-height: fit-content;
 }
 #header .menu-btn:checked ~ .menu-icon #navicon {
