@@ -10,6 +10,11 @@ use case is about psychopathology and its practical study.
 
 Detailed documentation is in the "docs" directory.
 
+## Installation
+
+Download the chatbotapp in add it into your project directory and 
+run `python manage.py -r requirements.txt` to install the app requirements.
+
 ## Usage
 
 Add "chatbotapp" to your INSTALLED_APPS setting:
