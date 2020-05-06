@@ -86,7 +86,7 @@ FORCE_SCRIPT_NAME = ''
 STATIC_URL = FORCE_SCRIPT_NAME + '/static/'
 STATICFILES_DIRS = [BASE_DIR + "/chatbotapp/static/"]
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
 
 #os.makedirs(STATIC_TMP, exist_ok=True)
 
