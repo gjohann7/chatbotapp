@@ -132,29 +132,29 @@ class AimlChatbot(EmbeddedDataFileBot):
         """
         Sets up the chatbot settings.
         """
-        filepath = settings.BASE_DIR + "\\chatbotapp\\chatbot" + \
-            ("" if not self.chatbot else "\\" + self.chatbot)
+        filepath = settings.BASE_DIR + "/chatbotapp/chatbot" + \
+            ("" if not self.chatbot else "/" + self.chatbot)
         self.files = {
-            'aiml': [filepath + '\\storage\\categories'],
-            'learnf': [filepath + '\\storage\\learnf'],
-            'patterns': filepath + '\\storage\\nodes\\pattern_nodes.conf',
-            'templates': filepath + '\\storage\\nodes\\template_nodes.conf',
-            'properties': filepath + '\\storage\\properties\\properties.txt',
-            'defaults': filepath + '\\storage\\properties\\defaults.txt',
-            'sets': [filepath + '\\storage\\sets'],
-            'maps': [filepath + '\\storage\\maps'],
-            'rdfs': [filepath + '\\storage\\rdfs'],
-            'denormals': filepath + '\\storage\\lookups\\denormal.txt',
-            'normals': filepath + '\\storage\\lookups\\normal.txt',
-            'genders': filepath + '\\storage\\lookups\\gender.txt',
-            'persons': filepath + '\\storage\\lookups\\person.txt',
-            'person2s': filepath + '\\storage\\lookups\\person2.txt',
-            'regexes': filepath + '\\storage\\regex\\regex-templates.txt',
-            'preprocessors': filepath + '\\storage\\processing\\preprocessors.conf',
-            'postprocessors': filepath + '\\storage\\processing\\postprocessors.conf'
+            'aiml': [filepath + '/storage/categories'],
+            'learnf': [filepath + '/storage/learnf'],
+            'patterns': filepath + '/storage/nodes/pattern_nodes.conf',
+            'templates': filepath + '/storage/nodes/template_nodes.conf',
+            'properties': filepath + '/storage/properties/properties.txt',
+            'defaults': filepath + '/storage/properties/defaults.txt',
+            'sets': [filepath + '/storage/sets'],
+            'maps': [filepath + '/storage/maps'],
+            'rdfs': [filepath + '/storage/rdfs'],
+            'denormals': filepath + '/storage/lookups/denormal.txt',
+            'normals': filepath + '/storage/lookups/normal.txt',
+            'genders': filepath + '/storage/lookups/gender.txt',
+            'persons': filepath + '/storage/lookups/person.txt',
+            'person2s': filepath + '/storage/lookups/person2.txt',
+            'regexes': filepath + '/storage/regex/regex-templates.txt',
+            'preprocessors': filepath + '/storage/processing/preprocessors.conf',
+            'postprocessors': filepath + '/storage/processing/postprocessors.conf'
         }
 
-        self.logging = str(filepath + "\\config\\" +
-                           self.platform + "\\logging.yaml")
-        self.config = str(filepath + "\\config\\" +
-                          self.platform + "\\config.yaml")
+        self.logging = str(filepath + "/config/" +
+                           self.platform + "/logging.yaml")
+        self.config = str(filepath + "/config/" +
+                          self.platform + "/config.yaml")
