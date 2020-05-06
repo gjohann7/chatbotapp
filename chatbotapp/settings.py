@@ -83,7 +83,7 @@ DATABASES = {
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'chatbotapp/static')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'chatbotapp/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #STATIC_ROOT = os.path.join(BASE_DIR, "static")
 #STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
