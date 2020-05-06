@@ -81,13 +81,13 @@ DATABASES = {
 # }
 
 # Static files (CSS, JavaScript, Images)
-STATIC_TMP = os.path.join(BASE_DIR, 'static')
+#STATIC_TMP = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR + "/chatbotapp/static/"]
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
 
-os.makedirs(STATIC_TMP, exist_ok=True)
+#os.makedirs(STATIC_TMP, exist_ok=True)
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
