@@ -47,7 +47,7 @@ ROOT_URLCONF = 'chatbotapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR + "\\chatbotapp\\templates\\"],
+        'DIRS': [BASE_DIR + "/chatbotapp/templates"],
         # 'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
