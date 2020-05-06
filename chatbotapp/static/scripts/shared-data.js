@@ -17,7 +17,9 @@ const SharedData = (function () {
    * @param {String} ending An event triggered in the window.
    */
   const generateURL = (ending) =>
-    "http://localhost:8000/conversation/question=" + encodeURIComponent(ending);
+    `https://chatbot-patient.herokuapp.com/conversation/question=${encodeURIComponent(
+      ending
+    )}`;
 
   /**
    * This IIFE as object is responsible for the internal commands to the server, which
