@@ -58,7 +58,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'chatbotapp.wsgi.application'
 
-CORS_ORIGIN_WHITELIST = config('CORS_ORIGIN_WHITELIST', cast=Csv())
+CORS_ORIGIN_WHITELIST = config(
+    'CORS_ORIGIN_WHITELIST', default='https://chatbot-patient.herokuapp.com', cast=Csv())
 
 # Database
 DATABASES = {
