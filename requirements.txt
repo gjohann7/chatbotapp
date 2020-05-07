@@ -99,3 +99,4 @@ whitenoise==5.0.1
 wikipedia==1.4.0
 yarg==0.1.9
 yarl==1.4.2
+django-cors-headers===3.2.1

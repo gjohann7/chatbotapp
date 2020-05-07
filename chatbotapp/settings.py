@@ -58,8 +58,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'chatbotapp.wsgi.application'
 
-CORS_ORIGIN_WHITELIST = config(
-    'CORS_ORIGIN_WHITELIST', default='https://chatbot-patient.herokuapp.com', cast=Csv())
+CORS_ORIGIN_WHITELIST = config('CORS_ORIGIN_WHITELIST', cast=Csv())
 
 # Database
 DATABASES = {
@@ -102,14 +101,14 @@ USE_TZ = True
 # EMAIL
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = config('EMAIL', default='chatbot.app.contact@gmail.com')
-EMAIL_FROM = config('EMAIL', default='chatbot.app.contact@gmail.com')
+DEFAULT_FROM_EMAIL = config('EMAIL')
+EMAIL_FROM = config('EMAIL')
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = config('EMAIL', default='chatbot.app.contact@gmail.com')
+EMAIL_HOST_USER = config('EMAIL')
 EMAIL_HOST_PASSWORD = config('EMAIL_PASSWORD')
 EMAIL_PORT = config('EMAIL_PORT', cast=int)
-CONTACT_EMAIL = config('EMAIL', default='chatbot.app.contact@gmail.com')
+CONTACT_EMAIL = config('EMAIL')
 
 # Auth
 LOGIN_URL = 'core:login'
