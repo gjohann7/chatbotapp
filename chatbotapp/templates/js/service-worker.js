@@ -65,11 +65,6 @@ const Task = (function () {
    */
   const run = (command) => {
     const xhr = new XMLHttpRequest() || new ActiveXObject("Microsoft.XMLHTTP");
-    if ("withCredentials" in xhr) {
-      xhr.withCredentials = true;
-    } else {
-      alert("CORS not supported");
-    }
     xhr.onload = onLoad;
     xhr.onerror = onError;
     xhr.open("GET", generateURL(command));

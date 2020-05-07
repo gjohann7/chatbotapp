@@ -13,6 +13,7 @@ INTERNAL_COMMANDS = {
     'back': 'Voltei kk',
     'silence': 'Então kk'
 }
+user_username = ''
 
 
 @login_required
@@ -29,6 +30,8 @@ def conversation(request):
     HttpResponse
         The server response to the client.
     """
+    global user_username
+    user_username = request.user
     messages = Message.objects.filter(
         owner=request.user).values('is_bot', 'content').reverse()
     messages_length = len(messages)
@@ -46,7 +49,6 @@ def conversation(request):
     return render(request, template + 'conversation.html', context)
 
 
-@login_required
 def handle_message(request, message):
     """Management definition of the client message to the chatbot.
 
@@ -63,7 +65,6 @@ def handle_message(request, message):
         The server response to the client.
     """
     response = "test approved"
-    username = request.user.username
 
     if message != "test connection":
         if 'INTERNAL COMMAND' in message:
@@ -77,16 +78,16 @@ def handle_message(request, message):
             else:
                 # 'SILENCE' in message:
                 new_message = INTERNAL_COMMANDS["silence"]
-            Message(content=new_message, owner=request.user, is_bot=True).save()
+            Message(content=new_message, owner=user_username, is_bot=True).save()
         else:
-            Message(content=message, owner=request.user).save()
+            Message(content=message, owner=user_username).save()
             response = bot.retrieve_message(str(message))
             if response[-1:] == ".":
                 response = response[:-1]
-            Message(content=response, owner=request.user, is_bot=True).save()
+            Message(content=response, owner=user_username, is_bot=True).save()
 
     reply = {
-        "username": request.user.username,
+        "username": str(user_username),
         "response": response
     }
     return HttpResponse(json.dumps(reply, ensure_ascii=False), status=200)

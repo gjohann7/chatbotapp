@@ -22,7 +22,7 @@
       btnLogout: document.getElementById("btnLogout"),
       btnIntro: document.getElementById("btnIntro"),
       contentWrapper: document.getElementById("contentWrapper"),
-      contenctContact: document.getElementById("contenctContact"),
+      contact: document.getElementById("contact"),
       chat: document.getElementById("chat"),
       smallerFontSize: document.getElementById("smallerFontSize"),
       defaultFontSize: document.getElementById("defaultFontSize"),
@@ -300,7 +300,7 @@
           if (allowScroll) {
             window.scrollBy(
               0,
-              HTMLElements.contenctContact.scrollTop +
+              HTMLElements.contact.scrollTop +
                 2 * HTMLElements.footer.scrollHeight
             );
             allowScroll = false;
@@ -701,7 +701,7 @@
    */
   const Manager = (function Manager() {
     const worker = (function () {
-      instance = new Worker("./service-worker.js");
+      const instance = new Worker("./service-worker.js");
       instance.onmessage = onMessage;
       return instance;
     })();
@@ -815,9 +815,11 @@
     }
 
     if (navigator.serviceWorker !== undefined) {
-      navigator.serviceWorker.register("/service-worker").catch(function (err) {
-        console.log(err);
-      });
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .catch(function (err) {
+          console.log(err);
+        });
     } else {
       console.log("Service Worker is not supported");
     }
@@ -827,11 +829,6 @@
     if (window.location.pathname.includes("conversation")) {
       const xhr =
         new XMLHttpRequest() || new ActiveXObject("Microsoft.XMLHTTP");
-      if ("withCredentials" in xhr) {
-        xhr.withCredentials = true;
-      } else {
-        alert("CORS not supported");
-      }
       xhr.onload = () => {
         if (xhr.responseText) {
           LocalStorage.load(JSON.parse(xhr.responseText).username);

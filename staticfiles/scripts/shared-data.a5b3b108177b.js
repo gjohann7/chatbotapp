@@ -11,7 +11,6 @@ const SharedData = (function () {
   const OFF = 3;
   const BACK = 4;
   //https://chatbot-patient.herokuapp.com
-  //http://localhost
   /**
    * This function generate the chatbot question request URI.
    * - Poscondition: The request URI was generated.

@@ -22,7 +22,7 @@
       btnLogout: document.getElementById("btnLogout"),
       btnIntro: document.getElementById("btnIntro"),
       contentWrapper: document.getElementById("contentWrapper"),
-      contact: document.getElementById("contact"),
+      contenctContact: document.getElementById("contenctContact"),
       chat: document.getElementById("chat"),
       smallerFontSize: document.getElementById("smallerFontSize"),
       defaultFontSize: document.getElementById("defaultFontSize"),
@@ -300,7 +300,7 @@
           if (allowScroll) {
             window.scrollBy(
               0,
-              HTMLElements.contact.scrollTop +
+              HTMLElements.contenctContact.scrollTop +
                 2 * HTMLElements.footer.scrollHeight
             );
             allowScroll = false;
