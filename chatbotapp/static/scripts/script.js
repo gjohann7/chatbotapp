@@ -460,34 +460,6 @@
     };
 
     /**
-     * This function handles the message notification.
-     */
-    const notify = () => {
-      if (
-        document.activeElement !== HTMLElements.messageField &&
-        notificationId === -1
-      ) {
-        let turn = 0;
-        AccessibilityHandler.textToSpeech("Nova mensagem.");
-        notificationId = setInterval(() => {
-          turn++;
-          if (turn % 2 != 0) {
-            document.title = "Nova mensagem";
-          } else {
-            document.title = "Chatbot-App";
-          }
-        }, 1000);
-      } else if (
-        document.activeElement === HTMLElements.messageField &&
-        notificationId !== -1
-      ) {
-        clearInterval(notificationId);
-        notificationId = -1;
-        document.title = "Chatbot-App";
-      }
-    };
-
-    /**
      * This function handles the chatbot message publishing.
      * @param {String} response The message from the chatbot.
      */
@@ -498,7 +470,6 @@
           HTMLElements.chatMessages.getElementsByClassName("tmp")[0]
         );
         handleMessage("bot-message-field", "Chatbot disse:", response);
-        notify();
         ResponseHandler.dispatch();
       }, (response.length / 6) * 1000);
     };
@@ -546,7 +517,6 @@
 
     return {
       loadMessages,
-      notify,
       publishQuestion,
       publishResponse,
       scrollChatView,
@@ -851,8 +821,6 @@
       if (HTMLElements.btnLoadMessages) {
         HTMLElements.btnLoadMessages.onclick = () => ChatHandler.loadMessages();
       }
-      HTMLElements.chat.onclick = () => HTMLElements.messageField.focus();
-      HTMLElements.messageField.onfocus = () => ChatHandler.notify();
       HTMLElements.btnSend.onclick = sendMessageEvent;
       HTMLElements.btnSkipMessages.onclick = () =>
         HTMLElements.messageField.focus();
