@@ -1,8 +1,17 @@
 medico
+medicos
 hospital
+hospitais
 consulta
+consultas
 consultar
 remedio
 remedios
 doutor
+doutores
 clinica
+clinicas
+terapia
+terapias
+psicoterapia
+psicoterapias

@@ -4,7 +4,9 @@ ameacas
 ameacou
 ameacam
 ameacaram
+ameacado
 intimidar
+intimidado
 intimida
 intimidas
 intimidou
@@ -16,6 +18,5 @@ amedrontas
 amedrontou
 amedrontam
 amedrontaram
-ameacas
 intimidacao
 amedrontamento

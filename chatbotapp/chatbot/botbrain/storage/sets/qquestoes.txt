@@ -12,3 +12,4 @@ quanto
 quantos
 algum
 alguma
+algo

@@ -1,3 +1,5 @@
+parte
+partes
 corpo
 cabeca
 braco

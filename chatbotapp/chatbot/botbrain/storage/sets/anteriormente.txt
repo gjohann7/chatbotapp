@@ -10,3 +10,8 @@ passado
 passados
 ultimo
 ultimos
+ultima
+ultimas
+recentemente
+recente
+recentes

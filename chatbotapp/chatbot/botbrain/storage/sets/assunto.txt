@@ -1,0 +1,12 @@
+questao
+questoes
+assunto
+assuntos
+topico
+topicos
+tema
+temas
+ponto
+pontos
+caso
+casos

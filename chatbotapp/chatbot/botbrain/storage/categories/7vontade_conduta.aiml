@@ -244,17 +244,17 @@
 		<!-- proprio -->
 			<category>
 				<pattern>^ <set>gostar</set> ^</pattern>
-				<that>Eu vou jogar cartas com amigos as vezes saio para comer</that>
+				<that>Eu vou jogar cartas com amigos às vezes saio para comer</that>
 				<template>Eu gosto sim de jogar com eles</template>
 			</category>
 			<category>
 				<pattern>^ ONDE ^</pattern>
-				<that>Eu vou jogar cartas com amigos as vezes saio para comer</that>
+				<that>Eu vou jogar cartas com amigos às vezes saio para comer</that>
 				<template>Gosto de ir a uma pizzaria perto de casa mesmo</template>
 			</category>
 			<category>
 				<pattern>^ AONDE ^</pattern>
-				<that>Eu vou jogar cartas com amigos as vezes saio para comer</that>
+				<that>Eu vou jogar cartas com amigos às vezes saio para comer</that>
 				<template>Gosto de ir a uma pizzaria perto de casa mesmo</template>
 			</category>
 		<!-- fim proprio -->

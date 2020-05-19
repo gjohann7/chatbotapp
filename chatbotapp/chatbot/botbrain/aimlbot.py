@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 from django.conf import settings
 from programy.clients.embed.datafile import EmbeddedDataFileBot
 
@@ -34,7 +35,10 @@ class AimlChatbot(EmbeddedDataFileBot):
                 'Como assim? kk.'
         """
         self.ultimate_default_category = [
-            'Não entendi, podes me falar de outra forma?', 'O que? kk.', 'Como assim? kk.']
+            'Não entendi, podes me falar de outra forma?', 'O que? kk.', 'Como assim? kk.',
+            'Então', 'O que mais tu gostarias de saber? kk', 'De nada', 'Obrigado!', 'Uhum',
+            'Tudo bem', 'Tchau tchau', 'kk', 'kkk', 'kkkk', 'kkkkk', 'ha', 'haha', 'hahaha'
+        ]
         self.previous_message = ''
         self.is_first_message = True
 
@@ -105,25 +109,19 @@ class AimlChatbot(EmbeddedDataFileBot):
         """
         original = False
         message = message.replace("?", "").strip()
-        message = " "+message+" "
-        self.retrieved_message = self.ask_question(message)
+
+        transformed_message = self.transform_message(message)
+        self.retrieved_message = self.ask_question(transformed_message)
 
         if self.retrieved_message in self.ultimate_default_category:
 
-            transformed_message = self.transform_message(message)
-            self.retrieved_message = self.ask_question(transformed_message)
+            if self.is_first_message:
+                self.set_previous_message(message)
 
-            if self.retrieved_message in self.ultimate_default_category:
+            self.ask_question(self.previous_message)
 
-                if self.is_first_message:
-                    self.set_previous_message(message)
-
-                self.ask_question(self.previous_message)
-
-            else:
-                self.set_previous_message(transformed_message)
         else:
-            self.set_previous_message(message)
+            self.set_previous_message(transformed_message)
 
         self.is_first_message = False
         return self.retrieved_message
@@ -132,29 +130,33 @@ class AimlChatbot(EmbeddedDataFileBot):
         """
         Sets up the chatbot settings.
         """
-        filepath = settings.BASE_DIR + "/chatbotapp/chatbot" + \
-            ("" if not self.chatbot else "/" + self.chatbot)
+        sep = os.sep
+        # filepath = settings.BASE_DIR + "/chatbotapp/chatbot" + \
+        #     ("" if not self.chatbot else "/" + self.chatbot)
+        filepath = sep.join([settings.BASE_DIR, 'chatbotapp', 'chatbot'])
+        if self.chatbot:
+            filepath = sep.join([filepath, self.chatbot])
         self.files = {
-            'aiml': [filepath + '/storage/categories'],
-            'learnf': [filepath + '/storage/learnf'],
-            'patterns': filepath + '/storage/nodes/pattern_nodes.conf',
-            'templates': filepath + '/storage/nodes/template_nodes.conf',
-            'properties': filepath + '/storage/properties/properties.txt',
-            'defaults': filepath + '/storage/properties/defaults.txt',
-            'sets': [filepath + '/storage/sets'],
-            'maps': [filepath + '/storage/maps'],
-            'rdfs': [filepath + '/storage/rdfs'],
-            'denormals': filepath + '/storage/lookups/denormal.txt',
-            'normals': filepath + '/storage/lookups/normal.txt',
-            'genders': filepath + '/storage/lookups/gender.txt',
-            'persons': filepath + '/storage/lookups/person.txt',
-            'person2s': filepath + '/storage/lookups/person2.txt',
-            'regexes': filepath + '/storage/regex/regex-templates.txt',
-            'preprocessors': filepath + '/storage/processing/preprocessors.conf',
-            'postprocessors': filepath + '/storage/processing/postprocessors.conf'
+            'aiml': [sep.join([filepath, 'storage', 'categories'])],
+            'learnf': [sep.join([filepath, 'storage', 'learnf'])],
+            'patterns': sep.join([filepath, 'storage', 'nodes', 'pattern_nodes.conf']),
+            'templates': sep.join([filepath, 'storage', 'nodes', 'template_nodes.conf']),
+            'properties': sep.join([filepath, 'storage', 'properties', 'properties.txt']),
+            'defaults': sep.join([filepath, 'storage', 'properties', 'defaults.txt']),
+            'sets': [sep.join([filepath, 'storage', 'sets'])],
+            'maps': [sep.join([filepath, 'storage', 'maps'])],
+            'rdfs': [sep.join([filepath, 'storage', 'rdfs'])],
+            'denormals': sep.join([filepath, 'storage', 'lookups', 'denormal.txt']),
+            'normals': sep.join([filepath, 'storage', 'lookups', 'normal.txt']),
+            'genders': sep.join([filepath, 'storage', 'lookups', 'gender.txt']),
+            'persons': sep.join([filepath, 'storage', 'lookups', 'person.txt']),
+            'person2s': sep.join([filepath, 'storage', 'lookups', 'person2.txt']),
+            'regexes': sep.join([filepath, 'storage', 'regex', 'regex-templates.txt']),
+            'preprocessors': sep.join([filepath, 'storage', 'processing', 'preprocessors.conf']),
+            'postprocessors': sep.join([filepath, 'storage', 'processing', 'postprocessors.conf'])
         }
 
-        self.logging = str(filepath + "/config/" +
-                           self.platform + "/logging.yaml")
-        self.config = str(filepath + "/config/" +
-                          self.platform + "/config.yaml")
+        self.logging = sep.join(
+            [filepath, 'config', self.platform, 'logging.yaml'])
+        self.config = sep.join(
+            [filepath, 'config', self.platform, 'config.yaml'])

@@ -10,3 +10,11 @@ proximo
 proximos
 alheio
 alheios
+pessoa
+pessoas
+colega
+colegas
+companheiro
+companheiros
+companheira
+companheiras

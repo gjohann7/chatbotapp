@@ -18,3 +18,11 @@ escuta
 escutas
 escutaste
 escutou
+obter
+obtiveste
+obteves
+obteve
+conseguir
+conseguiste
+consegues
+conseguiu

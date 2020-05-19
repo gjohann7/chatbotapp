@@ -35,3 +35,5 @@ superar
 supera
 fazer
 faze
+consultar
+consultando

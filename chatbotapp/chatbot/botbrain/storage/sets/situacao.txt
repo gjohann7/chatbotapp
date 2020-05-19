@@ -1,0 +1,14 @@
+situacao
+situacoes
+circunstancia
+circunstancias
+cenario
+cenarios
+cena
+cenas
+contextos
+contexto
+ambientes
+ambiente
+momentos
+momento

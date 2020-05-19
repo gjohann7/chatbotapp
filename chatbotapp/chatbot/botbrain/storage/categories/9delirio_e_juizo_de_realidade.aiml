@@ -1082,7 +1082,7 @@
 				<pattern>^ <set>manifestar</set> ^ <set>pensamento</set> ^ <set>frequentemente</set> ^ <set>pensamento</set> ^</pattern>
 				<template><srai>RESPOSTA345</srai></template>
 			</category>
-			<category>
+			<!-- <category>
 				<pattern>^ <set>pensamento</set> ^ <set>frequentemente</set> ^</pattern>
 				<template><srai>RESPOSTA345</srai></template>
 			</category>
@@ -1097,7 +1097,7 @@
 			<category>
 				<pattern>^ <set>frequentemente</set> ^ <set>pensar</set> ^</pattern>
 				<template><srai>RESPOSTA345</srai></template>
-			</category>
+			</category> -->
 	<!-- fim 345 -->
 	<topic name="pensamentosfrequentes">
 	<!-- id 346 -->
@@ -1177,43 +1177,6 @@
 			</category>
 	<!-- fim 349 -->
 	<!-- id 350 -->
-		<category>
-			<pattern>$RESPOSTA350</pattern>
-			<template>
-				Ah, é frequente eu pensar se minha família está segura, com
-				saúde. Assim como se eu estou com saúde, pois sinto várias
-				dores no corpo
-			</template>
-		</category>
-		<!---->
-			<category>
-				<pattern># <set>qquestoes</set> ^ <set>serestar</set> ^ <set>pensamento</set> ^</pattern>
-				<template><srai>RESPOSTA350</srai></template>
-			</category>
-			<category>
-				<pattern># <set>serestar</set> ^ <set>qquestoes</set> ^ <set>pensamento</set> ^</pattern>
-				<template><srai>RESPOSTA350</srai></template>
-			</category>
-			<category>
-				<pattern># <set>pensamento</set> ^ <set>qquestoes</set> ^ <set>serestar</set> ^</pattern>
-				<template><srai>RESPOSTA350</srai></template>
-			</category>
-			<category>
-				<pattern># <set>pensamento</set> ^ <set>serestar</set> ^ <set>qquestoes</set> ^</pattern>
-				<template><srai>RESPOSTA350</srai></template>
-			</category>
-			<category>
-				<pattern># <set>falar</set> ^ <set>pensamento</set> ^</pattern>
-				<template><srai>RESPOSTA350</srai></template>
-			</category>
-			<category>
-				<pattern># <set>pensamento</set> ^ <set>falar</set> ^</pattern>
-				<template><srai>RESPOSTA350</srai></template>
-			</category>
-			<category>
-				<pattern># <set>qquestoes</set> ^</pattern>
-				<template><srai>RESPOSTA350</srai></template>
-			</category>
 	<!-- fim 350 -->
 	<!-- id 351 -->
 		<category>
