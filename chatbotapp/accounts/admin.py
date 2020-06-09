@@ -9,9 +9,10 @@ class UserAdmin(admin.ModelAdmin):
     Inherits from ModelAdmin (class), encapsulates all admin options
     and functionality for a given model.
     """
-    list_display = ['username', 'email', 'is_staff', 'date_joined']
-    search_fields = ['username', 'email', 'date_joined']
-    list_filter = ['is_staff']
+    list_display = ['username', 'email',
+                    'is_superuser', 'is_staff', 'date_joined', 'last_login']
+    search_fields = ['username', 'email', 'date_joined', 'last_login']
+    list_filter = ['is_superuser', 'is_staff']
     empty_value_display = '-vazio-'
 
     class Meta:

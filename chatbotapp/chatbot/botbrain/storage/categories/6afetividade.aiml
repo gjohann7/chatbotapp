@@ -355,6 +355,20 @@
 			<pattern>^ <set>ter</set> ^ <set>relaxar</set> ^</pattern>
 			<template><srai>RESPOSTA209</srai></template>
 		</category>
+		<category>
+      <pattern>^ EXEMPLO ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+		<category>
+      <pattern>^ EXEMPLOS ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
 	<!-- fim 209 -->
 	<!-- id 210
 		<category>

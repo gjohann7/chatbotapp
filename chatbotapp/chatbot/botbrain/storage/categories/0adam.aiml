@@ -147,6 +147,27 @@
       </template>
     </category>
     <category>
+      <pattern>^ QUE ^ TIPO ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ TIPO ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ TIPO ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
       <pattern>^ QUE ^ <set>dor</set> ^ <set>este</set> ^</pattern>
       <template>
         São dores momentâneas, rápidas. Mas quando sinto, fico muito
@@ -784,16 +805,20 @@
       <pattern>^ <set>qquestoes</set> ^ <set>preocupar</set> ^</pattern>
       <template>
         O que mais me preocupa são questões que ameaçam a vida da
-        minha família ou a minha. Mas também me preocupo com
-        questões financeiras. É uma rotina de preocupações
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
       </template>
     </category>
     <category>
       <pattern>^ <set>preocupar</set> ^ <set>qquestoes</set> ^</pattern>
       <template>
         O que mais me preocupa são questões que ameaçam a vida da
-        minha família ou a minha. Mas também me preocupo com
-        questões financeiras. É uma rotina de preocupações
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
       </template>
     </category>
     <category>
@@ -1378,7 +1403,17 @@
       <that>É uma rotina de preocupações</that>
       <pattern>^ <set>falar</set> ^ MAIS ^ <set>este</set> ^</pattern>
       <template>
-        Ah, eu não consigo comer descansado, sinto o coração mais
+        Ah, eu  sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ <set>falar</set> ^ MAIS ^ <set>este</set> ^</pattern>
+      <template>
+        Ah, eu  sinto o coração mais
         acelerado, de mau humor.. até falta de energia e
         concentração. Ainda mais que fico pensando nas minhas
         próprias preocupações
@@ -1388,7 +1423,7 @@
       <that>É uma rotina de preocupações</that>
       <pattern>^ <set>algo</set> ^ MAIS ^ <set>incomodar</set> ^</pattern>
       <template>
-        Ah, eu não consigo comer descansado, sinto o coração mais
+        Ah, eu  sinto o coração mais
         acelerado, de mau humor.. até falta de energia e
         concentração. Ainda mais que fico pensando nas minhas
         próprias preocupações
@@ -1398,7 +1433,7 @@
       <that>É uma rotina de preocupações</that>
       <pattern>^ <set>incomodar</set> ^ MAIS ^ <set>algo</set> ^</pattern>
       <template>
-        Ah, eu não consigo comer descansado, sinto o coração mais
+        Ah, eu  sinto o coração mais
         acelerado, de mau humor.. até falta de energia e
         concentração. Ainda mais que fico pensando nas minhas
         próprias preocupações
@@ -1408,7 +1443,7 @@
       <that>É uma rotina de preocupações</that>
       <pattern>^ COMO ^ <set>assim</set> ^</pattern>
       <template>
-        Ah, eu não consigo comer descansado, sinto o coração mais
+        Ah, eu  sinto o coração mais
         acelerado, de mau humor.. até falta de energia e
         concentração. Ainda mais que fico pensando nas minhas
         próprias preocupações

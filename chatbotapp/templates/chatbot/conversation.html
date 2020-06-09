@@ -15,7 +15,7 @@
       <h1 class="hidden">Campo de mensagens</h1>
       <p class="hidden">Espaço onde são mostradas as mensagens da conversa.</p>
       <div id="chatMessages" class="padding-all">
-        <button id="btnSkipMessages" class="hidden">Pular mensagens.</button>
+        <button id="btnSkipMessages" class="hidden" type="button">Pular mensagens.</button>
         {% if show_button %}
         <div id="btnLoadMessages" class="pure-button center">Ver mensagens anteriores</div>
         {% endif %}
@@ -23,7 +23,7 @@
         {% if message.is_bot %}
         <div class="bot-message-field">
           <p class="hidden">Chabot disse:</p>
-          <button class="btnVolumeUp">
+          <button class="btnVolumeUp" type="button">
             <i class="fa fa-volume-up" aria-hidden="true"></i>
             <span class="hidden">Ouvir mensagem.</span>
           </button>{% else %}
@@ -47,6 +47,7 @@
       <button
         id="btnSend"
         class="send-msg-button"
+        type="button"
         aria-label="Enviar mensagem."
       >
         <span class="hidden">Enviar mensagem.</span>

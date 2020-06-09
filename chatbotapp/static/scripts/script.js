@@ -370,8 +370,6 @@
    * @returns {Object} An object which controls the chat presentation and functionality.
    */
   const ChatHandler = (function ChatHandler() {
-    let notificationId = -1;
-
     /**
      * This function performs the page scroll.
      */
