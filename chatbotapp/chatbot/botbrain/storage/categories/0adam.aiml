@@ -58,78 +58,69 @@
       <template>Sou uma pessoa muito preocupada</template>
     </category>
     <category>
-      <that>Com a saúde segurança</that>
+      <that>Com a saúde e a segurança</that>
       <pattern>^ <set>poder</set> ^ <set>falar</set> ^ <set>este</set> ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
-      <that>Com a saúde segurança</that>
+      <that>Com a saúde e a segurança</that>
       <pattern>^ <set>este</set> ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
-      <that>Com a saúde segurança</that>
+      <that>Com a saúde e a segurança</that>
       <pattern>^ <set>falar</set> ^ MAIS ^ <set>este</set> ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
       <pattern>^ <set>poder</set> ^ <set>falar</set> ^ PREOCUPACAO ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
       <pattern>^ PREOCUPACAO ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
       <pattern>^ <set>falar</set> ^ MAIS ^ PREOCUPACAO ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
       <pattern>^ <set>poder</set> ^ <set>falar</set> ^ PREOCUPACOES ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
       <pattern>^ PREOCUPACOES ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
       <pattern>^ <set>falar</set> ^ MAIS ^ PREOCUPACOES ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu 
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
@@ -283,16 +274,14 @@
       <pattern>^ <set>problema</set> ^ SAUDE ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
       <pattern>^ SAUDE ^ <set>problema</set> ^</pattern>
       <template>
         Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
-        fico muito apreensivo, acho posso vir a ter uma doença e eu
-        penso logo nas mais graves
+        fico muito apreensivo, acho posso vir a ter alguma doença
       </template>
     </category>
     <category>
@@ -589,11 +578,11 @@
     </category>
     <category>
       <pattern>^ QUE ^ <set>ansioso</set> ^</pattern>
-      <template>Com a saúde, segurança</template>
+      <template>Com a saúde e a segurança</template>
     </category>
     <category>
       <pattern>^ <set>ansioso</set> ^ QUE ^</pattern>
-      <template>Com a saúde, segurança</template>
+      <template>Com a saúde e a segurança</template>
     </category>
     <category>
       <pattern>^ QUE ^ <set>falar</set> ^ <set>medico</set> ^</pattern>
@@ -2667,6 +2656,188 @@
       <pattern>^ <set>preocupar</set> ^ <set>muito</set> ^ <set>pensar</set> ^</pattern>
       <template>Acho que sim, eu me preocupo muito com tudo</template>
     </category>
+    <category>
+      <pattern>^ MEU ^ NOME ^ E *</pattern>
+      <template>
+        <think><set name="student"><star index="3"/></set></think>
+        Olá, <get name="student"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ ME ^ <set>chamar</set> *</pattern>
+      <template><srai>MEU NOME E <star index="3"/></srai></template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>esperar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>desejar</set> ^</pattern>
+      <that>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </that>
+      <template>Ah, para aproveitar melhor a vida</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ AQUI ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ AQUI ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ INDICARAM ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>vir</set> ^ <set>consulta</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ <set>consulta</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>consulta</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>consulta</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>voce</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ O QUE ^ <set>voce</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>preocupar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ O QUE ^ <set>preocupar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>preocupar</set> ^ QUE ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>preocupar</set> ^ O QUE ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>voce</set> ^ QUE ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>voce</set> ^ O QUE ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
   <!---->
   <!-- doenca -->
     <category>
@@ -3614,6 +3785,15 @@
         <pattern>^ <set>casar</set> ^ QUANDO ^</pattern>
         <template>Eu me casei em <bot name="data-casamento"/></template>
       </category>
+      <!-- voces sao casados a quanto tempo -->
+      <category>
+        <pattern>^ QUANTO ^ <set>casar</set> ^</pattern>
+        <template>Eu me casei em <bot name="data-casamento"/>, já tem um tempinho</template>
+      </category>
+      <category>
+        <pattern>^ <set>casar</set> ^ QUANTO ^</pattern>
+        <template>Eu me casei em <bot name="data-casamento"/>, já tem um tempinho</template>
+      </category>
     <!-- nascimento -->
       <category>
         <pattern>^ <set>qquestoes</set> ^ SEU ^ ANIVERSARIO ^</pattern>
@@ -3780,6 +3960,14 @@
         <template>Eu tenho <bot name="familia"/></template>
       </category>
       <category>
+        <pattern>^ <set>falar</set> ^ FAMILIA ^</pattern>
+        <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/>, nos damos bem</template>
+      </category>
+      <category>
+        <pattern>^ <set>relacionamento</set> ^ FAMILIA ^</pattern>
+        <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/>, nos damos bem</template>
+      </category>
+      <category>
         <pattern>^ <set>qquestoes</set> ^ NOMES ^</pattern>
         <that>Eu tenho esposa e filha</that>
         <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
@@ -3802,6 +3990,14 @@
       <category>
         <pattern>^ <set>gostar</set> ^ FAMILIA ^</pattern>
         <template>Eu amo minha família</template>
+      </category>
+      <category>
+        <pattern>^ <set>morar</set> ^ FAMILIA ^</pattern>
+        <template>Eu vivo com eles sim</template>
+      </category>
+      <category>
+        <pattern>^ <set>morar</set> ^ FAMILIARES ^</pattern>
+        <template>Eu vivo com eles sim</template>
       </category>
     <!-- corpo -->
       <category>

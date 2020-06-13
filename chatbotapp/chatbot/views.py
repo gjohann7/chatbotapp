@@ -13,7 +13,7 @@ INTERNAL_COMMANDS = {
     'back': 'Voltei kk',
     'silence': 'Então kk'
 }
-user_username = ''
+user = ''
 
 
 @login_required
@@ -30,8 +30,9 @@ def conversation(request):
     HttpResponse
         The server response to the client.
     """
-    global user_username
-    user_username = request.user
+    global user
+    user = request.user
+
     messages = Message.objects.filter(
         owner=request.user).values('is_bot', 'content').reverse()
     messages_length = len(messages)
@@ -78,16 +79,16 @@ def handle_message(request, message):
             else:
                 # 'SILENCE' in message:
                 new_message = INTERNAL_COMMANDS["silence"]
-            Message(content=new_message, owner=user_username, is_bot=True).save()
+            Message(content=new_message, owner=user, is_bot=True).save()
         else:
-            Message(content=message, owner=user_username).save()
+            Message(content=message, owner=user).save()
             response = bot.retrieve_message(str(message))
+            response = response.replace('\n', ' ')
             if response[-1:] == ".":
                 response = response[:-1]
-            Message(content=response, owner=user_username, is_bot=True).save()
-
+            Message(content=response, owner=user, is_bot=True).save()
     reply = {
-        "username": str(user_username),
+        "username": user.username,
         "response": response
     }
     return HttpResponse(json.dumps(reply, ensure_ascii=False), status=200)

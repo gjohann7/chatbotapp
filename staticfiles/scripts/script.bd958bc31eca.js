@@ -692,8 +692,7 @@
      * This function sends a message to the worker.
      * @param {state} state A state defined in the shared-data.js.
      */
-    const postMessage = (state, addTime = 0) =>
-      worker.postMessage({ state, addTime });
+    const postMessage = (state) => worker.postMessage({ state });
 
     /**
      * This function terminates the worker.
@@ -709,15 +708,20 @@
    */
   function request(message) {
     const xhr = new XMLHttpRequest() || new ActiveXObject("Microsoft.XMLHTTP");
+    if ("withCredentials" in xhr) {
+      xhr.withCredentials = true;
+    } else {
+      alert("CORS not supported");
+    }
 
     /**
      * This function handles the success response of the sent request.
      */
     xhr.onload = () => {
+      console.log(xhr.responseText);
       if (xhr.responseText) {
-        const response = JSON.parse(xhr.responseText).response;
-        ResponseHandler.append(response);
-        Manager.postMessage(ON, (response.length / 6) * 1000);
+        ResponseHandler.append(JSON.parse(xhr.responseText).response);
+        Manager.postMessage(ON);
       }
     };
 

@@ -24,59 +24,59 @@
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>LEGAL</pattern>
+    <pattern>^ LEGAL ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>AFF</pattern>
+    <pattern>^ AFF ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>AFFS</pattern>
+    <pattern>^ AFFS ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>OK</pattern>
+    <pattern>^ OK ^</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ TA BOM ^</pattern>
+    <template>Ta bom</template>
+  </category>
+  <category>
+    <pattern>^ OKAY ^</pattern>
+    <template>Okay</template>
+  </category>
+  <category>
+    <pattern>^ CLARO ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>TA BOM</pattern>
+    <pattern>^ SIM ^</pattern>
+    <template>Sim o quê? kk</template>
+  </category>
+  <category>
+    <pattern>^ NAO ^</pattern>
+    <template>Não o quê? kk</template>
+  </category>
+  <category>
+    <pattern>HM ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>OKAY</pattern>
+    <pattern>HMM ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>CLARO</pattern>
+    <pattern>HUM ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>SIM</pattern>
+    <pattern>HUMM ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
-    <pattern>NAO</pattern>
-    <template><srai>UDC</srai></template>
-  </category>
-  <category>
-    <pattern>HM</pattern>
-    <template><srai>UDC</srai></template>
-  </category>
-  <category>
-    <pattern>HMM</pattern>
-    <template><srai>UDC</srai></template>
-  </category>
-  <category>
-    <pattern>HUM</pattern>
-    <template><srai>UDC</srai></template>
-  </category>
-  <category>
-    <pattern>HUMM</pattern>
-    <template><srai>UDC</srai></template>
-  </category>
-  <category>
-    <pattern>ENTENDI</pattern>
+    <pattern>^ ENTENDI ^</pattern>
     <template><srai>UDC</srai></template>
   </category>
   <category>
@@ -96,15 +96,15 @@
     <template>Obrigado!</template>
   </category>
   <category>
-    <pattern>DESCULPE</pattern>
+    <pattern>^ DESCULPE ^</pattern>
     <template>Tudo bem</template>
   </category>
   <category>
-    <pattern>DESCULPA</pattern>
+    <pattern>^ DESCULPA ^</pattern>
     <template>Tudo bem</template>
   </category>
   <category>
-    <pattern>DESCULPAS</pattern>
+    <pattern>^ DESCULPAS ^</pattern>
     <template>Tudo bem</template>
   </category>
   <category>
@@ -216,7 +216,27 @@
     <pattern>^ TUDO TAMBEM ^</pattern>
     <template><srai>ESTOU BEM</srai></template>
   </category>
+  <category>
+    <pattern>^ TAMBEM ^ ESTOU ^ <set>bem</set> ^</pattern>
+    <template><srai>ESTOU BEM</srai></template>
+  </category>
+  <category>
+    <pattern>^ TAMBEM ^ ESTOU ^</pattern>
+    <template><srai>ESTOU BEM</srai></template>
+  </category>
+  <category>
+    <pattern>^ TAMBEM ^ TUDO ^</pattern>
+    <template><srai>ESTOU BEM</srai></template>
+  </category>
   <!--  -->
+  <category>
+    <pattern>PRAZER ^</pattern>
+    <template>Prazer</template>
+  </category>
+  <category>
+    <pattern>^ PRAZER ^ <set>conhecer</set> ^</pattern>
+    <template>Prazer foi meu</template>
+  </category>
   <category>
     <pattern>^ COMO ^ <set>serestar</set> ^ COISAS ^</pattern>
     <template>Acredito que bem</template>
@@ -256,135 +276,5 @@
   <category>
     <pattern>HAHAHA</pattern>
     <template>hahaha</template>
-  </category>
-  <category>
-    <pattern>^ MEU ^ NOME ^ E *</pattern>
-    <template>
-      <think><set name="student"><star index="3"/></set></think>
-      Olá, <get name="student"/>
-    </template>
-  </category>
-  <category>
-    <pattern>^ ME ^ <set>chamar</set> *</pattern>
-    <template><srai>MEU NOME E <star index="3"/></srai></template>
-  </category>
-  <category>
-    <pattern>^ QUE ^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
-    <template>
-      Gostaria que me explicassem o que eu tenho em termos
-      psíquicos, queria não ser tão preocupado e levar a vida mais
-      descontraída
-    </template>
-  </category>
-  <category>
-    <pattern>^ QUE ^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
-    <template>
-      Gostaria que me explicassem o que eu tenho em termos
-      psíquicos, queria não ser tão preocupado e levar a vida mais
-      descontraída
-    </template>
-  </category>
-  <category>
-    <pattern>^ <set>desejar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
-    <template>
-      Gostaria que me explicassem o que eu tenho em termos
-      psíquicos, queria não ser tão preocupado e levar a vida mais
-      descontraída
-    </template>
-  </category>
-  <category>
-    <pattern>^ <set>esperar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
-    <template>
-      Gostaria que me explicassem o que eu tenho em termos
-      psíquicos, queria não ser tão preocupado e levar a vida mais
-      descontraída
-    </template>
-  </category>
-  <category>
-    <pattern>^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
-    <template>
-      Gostaria que me explicassem o que eu tenho em termos
-      psíquicos, queria não ser tão preocupado e levar a vida mais
-      descontraída
-    </template>
-  </category>
-  <category>
-    <pattern>^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
-    <template>
-      Gostaria que me explicassem o que eu tenho em termos
-      psíquicos, queria não ser tão preocupado e levar a vida mais
-      descontraída
-    </template>
-  </category>
-  <category>
-    <pattern>^ QUE ^ <set>desejar</set> ^</pattern>
-    <that>
-      Gostaria que me explicassem o que eu tenho em termos
-      psíquicos queria não ser tão preocupado e levar a vida mais
-      descontraída
-    </that>
-    <template>Ah, para aproveitar melhor a vida</template>
-  </category>
-  <category>
-    <pattern>^ <set>qquestoes</set> ^ AQUI ^</pattern>
-    <template>
-      Estou aqui por indicação da minha esposa e filha, pois elas
-      acreditam que eu esteja muito nervoso
-    </template>
-  </category>
-  <category>
-    <pattern>^ AQUI ^ <set>qquestoes</set> ^</pattern>
-    <template>
-      Estou aqui por indicação da minha esposa e filha, pois elas
-      acreditam que eu esteja muito nervoso
-    </template>
-  </category>
-  <category>
-    <pattern>^ <set>qquestoes</set> ^ <set>vir</set> ^ <set>consulta</set> ^</pattern>
-    <template>Ando sempre nervoso e preocupado</template>
-  </category>
-  <category>
-    <pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ <set>consulta</set> ^</pattern>
-    <template>Ando sempre nervoso e preocupado</template>
-  </category>
-  <category>
-    <pattern>^ <set>serestar</set> ^ <set>consulta</set> ^ <set>qquestoes</set> ^</pattern>
-    <template>Ando sempre nervoso e preocupado</template>
-  </category>
-  <category>
-    <pattern>^ <set>serestar</set> ^ <set>consulta</set> ^ <set>qquestoes</set> ^</pattern>
-    <template>Ando sempre nervoso e preocupado</template>
-  </category>
-  <category>
-    <pattern>^ QUE ^ <set>voce</set> ^ <set>preocupar</set> ^</pattern>
-    <template>Com a saúde, segurança</template>
-  </category>
-  <category>
-    <pattern>^ O QUE ^ <set>voce</set> ^ <set>preocupar</set> ^</pattern>
-    <template>Com a saúde, segurança</template>
-  </category>
-  <category>
-    <pattern>^ QUE ^ <set>preocupar</set> ^ <set>voce</set> ^</pattern>
-    <template>Com a saúde, segurança</template>
-  </category>
-  <category>
-    <pattern>^ O QUE ^ <set>preocupar</set> ^ <set>voce</set> ^</pattern>
-    <template>Com a saúde, segurança</template>
-  </category>
-  <category>
-    <pattern>^ <set>voce</set> ^ <set>preocupar</set> ^ QUE ^</pattern>
-    <template>Com a saúde, segurança</template>
-  </category>
-  <category>
-    <pattern>^ <set>voce</set> ^ <set>preocupar</set> ^ O QUE ^</pattern>
-    <template>Com a saúde, segurança</template>
-  </category>
-  <category>
-    <pattern>^ <set>preocupar</set> ^ <set>voce</set> ^ QUE ^</pattern>
-    <template>Com a saúde, segurança</template>
-  </category>
-  <category>
-    <pattern>^ <set>preocupar</set> ^ <set>voce</set> ^ O QUE ^</pattern>
-    <template>Com a saúde, segurança</template>
   </category>
 </aiml>

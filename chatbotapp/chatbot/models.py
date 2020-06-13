@@ -10,7 +10,7 @@ class Message(models.Model):
     Inherits models.Model (class), a base definition of a model class.
     """
     content = models.CharField(
-        'Conteúdo da mensagem', max_length=400, blank=False, null=True)
+        'Conteúdo da mensagem', max_length=700, blank=False, null=True)
     send_date = models.DateTimeField(
         'Data de envio', auto_now_add=True)
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name="Usuário",

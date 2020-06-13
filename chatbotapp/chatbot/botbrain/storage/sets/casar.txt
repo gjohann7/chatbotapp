@@ -2,3 +2,5 @@ casou
 casaste
 casaram
 casastes
+casados
+casado

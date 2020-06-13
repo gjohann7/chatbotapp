@@ -75,23 +75,23 @@ const Task = (function () {
    * This function updates the worker state and can be used outside of its scope.
    * @param {Number} state A state defined in the shared-data.js.
    */
-  function update(state) {
+  function update(message) {
     let command = InternalCommands.silence.command;
-    if (state !== SILENCE) {
+    if (message.state !== SILENCE) {
       count = 0;
     }
-    if (state === OFF) {
+    if (message.state === OFF) {
       command = InternalCommands.test.command;
       selfState = OFF;
     } else {
       selfState = SILENCE;
     }
-    if (state !== ON && !(state === SILENCE && count > 1)) {
+    if (message.state !== ON && !(message.state === SILENCE && count > 1)) {
       run(command);
     }
     clear();
     if (count < 2) {
-      timeoutId.push(setTimeout(selfUpdate, TIMEOUT));
+      timeoutId.push(setTimeout(selfUpdate, TIMEOUT + message.addTime));
     }
   }
 
@@ -112,6 +112,6 @@ const Task = (function () {
  */
 onmessage = (event) => {
   if (event.data.hasOwnProperty("state")) {
-    Task.update(event.data.state);
+    Task.update(event.data);
   }
 };
