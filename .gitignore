@@ -1,6 +1,25 @@
+# IDE stuff
 .vscode
+
+# dotenv
 .env
 .prettierignore
+
+# virtualenv
 env
+
+# documentation directory
 doc
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+migrations/
+
+# pyenv
+.python-version
