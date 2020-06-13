@@ -8,7 +8,7 @@
 Chatbot-App is a Django app to handle an AIML chatbot. The app default
 use case is about psychopathology and its practical study.
 
-Detailed source code documentation is in this [page](https://gjohann7.github.io/chatbot_app_doc/).
+Detailed source code documentation is in this [page](https://gjohann7.github.io/chatbotapp/). 
 
 ## Installation
 
