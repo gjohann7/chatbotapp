@@ -1,7 +1,7 @@
 # Chatbot-App
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://gjohann7.github.io/chatbot_app_doc/)
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://gjohann7.github.io/chatbotapp/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://chatbot-patient.herokuapp.com/)
 [![MIT license](https://img.shields.io/badge/License-BSD-blue.svg)](https://gitlab.com/gjohann7/chatbotapp/-/blob/master/LICENSE)
 
