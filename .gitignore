@@ -1,8 +1,6 @@
-.gitignore
 .vscode
 .env
 .prettierignore
-MANIFEST.in
 env
 doc
-base.py
+__pycache__/
