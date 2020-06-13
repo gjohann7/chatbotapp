@@ -10,14 +10,16 @@ const SharedData = (function () {
   const SILENCE = 2;
   const OFF = 3;
   const BACK = 4;
-  const a = "https://chatbot-patient.herokuapp.com";
+
   /**
    * This function generate the chatbot question request URI.
    * - Poscondition: The request URI was generated.
    * @param {String} ending An event triggered in the window.
    */
   const generateURL = (ending) =>
-    `http://localhost:8000/conversation/question=${encodeURIComponent(ending)}`;
+    `https://chatbot-patient.herokuapp.com/conversation/question=${encodeURIComponent(
+      ending
+    )}`;
 
   /**
    * This IIFE as object is responsible for the internal commands to the server, which
