@@ -16,3 +16,5 @@ invencao
 invencoes
 fantasia
 fantasias
+ideia
+ideias

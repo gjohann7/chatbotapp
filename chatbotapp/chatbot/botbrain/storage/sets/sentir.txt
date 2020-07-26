@@ -30,3 +30,6 @@ intuicao
 palpite
 nocao
 percepcao
+deixar
+deixa
+deixas

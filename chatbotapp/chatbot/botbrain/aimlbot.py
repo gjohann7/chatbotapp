@@ -58,6 +58,7 @@ class AimlChatbot(EmbeddedDataFileBot):
         message_words = message.strip().split()
         transformed_words = []
         for word in message_words:
+            word = word.lower()
             if len(word) > 5:
                 if 'ando' in word:
                     word = word.replace('ando', 'ar')
@@ -67,7 +68,7 @@ class AimlChatbot(EmbeddedDataFileBot):
                 word = word.replace('indo', 'ir')
             transformed_words.append(word)
 
-        return ' '+' '.join(transformed_words)+' '
+        return ' '.join(transformed_words)
 
     def set_previous_message(self, previous_message=""):
         """Storing of the last message before retrieving a UDC response.
@@ -115,13 +116,17 @@ class AimlChatbot(EmbeddedDataFileBot):
 
         if self.retrieved_message in self.ultimate_default_category:
 
-            if self.is_first_message:
-                self.set_previous_message(message)
+            self.retrieved_message = self.ask_question(message)
 
-            self.ask_question(self.previous_message)
+            if self.retrieved_message in self.ultimate_default_category:
+
+                if self.is_first_message:
+                    self.set_previous_message(message)
+
+                self.ask_question(self.previous_message)
 
         else:
-            self.set_previous_message(transformed_message)
+            self.set_previous_message(message)
 
         self.is_first_message = False
         return self.retrieved_message

@@ -12,3 +12,4 @@ ambientes
 ambiente
 momentos
 momento
+quando

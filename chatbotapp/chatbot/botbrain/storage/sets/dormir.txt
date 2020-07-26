@@ -1,6 +1,10 @@
 dormir
 dormiu
+dormi
 dormiste
 adormecer
 adormeceu
 adormeceste
+dormido
+dorme
+dormes

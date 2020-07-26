@@ -5,6 +5,8 @@ agitado
 ansiedade
 ansioso
 inquietude
+tenso
+preocupado
 impaciencia
 impaciente
 inquietamento
@@ -22,3 +24,5 @@ ansia
 ansioso
 estresse
 estressado
+irritado
+irritacao

@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from .models import Message
+from chatbotapp.accounts.models import User
 import json
 from .botbrain.aimlbot import AimlChatbot
 
@@ -10,8 +11,7 @@ template = 'chatbot/'
 bot = AimlChatbot("windows", "botbrain")
 INTERNAL_COMMANDS = {
     'issue': 'Em, eu já volto',
-    'back': 'Voltei kk',
-    'silence': 'Então kk'
+    'back': 'Voltei kk'
 }
 user = ''
 
@@ -35,6 +35,7 @@ def conversation(request):
 
     messages = Message.objects.filter(
         owner=request.user).values('is_bot', 'content').reverse()
+
     messages_length = len(messages)
     messages_load = 150
     context = {
@@ -68,6 +69,12 @@ def handle_message(request, message):
     response = "test approved"
 
     if message != "test connection":
+        if '{"username":"' in str(message):
+            tmp = json.loads(message)
+            global user
+            user = User.objects.get(username=tmp["username"])
+            message = tmp["message"]
+
         if 'INTERNAL COMMAND' in message:
             new_message = ''
             response = "internal command successful"
@@ -76,9 +83,7 @@ def handle_message(request, message):
             elif 'RECOVERED' in message:
                 new_message = INTERNAL_COMMANDS["back"]
                 response = new_message
-            else:
-                # 'SILENCE' in message:
-                new_message = INTERNAL_COMMANDS["silence"]
+
             Message(content=new_message, owner=user, is_bot=True).save()
         else:
             Message(content=message, owner=user).save()

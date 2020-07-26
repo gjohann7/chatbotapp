@@ -2,8 +2,16 @@
  * This IIFE as object is responsible for the app management.
  */
 (function App(window, document) {
-  const { InternalCommands, generateURL, ON, SILENCE, OFF, BACK } = SharedData;
   let ResponseHandler = {};
+  const generateURL = (ending) =>
+    `https://chatbot-patient.herokuapp.com/conversation/question=${encodeURIComponent(
+      ending
+    )}`;
+  const SUCCESS_MESSAGE = "internal command successful";
+  const OFF_MESSAGE = "Em, eu já volto";
+  const OFF_COMMAND = "INTERNAL COMMAND CONNECTION ISSUE";
+  const BACK_COMMAND = "INTERNAL COMMAND RECOVERED CONNECTION";
+  let server_on = true;
 
   /**
    * This IIFE as object is responsible for attaching HTML elements to objects.
@@ -574,7 +582,9 @@
      * @param {Function} fun A function to be mapped into the message list.
      */
     const apply = (fun) => {
-      user.messages.map((message) => fun(message));
+      user.messages.map((message) =>
+        fun(JSON.stringify({ username: user.username, message: message }))
+      );
       user.messages.length = 0;
     };
 
@@ -620,7 +630,7 @@
      * @param {String} message The message to be sent to the chat.
      */
     const append = (message) => {
-      if (message !== InternalCommands.successMessage) {
+      if (message !== SUCCESS_MESSAGE) {
         messages.push(message);
         if (!hasQueue) {
           hasQueue = true;
@@ -641,9 +651,9 @@
           LocalStorage.append(message);
         }
         if (!aError) {
-          LocalStorage.append(InternalCommands.off.command);
-          LocalStorage.append(InternalCommands.back.command);
-          ChatHandler.publishResponse(InternalCommands.off.message);
+          LocalStorage.append(OFF_COMMAND);
+          LocalStorage.append(BACK_COMMAND);
+          ChatHandler.publishResponse(OFF_MESSAGE);
           aError = true;
         }
         LocalStorage.post();
@@ -679,11 +689,8 @@
      * @param {Event} event An event received from the worker.
      */
     function onMessage(event) {
-      if (event.data.state === SILENCE) {
-        ResponseHandler.append(InternalCommands.silence.message);
-      } else if (event.data.state === OFF) {
-        ResponseHandler.error();
-      } else if (event.data.state === BACK) {
+      if (event.data === "back") {
+        server_on = true;
         ResponseHandler.recovered();
       }
     }
@@ -692,8 +699,7 @@
      * This function sends a message to the worker.
      * @param {state} state A state defined in the shared-data.js.
      */
-    const postMessage = (state, addTime = 0) =>
-      worker.postMessage({ state, addTime });
+    const postMessage = (state) => worker.postMessage(state);
 
     /**
      * This function terminates the worker.
@@ -708,29 +714,37 @@
    * @param {String} message The message to be sent to the server.
    */
   function request(message) {
-    const xhr = new XMLHttpRequest() || new ActiveXObject("Microsoft.XMLHTTP");
-
-    /**
-     * This function handles the success response of the sent request.
-     */
-    xhr.onload = () => {
-      if (xhr.responseText) {
-        const response = JSON.parse(xhr.responseText).response;
-        ResponseHandler.append(response);
-        Manager.postMessage(ON, (response.length / 6) * 1000);
-      }
-    };
-
-    /**
-     * This function handles the failed response of the sent request.
-     */
-    xhr.onerror = () => {
+    if (!server_on) {
       ResponseHandler.error(message);
-      Manager.postMessage(OFF);
-    };
+    } else {
+      const xhr =
+        new XMLHttpRequest() || new ActiveXObject("Microsoft.XMLHTTP");
 
-    xhr.open("GET", generateURL(message));
-    xhr.send();
+      /**
+       * This function handles the success response of the sent request.
+       */
+      xhr.onload = () => {
+        if (xhr.responseText) {
+          try {
+            ResponseHandler.append(JSON.parse(xhr.responseText).response);
+          } catch (error) {
+            ResponseHandler.append("Ei, atualize a página por favor");
+          }
+        }
+      };
+
+      /**
+       * This function handles the failed response of the sent request.
+       */
+      xhr.onerror = () => {
+        ResponseHandler.error(message);
+        server_on = false;
+        Manager.postMessage("off");
+      };
+
+      xhr.open("GET", generateURL(message));
+      xhr.send();
+    }
   }
 
   /**
@@ -799,7 +813,8 @@
           LocalStorage.load(JSON.parse(xhr.responseText).username);
         }
       };
-      xhr.open("GET", generateURL(InternalCommands.test.command));
+
+      xhr.open("GET", generateURL("test connection"));
       xhr.send();
 
       const sendMessageEvent = () => {

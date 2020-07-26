@@ -79,12 +79,7 @@
     <footer id="footer">
       <i>“Tudo é possível. O impossível apenas demora mais.”</i> - Dan Brown
     </footer>
-    {% endblock footer %} {% endif %}
-    <script
-      type="text/javascript"
-      src="{% static 'scripts/shared-data.js' %}"
-    ></script>
-    {% block script %}{% endblock script %}
+    {% endblock footer %} {% endif %} {% block script %}{% endblock script %}
     <script
       type="text/javascript"
       src="{% static 'scripts/script.js' %}"

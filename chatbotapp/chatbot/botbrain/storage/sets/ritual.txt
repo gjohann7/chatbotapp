@@ -8,3 +8,12 @@ liturgia
 liturgias
 rito
 ritos
+normas
+padrao
+padroes
+pratica
+praticas
+habito
+habitos
+costume
+costumes

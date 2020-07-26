@@ -12,3 +12,5 @@ responsabilidade
 responsabilidades
 dever
 deveres
+funcao
+funcoes

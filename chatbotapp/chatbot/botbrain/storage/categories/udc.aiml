@@ -277,4 +277,457 @@
     <pattern>HAHAHA</pattern>
     <template>hahaha</template>
   </category>
+
+  <category>
+    <pattern>^ OK</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ OKAY</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ TUDO BEM</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDEU</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDESTE</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDES</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDIDO</pattern>
+    <template>Ok</template>
+  </category>
+  <category>
+    <pattern>^ PODE SER</pattern>
+    <template>Ok</template>
+  </category>
+
+  <category>
+    <pattern>^ FAZ ^ SENTIDO ^ VOCE</pattern>
+    <template>Se é o que pensas</template>
+  </category>
+
+  <category>
+    <pattern>^ CONTINUAR ^ DEPOIS ^</pattern>
+    <template>Okay</template>
+  </category>
+
+  <category>
+    <pattern>^ FICOU ^ COM ^ DUVIDA ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ FICASTE ^ COM ^ DUVIDA ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ ESTA ^ COM ^ DUVIDA ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ FICOU ^ COM ^ DUVIDAS ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ FICASTE ^ COM ^ DUVIDAS ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ ESTA ^ COM ^ DUVIDAS ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ FICOU ^ COM ^ QUESTAO ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ FICASTE ^ COM ^ QUESTAO ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ ESTA ^ COM ^ QUESTAO ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ FICOU ^ COM ^ QUESTOES ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ FICASTE ^ COM ^ QUESTOES ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+  <category>
+    <pattern>^ ESTA ^ COM ^ QUESTOES ^</pattern>
+    <template>Sem dúvidas</template>
+  </category>
+
+  <category>
+    <pattern>^ QUER ^ PERGUNTAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ QUER ^ PERGUNTA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ QUERES ^ PERGUNTAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ QUERES ^ PERGUNTA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJA ^ PERGUNTAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJA ^ PERGUNTA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJAS ^ PERGUNTAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJAS ^ PERGUNTA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+
+  <category>
+    <pattern>^ QUER ^ QUESTIONAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ QUER ^ QUESTIONA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ QUERES ^ QUESTIONAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ QUERES ^ QUESTIONA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJA ^ QUESTIONAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJA ^ QUESTIONA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJAS ^ QUESTIONAR ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ DESEJAS ^ QUESTIONA ^ <set>algo</set> ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+
+  <category>
+    <pattern>^ TEM ^ <set>algo</set> ^ PERGUNTA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TENS ^ <set>algo</set> ^ PERGUNTA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUI ^ <set>algo</set> ^ PERGUNTA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUIS ^ <set>algo</set> ^ PERGUNTA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TEM ^ <set>algo</set> ^ PERGUNTAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TENS ^ <set>algo</set> ^ PERGUNTAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUI ^ <set>algo</set> ^ PERGUNTAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUIS ^ <set>algo</set> ^ PERGUNTAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TEM ^ <set>algo</set> ^ DUVIDA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TENS ^ <set>algo</set> ^ DUVIDA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUI ^ <set>algo</set> ^ DUVIDA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUIS ^ <set>algo</set> ^ DUVIDA ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TEM ^ <set>algo</set> ^ DUVIDAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TENS ^ <set>algo</set> ^ DUVIDAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUI ^ <set>algo</set> ^ DUVIDAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUIS ^ <set>algo</set> ^ DUVIDAS ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TEM ^ <set>algo</set> ^ QUESTAO ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TENS ^ <set>algo</set> ^ QUESTAO ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUI ^ <set>algo</set> ^ QUESTAO ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUIS ^ <set>algo</set> ^ QUESTAO ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TEM ^ <set>algo</set> ^ QUESTOES ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ TENS ^ <set>algo</set> ^ QUESTOES ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUI ^ <set>algo</set> ^ QUESTOES ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+  <category>
+    <pattern>^ POSSUIS ^ <set>algo</set> ^ QUESTOES ^</pattern>
+    <template>Sem perguntas</template>
+  </category>
+
+
+  <category>
+    <pattern>^ ENTENDEU ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDES ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDESTE ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDEU ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDES ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDESTE ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBEU ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBES ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBESTE ^ QUE ^ FALEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDEU ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDES ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDESTE ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDEU ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDES ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDESTE ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBEU ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBES ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBESTE ^ QUE ^ CONTEI ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDEU ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDES ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ ENTENDESTE ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDEU ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDES ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ COMPREENDESTE ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBEU ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBES ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+  <category>
+    <pattern>^ PERCEBESTE ^ QUE ^ DISSE ^</pattern>
+    <template>Entendi</template>
+  </category>
+
+  <category>
+    <pattern>^ FALAR ^ MAIS ^</pattern>
+    <template>Falar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ FALA ^ MAIS ^</pattern>
+    <template>Falar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ FALE ^ MAIS ^</pattern>
+    <template>Falar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ FALES ^ MAIS ^</pattern>
+    <template>Falar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ EXPLICAR ^ MAIS ^</pattern>
+    <template>Explicar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ EXPLICA ^ MAIS ^</pattern>
+    <template>Explicar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ EXPLICE ^ MAIS ^</pattern>
+    <template>Explicar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ EXPLICES ^ MAIS ^</pattern>
+    <template>Explicar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ CONTAR ^ MAIS ^</pattern>
+    <template>Contar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ CONTA ^ MAIS ^</pattern>
+    <template>Contar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ CONTE ^ MAIS ^</pattern>
+    <template>Contar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ CONTES ^ MAIS ^</pattern>
+    <template>Contar mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ DIZER ^ MAIS ^</pattern>
+    <template>Dizer mais sobre o quê?</template>
+  </category>
+  <category>
+    <pattern>^ DIGA ^ MAIS ^</pattern>
+    <template>Dizer mais sobre o quê?</template>
+  </category>
+
+  <category>
+    <pattern>^ NAO ^ ENTENDI ^</pattern>
+    <template>Talvez se me perguntar de outra forma ajude</template>
+  </category>
+  <category>
+    <pattern>^ NAO ^ PERCEBI ^</pattern>
+    <template>Talvez se me perguntar de outra forma ajude</template>
+  </category>
+
+  <category>
+    <pattern>^ E ^ QUE ^ MAIS ^</pattern>
+    <template>Que mais o quê?</template>
+  </category>
+  <category>
+    <pattern>^ <set>algo</set> ^ MAIS ^</pattern>
+    <template>Não sei, pode perguntar diretamente o que quer saber</template>
+  </category>
+  <category>
+    <pattern>^ ISSO ^ E ^ TUDO ^</pattern>
+    <template>Não sei, pode perguntar diretamente o que quer saber</template>
+  </category>
+  <category>
+    <pattern>^ ISTO ^ E ^ TUDO ^</pattern>
+    <template>Não sei, pode perguntar diretamente o que quer saber</template>
+  </category>
+
+  <category>
+    <pattern>^ POR QUE ^</pattern>
+    <template>Por que o quê</template>
+  </category>
 </aiml>

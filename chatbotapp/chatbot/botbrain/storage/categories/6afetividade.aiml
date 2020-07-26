@@ -32,12 +32,12 @@
 			</category>
 			<category>
 				<pattern>^ <set>qquestoes</set> ^</pattern>
-				<that>Volta e meia eu fico nervoso agoniado ansioso Não sei descrever</that>
+				<that>Não sei descrever</that>
 				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
 			</category>
 			<category>
 				<pattern>^ <set>explicar</set> ^</pattern>
-				<that>Volta e meia eu fico nervoso agoniado ansioso Não sei descrever</that>
+				<that>Não sei descrever</that>
 				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
 			</category>
 			<category>
@@ -356,6 +356,10 @@
 			<template><srai>RESPOSTA209</srai></template>
 		</category>
 		<category>
+			<that>
+				Acho que sim às vezes quando tento descansar sinto dores
+				também
+			</that>
       <pattern>^ EXEMPLO ^</pattern>
       <template>
         São dores momentâneas, rápidas. Mas quando sinto, fico muito
@@ -363,6 +367,10 @@
       </template>
     </category>
 		<category>
+			<that>
+				Acho que sim às vezes quando tento descansar sinto dores
+				também
+			</that>
       <pattern>^ EXEMPLOS ^</pattern>
       <template>
         São dores momentâneas, rápidas. Mas quando sinto, fico muito
@@ -674,12 +682,12 @@
 		<!---->
 		<category>
 			<pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ <set>relacao</set> ^</pattern>
-			<that>Não tenho não Eu em kk</that>
+			<that>Eu em kk</that>
 			<template><srai>RESPOSTA255</srai></template>
 		</category>
 		<category>
 			<pattern>^ <set>relacao</set> ^ <set>serestar</set> ^ <set>qquestoes</set> ^</pattern>
-			<that>Não tenho não Eu em kk</that>
+			<that>Eu em kk</that>
 			<template><srai>RESPOSTA255</srai></template>
 		</category>
 	<!-- fim THAT 254 255 -->

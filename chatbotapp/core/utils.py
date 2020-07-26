@@ -121,9 +121,10 @@ def introductory_messages(user):
         The new user data.
     """
     intro_one = ("Eu sou um chatbot, ou seja, um robô de conversação. " +
-                 "Aqui, farei o papel de um paciente e tu deves me entrevistar " +
-                 "e investigar em busca de sintomas ou sinais de alguma " +
-                 "psicopatologia")
+                 "Aqui, farei o papel de um paciente e você deve fazer a " +
+                 "entrevista inicial e investigar em busca de sintomas " +
+                 "ou sinais de alguma psicopatologia. Mais tarde, deverá " +
+                 "apresentar sua hipótese diagnóstica inicial no formulário")
     intro_two = ("Meu personagem é do sexo masculino, adulto e vem tendo alguns problemas " +
                  "no dia a dia. Tome a iniciativa e bom estudo!")
     Message(content=intro_one, owner=user, is_bot=True).save()

@@ -1,9 +1,15 @@
 mudar
 muda
+mudas
+mudaste
+mudou
 mudaria
 mudarias
 alterar
 altera
+alteras
+alteraste
+alterou
 alteraria
 alterarias
 modificar
@@ -14,3 +20,8 @@ transformar
 transforma
 transformaria
 transformarias
+trocar
+troca
+trocas
+trocaste
+trocou

@@ -7,7 +7,6 @@ ela
 eles
 ele
 alguem
-alguma pessoa
 pessoa
 individuo
 ser
@@ -16,15 +15,9 @@ homem
 mulher
 um
 uma
-algum homem
-alguma mulher
-alguma criança
-alguma garota
-alguma menina
-algum garoto
-algum menino
-algum bebe
-outra pessoa
+algum
+alguma
+outra
 criança
 garota
 menina
@@ -39,3 +32,5 @@ garotas
 meninas
 garotos
 meninos
+colega
+colegas

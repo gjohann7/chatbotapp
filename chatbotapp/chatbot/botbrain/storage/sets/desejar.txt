@@ -1,6 +1,7 @@
 deseja
 desejas
 desejar
+desejava
 desejam
 pretende
 pretendes
@@ -10,6 +11,7 @@ quer
 querem
 queres
 querer
+queria
 gostaria de
 gostaria
 gostariam

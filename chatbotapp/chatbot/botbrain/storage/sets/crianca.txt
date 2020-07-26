@@ -1,0 +1,9 @@
+crianca
+pequeno
+jovem
+garoto
+guri
+menino
+miudo
+rapaz
+adolescente
