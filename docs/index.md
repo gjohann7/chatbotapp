@@ -816,59 +816,39 @@ This function handles the failed response of the sent request.
 
 <br/>
 
-## Service Worker file
+## Web Worker file
 
-### Task
+### testConnection
 
-This IIFE as object is responsible for the worker job.
-
-**Returns** - **[Object][13]** An object with the update state method.
+This function is responsible for the worker job. It has an XMLHttpRequest object which performs:
 
 <br/>
 
-#### *clear*
-This function clear all the active timeouts.
-
-<br/>
-
-#### *onLoad*
+#### *onload*
 This function handles the success response of the sent request.
 
 <br/>
 
-#### *onError*
+#### *onerror*
 This function handles the failed response of the sent request.
 
 <br/>
 
-#### *run*
-This function make the request to the server.
+#### *open*
+This function initializes a request.
 
 **Parameters**
-
--   `command`: **[String][14]** A command defined in the shared-data.js.
+- `method`: **[String][14]** The HTTP request method.
+- `url`: **[String][14]** The URL to send the request to.
 
 <br/>
 
-#### *update*
-This function updates the worker state and can be used outside of its scope.
-
-**Parameters**
-
--   `state`: **[Number][15]** A state defined in the shared-data.js.
+#### *send*
+This function sends the request.
 
 <br/>
 
-#### *selfUpdate*
-This function updates the worker state and can be used only inside its scope.
-
-**Parameters**
-
--   `state`: **[Number][15]** A state defined in the shared-data.js.
-
-<br/>
-
-#### *onmessage*
+### onmessage
 This function handles the script messages.
 
 **Parameters**
