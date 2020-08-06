@@ -67,6 +67,7 @@ def handle_message(request, message):
         The server response to the client.
     """
     response = "test approved"
+    print(request.user)
 
     if message != "test connection":
         if '{"username":"' in str(message):
@@ -84,11 +85,8 @@ def handle_message(request, message):
                 response = new_message
             Message(content=new_message, owner=user, is_bot=True).save()
         else:
-            print(str(message))
-            print(str(user.username))
             Message(content=message, owner=user).save()
             response = bot.retrieve_message(str(message))
-            print('1')
             response = response.replace('\n', ' ')
             if response[-1:] == ".":
                 response = response[:-1]
