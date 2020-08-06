@@ -97,6 +97,8 @@ def handle_message(request, message):
             if response[-1:] == ".":
                 response = response[:-1]
             print('8')
+            print(str(response))
+            print(str(user.username))
             Message(content=response, owner=user, is_bot=True).save()
             print('9')
     reply = {
