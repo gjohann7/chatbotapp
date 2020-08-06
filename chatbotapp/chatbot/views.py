@@ -67,15 +67,13 @@ def handle_message(request, message):
         The server response to the client.
     """
     response = "test approved"
-    print('1')
+
     if message != "test connection":
-        print('2')
         if '{"username":"' in str(message):
             tmp = json.loads(message)
             global user
             user = User.objects.get(username=tmp["username"])
             message = tmp["message"]
-        print('3')
         if 'INTERNAL COMMAND' in message:
             new_message = ''
             response = "internal command successful"
@@ -84,18 +82,13 @@ def handle_message(request, message):
             elif 'RECOVERED' in message:
                 new_message = INTERNAL_COMMANDS["back"]
                 response = new_message
-            print('4')
             Message(content=new_message, owner=user, is_bot=True).save()
-            print('5')
         else:
-            print('6')
             print(str(message))
+            print(str(user.username))
             Message(content=message, owner=user).save()
-            print('7')
             response = bot.retrieve_message(str(message))
-            print('8')
             response = response.replace('\n', ' ')
-            print('9')
             if response[-1:] == ".":
                 response = response[:-1]
             Message(content=response, owner=user, is_bot=True).save()
