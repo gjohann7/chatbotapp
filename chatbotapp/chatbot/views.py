@@ -88,6 +88,7 @@ def handle_message(request, message):
             print(str(user.username))
             Message(content=message, owner=user).save()
             response = bot.retrieve_message(str(message))
+            print('1')
             response = response.replace('\n', ' ')
             if response[-1:] == ".":
                 response = response[:-1]
