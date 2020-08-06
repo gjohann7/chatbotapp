@@ -3,9 +3,11 @@
  */
 (function App(window, document) {
   let ResponseHandler = {};
-  // https://chatbot-patient.herokuapp.com
+  // http://127.0.0.1:8000
   const generateURL = (ending) =>
-    `http://localhost:8000/conversation/question=${encodeURIComponent(ending)}`;
+    `https://chatbot-patient.herokuapp.com/conversation/question=${encodeURIComponent(
+      ending
+    )}`;
   const SUCCESS_MESSAGE = "internal command successful";
   const OFF_MESSAGE = "Em, eu já volto";
   const OFF_COMMAND = "INTERNAL COMMAND CONNECTION ISSUE";
@@ -725,6 +727,7 @@
       xhr.onload = () => {
         if (xhr.responseText) {
           try {
+            console.log(xhr.responseText);
             ResponseHandler.append(JSON.parse(xhr.responseText).response);
           } catch (error) {
             ResponseHandler.append("Ei, atualize a página por favor");

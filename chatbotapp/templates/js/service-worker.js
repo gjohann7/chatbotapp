@@ -6,7 +6,7 @@ const testConnection = () => {
   xhr.onerror = () => {
     setTimeout(testConnection, 2000);
   };
-
+  // http://127.0.0.1:8000
   xhr.open(
     "GET",
     `https://chatbot-patient.herokuapp.com/conversation/question=${encodeURIComponent(

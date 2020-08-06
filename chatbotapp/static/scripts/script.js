@@ -3,6 +3,7 @@
  */
 (function App(window, document) {
   let ResponseHandler = {};
+  // http://127.0.0.1:8000
   const generateURL = (ending) =>
     `https://chatbot-patient.herokuapp.com/conversation/question=${encodeURIComponent(
       ending
@@ -726,6 +727,7 @@
       xhr.onload = () => {
         if (xhr.responseText) {
           try {
+            console.log(xhr.responseText);
             ResponseHandler.append(JSON.parse(xhr.responseText).response);
           } catch (error) {
             ResponseHandler.append("Ei, atualize a página por favor");

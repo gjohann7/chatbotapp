@@ -96,4 +96,5 @@ def handle_message(request, message):
         "username": user.username,
         "response": response
     }
+    print(reply)
     return HttpResponse(json.dumps(reply, ensure_ascii=False), status=200)

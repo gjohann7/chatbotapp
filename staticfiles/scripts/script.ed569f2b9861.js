@@ -3,10 +3,12 @@
  */
 (function App(window, document) {
   let ResponseHandler = {};
-  // https://chatbot-patient.herokuapp.com
+  // http://127.0.0.1:8000
   const generateURL = (ending) =>
-    `http://localhost:8000/conversation/question=${encodeURIComponent(ending)}`;
-  const SUCCESS_MESSAGE = "internal commando successful";
+    `https://chatbot-patient.herokuapp.com/conversation/question=${encodeURIComponent(
+      ending
+    )}`;
+  const SUCCESS_MESSAGE = "internal command successful";
   const OFF_MESSAGE = "Em, eu já volto";
   const OFF_COMMAND = "INTERNAL COMMAND CONNECTION ISSUE";
   const BACK_COMMAND = "INTERNAL COMMAND RECOVERED CONNECTION";
@@ -581,7 +583,9 @@
      * @param {Function} fun A function to be mapped into the message list.
      */
     const apply = (fun) => {
-      user.messages.map((message) => fun(message));
+      user.messages.map((message) =>
+        fun(JSON.stringify({ username: user.username, message: message }))
+      );
       user.messages.length = 0;
     };
 
@@ -644,14 +648,14 @@
     const error = (message) => {
       if (!aError || message) {
         LocalStorage.setUp();
+        if (message) {
+          LocalStorage.append(message);
+        }
         if (!aError) {
           LocalStorage.append(OFF_COMMAND);
           LocalStorage.append(BACK_COMMAND);
           ChatHandler.publishResponse(OFF_MESSAGE);
           aError = true;
-        }
-        if (message) {
-          LocalStorage.append(message);
         }
         LocalStorage.post();
       }
@@ -722,11 +726,12 @@
        */
       xhr.onload = () => {
         if (xhr.responseText) {
-          // try {
-          ResponseHandler.append(JSON.parse(xhr.responseText).response);
-          // } catch (error) {
-          //   ResponseHandler.append("Ei, atualize a página por favor");
-          // }
+          try {
+            console.log(xhr.responseText);
+            ResponseHandler.append(JSON.parse(xhr.responseText).response);
+          } catch (error) {
+            ResponseHandler.append("Ei, atualize a página por favor");
+          }
         }
       };
 
