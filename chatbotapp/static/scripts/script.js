@@ -584,7 +584,8 @@
      */
     const apply = (fun) => {
       user.messages.map((message) =>
-        fun(JSON.stringify({ username: user.username, message: message }))
+        //fun(JSON.stringify({ username: user.username, message: message }))
+        fun(message)
       );
       user.messages.length = 0;
     };
