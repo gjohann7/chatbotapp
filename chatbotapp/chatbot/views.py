@@ -91,16 +91,14 @@ def handle_message(request, message):
             print('6')
             print(str(message))
             Message(content=message, owner=user).save()
-            response = bot.retrieve_message(str(message))
-            response = response.replace('\n', ' ')
             print('7')
+            response = bot.retrieve_message(str(message))
+            print('8')
+            response = response.replace('\n', ' ')
+            print('9')
             if response[-1:] == ".":
                 response = response[:-1]
-            print('8')
-            print(str(response))
-            print(str(user.username))
             Message(content=response, owner=user, is_bot=True).save()
-            print('9')
     reply = {
         "username": user.username,
         "response": response
