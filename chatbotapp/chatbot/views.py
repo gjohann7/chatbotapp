@@ -67,7 +67,6 @@ def handle_message(request, message):
         The server response to the client.
     """
     response = "test approved"
-    print(request.user)
 
     if message != "test connection":
         if '{"username":"' in str(message):
@@ -83,16 +82,19 @@ def handle_message(request, message):
             elif 'RECOVERED' in message:
                 new_message = INTERNAL_COMMANDS["back"]
                 response = new_message
-            Message(content=new_message, owner=user, is_bot=True).save()
+            # Message(content=new_message, owner=user, is_bot=True).save()
+            Message(content=new_message, owner=request.user, is_bot=True).save()
         else:
-            Message(content=message, owner=user).save()
+            # Message(content=message, owner=user).save()
+            Message(content=message, owner=request.user).save()
             response = bot.retrieve_message(str(message))
             response = response.replace('\n', ' ')
             if response[-1:] == ".":
                 response = response[:-1]
-            Message(content=response, owner=user, is_bot=True).save()
+            # Message(content=response, owner=user, is_bot=True).save()
+            Message(content=response, owner=request.user, is_bot=True).save()
     reply = {
-        "username": user.username,
+        "username": request.user.username,
         "response": response
     }
     return HttpResponse(json.dumps(reply, ensure_ascii=False), status=200)
