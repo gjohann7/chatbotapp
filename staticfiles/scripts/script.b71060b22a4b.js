@@ -584,7 +584,8 @@
      */
     const apply = (fun) => {
       user.messages.map((message) =>
-        fun(JSON.stringify({ username: user.username, message: message }))
+        //fun(JSON.stringify({ username: user.username, message: message }))
+        fun(message)
       );
       user.messages.length = 0;
     };
@@ -727,7 +728,6 @@
       xhr.onload = () => {
         if (xhr.responseText) {
           try {
-            console.log(xhr.responseText);
             ResponseHandler.append(JSON.parse(xhr.responseText).response);
           } catch (error) {
             ResponseHandler.append("Ei, atualize a página por favor");
@@ -789,13 +789,12 @@
    */
   window.onload = () => {
     ResponseHandler = responseHandler();
-    const undefined = void 0;
 
-    if (typeof Storage === undefined) {
+    if (typeof Storage === void 0) {
       alert("Sorry, no Storage support!");
     }
 
-    if (navigator.serviceWorker !== undefined) {
+    if (navigator.serviceWorker !== void 0) {
       navigator.serviceWorker
         .register("/service-worker.js")
         .catch(function (err) {

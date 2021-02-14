@@ -789,13 +789,12 @@
    */
   window.onload = () => {
     ResponseHandler = responseHandler();
-    const undefined = void 0;
 
-    if (typeof Storage === undefined) {
+    if (typeof Storage === void 0) {
       alert("Sorry, no Storage support!");
     }
 
-    if (navigator.serviceWorker !== undefined) {
+    if (navigator.serviceWorker !== void 0) {
       navigator.serviceWorker
         .register("/service-worker.js")
         .catch(function (err) {
