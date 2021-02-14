@@ -819,8 +819,9 @@
       xhr.send();
 
       const sendMessageEvent = () => {
-        const question = ChatHandler.publishQuestion();
+        let question = ChatHandler.publishQuestion();
         if (question) {
+          question = question.replace("ã", "a");
           request(question);
         }
       };
