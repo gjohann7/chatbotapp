@@ -728,7 +728,6 @@
       xhr.onload = () => {
         if (xhr.responseText) {
           try {
-            console.log(xhr.responseText);
             ResponseHandler.append(JSON.parse(xhr.responseText).response);
           } catch (error) {
             ResponseHandler.append("Ei, atualize a página por favor");
