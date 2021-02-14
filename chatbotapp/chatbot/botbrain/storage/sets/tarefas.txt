@@ -14,3 +14,7 @@ dever
 deveres
 funcao
 funcoes
+papel
+papeis
+obrigacao
+obrigacoes

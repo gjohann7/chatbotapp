@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- casamento -->
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ DATA ^ CASAMENTO ^</pattern>
+      <template>Eu me casei em <bot name="data-casamento"/></template>
+    </category>
+		<category>
+      <pattern>^ DATA ^ CASAMENTO ^ <set>qquestoes</set> ^</pattern>
+      <template>Eu me casei em <bot name="data-casamento"/></template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ <set>casar</set> ^</pattern>
+      <template>
+        Eu me casei em Foz do Iguaçu mesmo, mas não lembro o nome
+        da igreja kk
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUANDO ^ <set>casar</set> ^</pattern>
+      <template>Eu me casei em <bot name="data-casamento"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>casar</set> ^ ONDE ^</pattern>
+      <template>
+        Eu me casei em Foz do Iguaçu mesmo, mas não lembro o nome
+        da igreja kk
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>casar</set> ^ QUANDO ^</pattern>
+      <template>Eu me casei em <bot name="data-casamento"/></template>
+    </category>
+    <!-- voces sao casados a quanto tempo -->
+    <category>
+      <pattern>^ QUANTO ^ <set>casar</set> ^</pattern>
+      <template>Eu me casei em <bot name="data-casamento"/>, já tem um tempinho</template>
+    </category>
+    <category>
+      <pattern>^ <set>casar</set> ^ QUANTO ^</pattern>
+      <template>Eu me casei em <bot name="data-casamento"/>, já tem um tempinho</template>
+    </category>
+  <!-- nascimento -->
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ SEU ^ ANIVERSARIO ^</pattern>
+      <template>Meu aniversario é dia <bot name="aniversario"/></template>
+    </category>
+    <category>
+      <pattern>^ SEU ^ ANIVERSARIO ^ <set>qquestoes</set> ^</pattern>
+      <template>Meu aniversario é dia <bot name="aniversario"/></template>
+    </category>
+    <category>
+      <pattern>^ ANO ^ NASCEU ^</pattern>
+      <template>Eu nasci no ano <bot name="ano-nascimento"/></template>
+    </category>
+    <category>
+      <pattern>^ ANO ^ NASCESTE ^</pattern>
+      <template>Eu nasci no ano <bot name="ano-nascimento"/></template>
+    </category>
+    <category>
+      <pattern>^ QUANDO ^ NASCEU ^</pattern>
+      <template>Eu nasci no dia <bot name="data-nascimento"/></template>
+    </category>
+    <category>
+      <pattern>^ QUANDO ^ NASCESTE ^</pattern>
+      <template>Eu nasci no dia <bot name="data-nascimento"/></template>
+    </category>
+		<category>
+      <pattern>^ NASCEU ^ ANO ^</pattern>
+      <template>Eu nasci no ano <bot name="ano-nascimento"/></template>
+    </category>
+    <category>
+      <pattern>^ NASCESTE ^ ANO ^</pattern>
+      <template>Eu nasci no ano <bot name="ano-nascimento"/></template>
+    </category>
+    <category>
+      <pattern>^ NASCEU ^ QUANDO ^</pattern>
+      <template>Eu nasci no dia <bot name="data-nascimento"/></template>
+    </category>
+    <category>
+      <pattern>^ NASCESTE ^ QUANDO ^</pattern>
+      <template>Eu nasci no dia <bot name="data-nascimento"/></template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ NASCEU ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ NASCESTE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+		<category>
+      <pattern>^ NASCEU ^ ONDE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ NASCESTE ^ ONDE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ SUA ^ CIDADE NATAL ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+		<category>
+      <pattern>^ QUAL ^ CIDADE NATAL ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+		<category>
+      <pattern>^ CIDADE NATAL ^ QUAL ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ <set>serestar</set> ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ VOCE ^ VEM ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ VOCE ^ VENS ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ VIESTE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+		<category>
+      <pattern>^ <set>serestar</set> ^ ONDE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ VOCE ^ VEM ^ ONDE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ VOCE ^ VENS ^ ONDE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ VIESTE ^ ONDE ^</pattern>
+      <template>Eu nasci em Foz do Iguaçu, Paraná</template>
+    </category>
+    <category>
+      <pattern>^ CONTINUA ^ <set>morar</set> ^</pattern>
+      <template>Eu continuo sim</template>
+    </category>
+    <category>
+      <pattern>^ <set>morar</set> ^ AINDA ^</pattern>
+      <template>Eu continuo sim</template>
+    </category>
+    <category>
+      <pattern>^ HOJE ^ <set>morar</set> ^</pattern>
+      <template>Eu continuo sim</template>
+    </category>
+    <category>
+      <pattern>^ <set>morar</set> ^ HOJE ^</pattern>
+      <template>Eu continuo sim</template>
+    </category>
+    <category>
+      <pattern>^ QUANTOS ^ ANOS ^ <set>ter</set> ^</pattern>
+      <template>
+        Eu tenho 
+        <interval>
+          <format>%B %d, %Y</format>
+          <style>years</style>
+          <from><bot name="birthday"/></from>
+          <to><date format="%B %d, %Y"/></to>
+        </interval> 
+        anos
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ QUANTOS ^ ANOS ^</pattern>
+      <template><srai>QUANTOS ANOS TENS</srai></template>
+    </category>
+    <category>
+      <pattern>^ SUA ^ IDADE ^</pattern>
+      <template><srai>QUANTOS ANOS TENS</srai></template>
+    </category>
+  <!-- localizacao -->
+    <category>
+      <pattern>^ ONDE ^ <set>morar</set> ^</pattern>
+      <template>Eu moro em <bot name="localizacao"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>morar</set> ^ ONDE ^</pattern>
+      <template><srai>ONDE MORAR</srai></template>
+    </category>
+    <category>
+      <pattern>^ CIDADE ^ <set>morar</set> ^</pattern>
+      <template><srai>ONDE MORAR</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>morar</set> ^ CIDADE ^</pattern>
+      <template><srai>ONDE MORAR</srai></template>
+    </category>
+    <category>
+      <pattern>^ CONTINUAS ^ VIVER ^ FOZ</pattern>
+      <template>Eu continuo morando em Foz</template>
+    </category>
+  <!-- estado civil -->
+    <category>
+      <pattern>^ SEU ^ ESTADO CIVIL ^</pattern>
+      <template>Eu sou <bot name="estado-civil"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ CASADO ^</pattern>
+      <template>Eu sou <bot name="estado-civil"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ COM ALGUEM ^</pattern>
+      <template>Eu sou <bot name="estado-civil"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ SOLTEIRO ^</pattern>
+      <template>Eu sou <bot name="estado-civil"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ NAMORANDO ^</pattern>
+      <template>Eu sou <bot name="estado-civil"/></template>
+    </category>
+		<category>
+      <pattern>^ <set>serestar</set> ^ A NAMORAR ^</pattern>
+      <template>Eu sou <bot name="estado-civil"/></template>
+    </category>
+    <category>
+      <that>Eu sou casado</that>
+      <pattern>^ <set>qquestoes</set> ^ JUNTOS ^</pattern>
+      <template>Estamos juntos a 12 anos já</template>
+    </category>
+    <category>
+      <that>Eu sou casado</that>
+      <pattern>^ <set>qquestoes</set> ^ JUNTO ^</pattern>
+      <template>Estamos juntos a 12 anos já</template>
+    </category>
+    <category>
+      <that>Eu sou casado</that>
+      <pattern>^ JUNTOS ^ <set>qquestoes</set> ^</pattern>
+      <template>Estamos juntos a 12 anos já</template>
+    </category>
+    <category>
+      <that>Eu sou casado</that>
+      <pattern>^ JUNTO ^ <set>qquestoes</set> ^</pattern>
+      <template>Estamos juntos a 12 anos já</template>
+    </category>
+  <!-- familia -->
+    <category>
+      <pattern>^ <set>ter</set> ^ FAMILIA ^</pattern>
+      <template>Eu tenho <bot name="familia"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ FAMILIA ^</pattern>
+      <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/>, nos damos bem</template>
+    </category>
+    <category>
+      <pattern>^ <set>relacionamento</set> ^ FAMILIA ^</pattern>
+      <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/>, nos damos bem</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ NOMES ^</pattern>
+      <that>Eu tenho esposa e filha</that>
+      <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ NOME ^</pattern>
+      <that>Eu tenho esposa e filha</that>
+      <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+    </category>
+    <category>
+      <pattern>^ NOMES ^ <set>qquestoes</set> ^</pattern>
+      <that>Eu tenho esposa e filha</that>
+      <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+    </category>
+    <category>
+      <pattern>^ NOME ^ <set>qquestoes</set> ^</pattern>
+      <that>Eu tenho esposa e filha</that>
+      <template>Minha esposa se chama <bot name="esposa"/> e minha filha, <bot name="filha"/></template>
+    </category>
+    <category>
+      <pattern>^ <set>gostar</set> ^ FAMILIA ^</pattern>
+      <template>Eu amo minha família</template>
+    </category>
+    <category>
+      <pattern>^ <set>morar</set> ^ FAMILIA ^</pattern>
+      <template>Eu vivo com eles sim</template>
+    </category>
+    <category>
+      <pattern>^ <set>morar</set> ^ FAMILIARES ^</pattern>
+      <template>Eu vivo com eles sim</template>
+    </category>
+  <!-- corpo -->
+    <category>
+      <pattern>^ QUANTOS ^ QUILOS ^</pattern>
+      <template>Eu peso <bot name="peso"/></template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ SUA ^ ALTURA ^</pattern>
+      <template>Eu tenho <bot name="altura"/></template>
+    </category>
+		<category>
+      <pattern>^ SUA ^ ALTURA ^ QUAL ^</pattern>
+      <template>Eu tenho <bot name="altura"/></template>
+    </category>
+  <!-- religiao -->
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ SUA ^ RELIGIAO ^</pattern>
+      <template>Eu sou católico, mas não sigo muito ela</template>
+    </category>
+    <category>
+      <pattern>^ SUA ^ RELIGIAO ^ <set>qquestoes</set> ^</pattern>
+      <template>Eu sou católico, mas não sigo muito ela</template>
+    </category>
+  <!-- nome -->
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ <set>voce</set> ^ <set>chamar</set> ^</pattern>
+        <template><srai>QUAL SEU NOME</srai></template>
+      </category>
+			<category>
+        <pattern>^ <set>voce</set> ^ <set>chamar</set> ^ <set>qquestoes</set> ^</pattern>
+        <template><srai>QUAL SEU NOME</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ SEU ^ NOME ^</pattern>
+        <template>
+          Meu nome completo é <bot name="nome-completo"/>, mas pode me
+          chamar só de <bot name="primeiro-nome"/>
+        </template>
+      </category>
+			<category>
+        <pattern>^ SEU ^ NOME ^ <set>qquestoes</set> ^</pattern>
+        <template>
+          Meu nome completo é <bot name="nome-completo"/>, mas pode me
+          chamar só de <bot name="primeiro-nome"/>
+        </template>
+      </category>
+  <!-- concentra jogo -->
+		<category>
+			<pattern>^ JOGO ^ NAO ^ <set>pensar</set> ^ <set>outroa</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ JOGOS ^ NAO ^ <set>pensar</set> ^ <set>outroa</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ CARTA ^ NAO ^ <set>pensar</set> ^ <set>outroa</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ CARTAS ^ NAO ^ <set>pensar</set> ^ <set>outroa</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+
+		<category>
+			<pattern>^ JOGO ^ <set>distrair</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ JOGOS ^ <set>distrair</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ CARTA ^ <set>distrair</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ CARTAS ^ <set>distrair</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>outroa</set> ^ JOGO ^ NAO ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>outroa</set> ^ JOGOS ^ NAO ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>outroa</set> ^ CARTA ^ NAO ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>outroa</set> ^ CARTAS ^ NAO ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>distrair</set> ^ JOGO ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ <set>distrair</set> ^ JOGOS ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ <set>distrair</set> ^ CARTA ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ <set>distrair</set> ^ CARTAS ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+	<!-- consulta -->
+		<category>
+			<pattern>^ QUE ^ <set>frequentemente</set> ^ <set>ir</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUAL ^ <set>frequentemente</set> ^ <set>ir</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>ir</set> ^ <set>medico</set> ^ QUE ^ <set>frequentemente</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>ir</set> ^ <set>medico</set> ^ QUAL ^ <set>frequentemente</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>ir</set> ^ <set>frequentemente</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>ir</set> ^ <set>frequentemente</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>frequentemente</set> ^ <set>ir</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>frequentemente</set> ^ <set>ir</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>frequentemente</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUAL ^ <set>frequentemente</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>consulta</set> ^ QUE ^ <set>frequentemente</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>consulta</set> ^ QUAL ^ <set>frequentemente</set> ^</pattern>
+			<template>
+				Faço isso para examinarem minhas dores. Fico preocupado o que
+				eu sinto pode ser sintoma de alguma doença
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ QUANTAS ^ VEZES ^ <set>fazer</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu não sei quantas vezes vou, tento ir com frequência, assim
+				se eu tiver alguma doença eu tenho mais chance de curar
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUANTAS ^ VEZES ^ <set>ir</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu não sei quantas vezes vou, tento ir com frequência, assim
+				se eu tiver alguma doença eu tenho mais chance de curar
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUANTAS ^ VEZES ^ <set>ir</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu não sei quantas vezes vou, tento ir com frequência, assim
+				se eu tiver alguma doença eu tenho mais chance de curar
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>consulta</set> ^ QUANTAS ^ VEZES ^</pattern>
+			<template>
+				Eu não sei quantas vezes vou, tento ir com frequência, assim
+				se eu tiver alguma doença eu tenho mais chance de curar
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>ir</set> ^ <set>consulta</set> ^ QUANTAS ^ VEZES ^</pattern>
+			<template>
+				Eu não sei quantas vezes vou, tento ir com frequência, assim
+				se eu tiver alguma doença eu tenho mais chance de curar
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>ir</set> ^ <set>medico</set> ^ QUANTAS ^ VEZES ^</pattern>
+			<template>
+				Eu não sei quantas vezes vou, tento ir com frequência, assim
+				se eu tiver alguma doença eu tenho mais chance de curar
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>fazer</set> ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>		
+		<category>
+			<pattern>^ <set>fazer</set> ^ QUE ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ QUE ^ <set>fazer</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ <set>fazer</set> ^ QUE ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>fazer</set> ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ QUE ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ QUE ^ <set>fazer</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ <set>fazer</set> ^ QUE ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>acontecer</set> ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>		
+		<category>
+			<pattern>^ <set>acontecer</set> ^ QUE ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ QUE ^ <set>acontecer</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ <set>acontecer</set> ^ QUE ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>acontecer</set> ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>acontecer</set> ^ QUE ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ QUE ^ <set>acontecer</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ <set>acontecer</set> ^ QUE ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ COMO ^ <set>sentir</set> ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>		
+		<category>
+			<pattern>^ <set>sentir</set> ^ COMO ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ COMO ^ <set>sentir</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ <set>sentir</set> ^ COMO ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ COMO ^ <set>sentir</set> ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ COMO ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ COMO ^ <set>sentir</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ <set>sentir</set> ^ COMO ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>acontecer</set> ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>		
+		<category>
+			<pattern>^ <set>acontecer</set> ^ QUE ^ NAO ^ <set>poder</set> ^ <set>medico</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ QUE ^ <set>acontecer</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>medico</set> ^ <set>acontecer</set> ^ QUE ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>acontecer</set> ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>acontecer</set> ^ QUE ^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ QUE ^ <set>acontecer</set> ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+		<category>
+			<pattern>^ NAO ^ <set>poder</set> ^ <set>consulta</set> ^ <set>acontecer</set> ^ QUE ^</pattern>
+			<template>
+				Eu tento marcar uma consulta e quanto antes. Eu tomo
+				paracetamol, que o médico indica ou espero a dor passar
+			</template>
+		</category>
+	<!-- conferir as coisas -->
+		<category>
+			<pattern>^ <set>desde</set> ^ QUANDO ^ <set>ter</set> ^ <set>este</set> ^ <set>cuidados</set> ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>este</set> ^ <set>cuidados</set> ^ <set>desde</set> ^ QUANDO ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>desde</set> ^ QUANDO ^ <set>fazer</set> ^ <set>este</set> ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>este</set> ^ <set>desde</set> ^ QUANDO ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+
+		<category>
+			<that>Desde criança sempre fui assim</that>
+			<pattern>^ ASSIM ^ COMO ^</pattern>
+			<template>Preocupado com as coisas</template>
+		</category>
+		<category>
+			<that>Desde criança sempre fui assim</that>
+			<pattern>^ COMO ^ ASSIM ^</pattern>
+			<template>Preocupado com as coisas</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>desde</set> ^ QUANDO ^ <set>conferir</set> ^ <set>este</set> ^</pattern>
+			<template>Sobre isso não me lembro. Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>desde</set> ^ QUANDO ^ <set>conferir</set> ^ COISAS ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>desde</set> ^ QUANDO ^ <set>conferir</set> ^ <set>cuidados</set> ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ <set>este</set> ^ <set>desde</set> ^ QUANDO ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ COISAS ^ <set>desde</set> ^ QUANDO ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ <set>cuidados</set> ^ <set>desde</set> ^ QUANDO ^</pattern>
+			<template>Desde criança sempre fui assim</template>
+		</category>
+
+		<category>
+			<pattern>^ SEMPRE ^ <set>fazer</set> ^ <set>este</set> ^</pattern>
+			<template>Fazer o quê?</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>este</set> ^ SEMPRE ^</pattern>
+			<template>Fazer o quê?</template>
+		</category>
+
+		<category>
+			<pattern>^ SEMPRE ^ <set>conferir</set> ^ TUDO ^</pattern>
+			<template>Sempre confiro as coisas da casa antes de dormir</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ TUDO ^ SEMPRE ^</pattern>
+			<template>Sempre confiro as coisas da casa antes de dormir</template>
+		</category>
+		<category>
+			<pattern>^ SEMPRE ^ <set>conferir</set> ^ COISAS ^</pattern>
+			<template>Sempre confiro as coisas da casa antes de dormir</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ COISAS ^ SEMPRE ^</pattern>
+			<template>Sempre confiro as coisas da casa antes de dormir</template>
+		</category>
+
+		<category>
+			<that>Sempre confiro as coisas da casa antes de dormir</that>
+			<pattern>^ <set>que</set> ^ COISAS ^</pattern>
+			<template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+		</category>
+		<category>
+			<that>Sempre confiro as coisas da casa antes de dormir</that>
+			<pattern>^ <set>que</set> ^ COISA ^</pattern>
+			<template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+		</category>
+
+		<category>
+			<that>^ <set>conferir</set> ^</that>
+			<pattern>^ QUANDO ^ <set>crianca</set> ^ <set>fazer</set> ^ <set>este</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<that>^ <set>conferir</set> ^</that>
+			<pattern>^ <set>fazer</set> ^ <set>este</set> ^ QUANDO ^ <set>crianca</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ QUANDO ^ <set>crianca</set> ^ <set>conferir</set> ^ <set>este</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ <set>este</set> ^ QUANDO ^ <set>crianca</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ QUANDO ^ <set>crianca</set> ^ <set>conferir</set> ^ COISAS ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ COISAS ^ QUANDO ^ <set>crianca</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ QUANDO ^ <set>crianca</set> ^ <set>conferir</set> ^ TUDO ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ TUDO ^ QUANDO ^ <set>crianca</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ QUANDO ^ <set>crianca</set> ^ <set>conferir</set> ^ <set>cuidados</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ <set>cuidados</set> ^ QUANDO ^ <set>crianca</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>conferir</set> ^ QUE ^ <set>fazer</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ QUE ^ <set>fazer</set> ^ <set>profissao</set> ^</pattern>
+			<template>Não lembro certinho</template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>conferir</set> ^ COISAS ^</pattern>
+			<template>
+				Gosto de fazê-lo bem feito e não gosto quando não tenho nada
+        para fazer, não quero que pensem mal de mim se me virem se
+        fazer nada
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>conferir</set> ^ COISAS ^ <set>profissao</set> ^</pattern>
+			<template>
+				Gosto de fazê-lo bem feito e não gosto quando não tenho nada
+        para fazer, não quero que pensem mal de mim se me virem se
+        fazer nada
+			</template>
+		</category>
+		
+		<category>
+			<pattern>^ <set>responsabilidades</set> ^ QUANDO ^ <set>crianca</set> ^</pattern>
+			<template>
+				Quando eu era pequeno meus pais trabalhavam fora e eu tinha
+				que cuidar do meu irmão menor
+			</template>
+		</category>
+		<category>
+			<pattern>^ QUANDO ^ <set>crianca</set> ^ <set>responsabilidades</set> ^</pattern>
+			<template>
+				Quando eu era pequeno meus pais trabalhavam fora e eu tinha
+				que cuidar do meu irmão menor
+			</template>
+		</category>
+
+	<!-- "toc" -->
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>fazer</set> ^ COISAS ^ <set>muito</set> ^ VEZES ^</pattern>
+      <template>Não, se eu fizer algo bem feito não tem porque fazer novamente</template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>fazer</set> ^ AFAZERES ^ <set>muito</set> ^ VEZES ^</pattern>
+      <template>Não, se eu fizer algo bem feito não tem porque fazer novamente</template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>fazer</set> ^ DEVERES ^ <set>muito</set> ^ VEZES ^</pattern>
+      <template>Não, se eu fizer algo bem feito não tem porque fazer novamente</template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ COISAS ^ <set>muito</set> ^ VEZES ^</pattern>
+      <template>Não, se eu fizer algo bem feito não tem porque fazer novamente</template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ AFAZERES ^ <set>muito</set> ^ VEZES ^</pattern>
+      <template>Não, se eu fizer algo bem feito não tem porque fazer novamente</template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ DEVERES ^ <set>muito</set> ^ VEZES ^</pattern>
+      <template>Não, se eu fizer algo bem feito não tem porque fazer novamente</template>
+    </category>
+
+    <category>
+      <pattern>^ QUANDO ^ <set>conferir</set> ^ COISAS ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+		<category>
+      <pattern>^ <set>conferir</set> ^ COISAS ^ QUANDO ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>que</set> ^ <set>situacao</set> ^ <set>conferir</set> ^ COISAS ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>frequentemente</set> ^ <set>ritual</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>ritual</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ RITUAL ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ RITUAIS ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>		
+		<category>
+      <pattern>^ <set>ritual</set> ^ <set>ter</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+    <category>
+      <pattern>^ <set>ritual</set> ^ <set>frequentemente</set> ^ <set>ter</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+    <category>
+      <pattern>^ RITUAL ^ <set>ter</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+    <category>
+      <pattern>^ RITUAIS ^ <set>ter</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+
+    <category>
+      <pattern>^ <set>ritual</set> ^ <set>incomodar</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+		<category>
+      <pattern>^ <set>incomodar</set> ^ <set>ritual</set> ^</pattern>
+      <template>Não tenho nada disso não</template>
+    </category>
+
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>frequentemente</set> ^ <set>conferir</set> ^ COISAS ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>frequentemente</set> ^ <set>arrumar</set> ^ COISAS ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>arrumar</set> ^ COISAS ^ ORDEM ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>arrumar</set> ^ COISAS ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ COISAS ^ ORDEM ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>frequentemente</set> ^ <set>conferir</set> ^ OBJETOS ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>frequentemente</set> ^ <set>arrumar</set> ^ OBJETOS ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>arrumar</set> ^ OBJETOS ^ ORDEM ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ <set>arrumar</set> ^ OBJETOS ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>precisar</set> ^ OBJETOS ^ ORDEM ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+
+		<category>
+      <pattern>^ <set>frequentemente</set> ^ <set>conferir</set> ^ COISAS ^ <set>precisar</set> ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>arrumar</set> ^ COISAS ^ <set>precisar</set> ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+		<category>
+      <pattern>^ <set>conferir</set> ^ COISAS ^ <set>frequentemente</set> ^ <set>precisar</set> ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>arrumar</set> ^ COISAS ^ <set>frequentemente</set> ^ <set>precisar</set> ^</pattern>
+      <template>
+        Confiro se a casa está bem fechada antes de dormir. Acho que
+        isso é tudo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>arrumar</set> ^ COISAS ^ ORDEM ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>arrumar</set> ^ COISAS ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ COISAS ^ ORDEM ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>conferir</set> ^ OBJETOS ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>arrumar</set> ^ OBJETOS ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+		<category>
+      <pattern>^ <set>conferir</set> ^ OBJETOS ^ <set>frequentemente</set> ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>arrumar</set> ^ OBJETOS ^ <set>frequentemente</set> ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>arrumar</set> ^ OBJETOS ^ ORDEM ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ <set>arrumar</set> ^ OBJETOS ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+    <category>
+      <pattern>^ OBJETOS ^ ORDEM ^ <set>precisar</set> ^</pattern>
+      <template>Não que eu tenha percebido kk</template>
+    </category>
+	<!-- financeiro -->
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>problema</set> ^ <set>financeiro</set> ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>problema</set> ^ <set>financeiro</set> ^ <set>ter</set> ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>problema</set> ^ <set>financeiro</set> ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>bem</set> ^ <set>financeiro</set> ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>serestar</set> ^ <set>precisar</set> ^ <set>financeiro</set> ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>precisar</set> ^ DINHEIRO ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>precisar</set> ^ AJUDA FINANCEIRA ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>serestar</set> ^ FALTAR ^ DINHEIRO ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ FALTA ^ DINHEIRO ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ FALTANDO ^ DINHEIRO ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>serestar</set> ^ BEM ^ DINHEIRO ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ BEM ^ DINHEIRO ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ BEM ^ DINHEIRO ^</pattern>
+			<template>Minha família e eu não temos problemas financeiros</template>
+		</category>
+	<!-- medo morrer -->
+    <category>
+			<pattern>^ <set>ter</set> ^ <set>medos</set> ^ <set>morrer</set> ^</pattern>
+			<template>Tenho medo de morrer e que minha família fique em apuros com isso</template>
+		</category>
+		<category>
+			<pattern>^ <set>medos</set> ^ <set>morrer</set> ^ <set>ter</set> ^</pattern>
+			<template>Tenho medo de morrer e que minha família fique em apuros com isso</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>morrer</set> ^</pattern>
+			<template>Tenho medo de morrer e que minha família fique em apuros com isso</template>
+		</category>  
+</aiml>

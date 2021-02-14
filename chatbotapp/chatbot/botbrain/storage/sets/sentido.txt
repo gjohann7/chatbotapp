@@ -1,0 +1,4 @@
+sentido
+estado
+andado
+passado

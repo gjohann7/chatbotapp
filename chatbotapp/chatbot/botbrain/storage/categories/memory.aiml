@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 172 -->
+		<category>
+			<pattern>RESPOSTA172</pattern>
+			<template>Eu dormi em casa mesmo</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ ONDE ^ <set>dormir</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>dormir</set> ^ ONDE ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ ONDE ^ <set>dormir</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>dormir</set> ^ ONDE ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ LUGAR ^ <set>dormir</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>dormir</set> ^ LUGAR ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ LUGAR ^ <set>dormir</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>dormir</set> ^ LUGAR ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ CASA ^ <set>dormir</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>dormir</set> ^ CASA ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ CASA ^ <set>dormir</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>dormir</set> ^ CASA ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ FORA ^ <set>dormir</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>dormir</set> ^ FORA ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ FORA ^ <set>dormir</set> ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>dormir</set> ^ FORA ^</pattern>
+			<template><srai>RESPOSTA172</srai></template>
+		</category>
+	<!-- fim 172 -->
+	<!-- id 173 -->
+		<category>
+	    <pattern>RESPOSTA173</pattern>
+	    <template>
+	        <think>
+	            <set name="diasemana">
+	                <date format="%A"/>
+	            </set>
+	        </think><condition name="diasemana">
+	            <li value="Monday">Eu passei o domingo em casa mesmo</li>
+	            <li value="Sunday">Eu passei o sábado em casa mesmo</li>
+							<li>Eu fui trabalhar e depois voltei para casa</li>
+	        </condition>
+	    </template>
+    </category>
+		<!---->
+		<category>
+			<pattern>^ ONDE ^ <set>serestar</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ ONDE ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ ONDE ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>serestar</set> ^ ONDE ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ LUGAR ^ <set>serestar</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ LUGAR ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ LUGAR ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>serestar</set> ^ LUGAR ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ CASA ^ <set>serestar</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ CASA ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ CASA ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>serestar</set> ^ CASA ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ FORA ^ <set>serestar</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>serestar</set> ^ FORA ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ FORA ^ <set>serestar</set> ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>serestar</set> ^ FORA ^</pattern>
+			<template><srai>RESPOSTA173</srai></template>
+		</category>
+	<!-- fim 173 -->
+	<!-- id 176 -->
+		<category>
+			<pattern>RESPOSTA176</pattern>
+			<template>Ah, eu comi comida normal. Arroz, feijão, alguma carne</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ QUE ^ <set>comer</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>comer</set> ^ QUE ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ QUE ^ <set>comer</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>comer</set> ^ QUE ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ QUAL ^ <set>comer</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>comer</set> ^ QUAL ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ QUAL ^ <set>comer</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>comer</set> ^ QUAL ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ QUAIS ^ <set>comer</set> ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>comer</set> ^ QUAIS ^ <set>ontem</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ QUAIS ^ <set>comer</set> ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ontem</set> ^ <set>comer</set> ^ QUAIS ^</pattern>
+			<template><srai>RESPOSTA176</srai></template>
+		</category>
+	<!-- fim 176 -->
+	<!-- id 177 -->
+		<category>
+	    <pattern>RESPOSTA177</pattern>
+	    <template>Basicamente o mesmo que ontem</template>
+    </category>
+		<!---->
+		<category>
+			<pattern>^ QUE ^ <set>comer</set> ^ HOJE ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>comer</set> ^ <set>este</set> ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>comer</set> ^ QUE ^ HOJE ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ HOJE ^ QUE ^ <set>comer</set> ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ HOJE ^ <set>comer</set> ^ QUE ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ QUAL ^ <set>comer</set> ^ HOJE ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ QUAL ^ <set>comer</set> ^ <set>este</set> ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>comer</set> ^ QUAL ^ HOJE ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ HOJE ^ QUAL ^ <set>comer</set> ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+		<category>
+			<pattern>^ HOJE ^ <set>comer</set> ^ QUAL ^</pattern>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+
+		<category>
+			<pattern>E HOJE</pattern>
+			<that>Arroz feijão alguma carne</that>
+			<template><srai>RESPOSTA177</srai></template>
+		</category>
+	<!-- fim 177 -->
+	<!-- id 197 -->
+		<category>
+			<pattern>RESPOSTA197</pattern>
+			<template>Eu não tive nenhum trabalho anteriormente</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ QUE ^ <set>fez</set> ^ <set>profissao</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ QUE ^ <set>profissao</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>anteriormente</set> ^ QUE ^ <set>fez</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>anteriormente</set> ^ <set>fez</set> ^ QUE ^ <set>profissao</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ QUAL ^ <set>fez</set> ^ <set>profissao</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ QUAL ^ <set>profissao</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>anteriormente</set> ^ QUAL ^ <set>fez</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>anteriormente</set> ^ <set>fez</set> ^ QUAL ^ <set>profissao</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ QUAIS ^ <set>fez</set> ^ <set>profissao</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fez</set> ^ QUAIS ^ <set>profissao</set> ^ <set>anteriormente</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>anteriormente</set> ^ QUAIS ^ <set>fez</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>anteriormente</set> ^ <set>fez</set> ^ QUAIS ^ <set>profissao</set> ^</pattern>
+			<template><srai>RESPOSTA197</srai></template>
+		</category>
+	<!-- fim 197 -->
+	<!-- id 198 -->
+		<category>
+			<pattern>RESPOSTA198</pattern>
+			<template>
+				Bom, eu cuidava do meu irmão <bot name="irmao"/> e estudava quando
+				era criança
+			</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>qquestoes</set> ^ <set>aprender</set> ^</pattern>
+			<that>Eu não tive nenhum trabalho anteriormente</that>
+			<template><srai>RESPOSTA198</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>aprender</set> ^ <set>qquestoes</set> ^</pattern>
+			<that>Eu não tive nenhum trabalho anteriormente</that>
+			<template><srai>RESPOSTA198</srai></template>
+		</category>
+	<!-- fim 198 -->
+</aiml>

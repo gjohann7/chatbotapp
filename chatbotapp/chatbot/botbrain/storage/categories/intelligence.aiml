@@ -3,7 +3,7 @@
 	<!-- id 394 -->
 		<category>
 			<pattern>RESPOSTA394</pattern>
-			<template>Eu terminei o ensino médio e fiz um curso para da profissão</template>
+			<template>Eu terminei o ensino médio e fiz um curso para profissão</template>
 		</category>
 		<!---->
 			<category>
@@ -80,7 +80,15 @@
 	<!-- fim 395 -->
 	<!-- id 396 (that 395) -->
 		<category>
-			<pattern>^ <set>qquestoes</set> ^ <set>justificativa</set> ^</pattern>
+			<pattern>^ <set>qquestoes</set> ^ <set>justificativa</set> ^ <set>repetir</set> ^</pattern>
+			<that>Não repeti nenhum ano na escola</that>
+			<template>
+				Eu me dediquei nos estudos para conseguir ser aprovado em
+				todos
+			</template>
+		</category>
+    <category>
+			<pattern>^ <set>repetir</set> ^ <set>qquestoes</set> ^ <set>justificativa</set> ^</pattern>
 			<that>Não repeti nenhum ano na escola</that>
 			<template>
 				Eu me dediquei nos estudos para conseguir ser aprovado em

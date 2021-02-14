@@ -10,6 +10,39 @@
 		</category>
 		<!---->
 			<category>
+				<pattern>^ <set>relacao</set> ^ ELE ^</pattern>
+				<that>
+					Quando eu era pequeno meus pais trabalhavam fora e eu tinha
+					que cuidar do meu irmão menor
+				</that>
+				<template><srai>RELACAO IRMAO</srai></template>
+			</category>
+			<category>
+				<pattern>^ ELE ^ <set>relacao</set> ^</pattern>
+				<that>
+					Quando eu era pequeno meus pais trabalhavam fora e eu tinha
+					que cuidar do meu irmão menor
+				</that>
+				<template><srai>RELACAO IRMAO</srai></template>
+			</category>
+			<category>
+				<pattern>^ CUIDAR ^ DELE ^</pattern>
+				<that>
+					Quando eu era pequeno meus pais trabalhavam fora e eu tinha
+					que cuidar do meu irmão menor
+				</that>
+				<template><srai>CUIDAR IRMAO</srai></template>
+			</category>
+			<category>
+				<pattern>^ DELE ^ CUIDAR ^</pattern>
+				<that>
+					Quando eu era pequeno meus pais trabalhavam fora e eu tinha
+					que cuidar do meu irmão menor
+				</that>
+				<template><srai>CUIDAR IRMAO</srai></template>
+			</category>
+
+			<category>
 				<pattern>^ <set>falar</set> ^ <set>infancia</set> ^</pattern>
 				<template><srai>RESPOSTA357</srai></template>
 			</category>
@@ -50,7 +83,7 @@
 		<category>
 			<pattern>RESPOSTA358</pattern>
 			<template>
-				Sempre tive uma relação normal com meu Irmão. Minha mãe
+				Sempre tive uma relação normal com meu irmão. Minha mãe
 				sempre estava preocupada com a segurança e saúde do meu
 				irmão e minha. Às vezes a gente nem saía para que nada de
 				mal nos acontecesse. Se ela ouvia o som de sirenes logo
@@ -166,11 +199,11 @@
 				<template><srai>RESPOSTA359</srai></template>
 			</category>
 			<category>
-				<pattern>^ SE <set>descrever</set> ^</pattern>
+				<pattern>^ <set>voce</set> <set>descrever</set> ^</pattern>
 				<template><srai>RESPOSTA359</srai></template>
 			</category>
 			<category>
-				<pattern>^ COMO ^ <set>voce</set> ^ e ^</pattern>
+				<pattern>^ COMO ^ <set>voce</set> e ^</pattern>
 				<template><srai>RESPOSTA359</srai></template>
 			</category>
 			<category>
@@ -193,7 +226,7 @@
 		<!-- proprio -->
 			<category>
 				<pattern>RESPOSTA360 PROPRIO</pattern>
-				<template>Concordo sim, acho que ando mais assim mesmo</template>
+				<template>Acho que ando mais assim mesmo</template>
 			</category>
 			<category>
 				<pattern>^ CONCORDA ^</pattern>
@@ -258,6 +291,10 @@
 				<template><srai>RESPOSTA360</srai></template>
 			</category>
 			<category>
+				<pattern>^ COMO ^ <set>descrever</set> ^ <set>voce</set> ^</pattern>
+				<template><srai>RESPOSTA360</srai></template>
+			</category>
+			<category>
 				<pattern>^ COMO ^ <set>voce</set> ^ <set>descrever</set> ^</pattern>
 				<template><srai>RESPOSTA360</srai></template>
 			</category>
@@ -304,11 +341,11 @@
 		</category>
 		<!---->
 			<category>
-				<pattern>^ <set>ter</set> ^ <set>relacao</set> ^</pattern>
+				<pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>alguem</set> ^</pattern>
 				<template><srai>RESPOSTA362</srai></template>
 			</category>
 			<category>
-				<pattern>^ <set>relacao</set> ^ <set>ter</set> ^</pattern>
+				<pattern>^ <set>relacao</set> ^ <set>alguem</set> ^ <set>ter</set> ^</pattern>
 				<template><srai>RESPOSTA362</srai></template>
 			</category>
 	<!-- fim 362 -->
@@ -449,6 +486,10 @@
 			<pattern>^ <set>tentar</set> ^ <set>autodestrutivo</set> ^</pattern>
 			<template>Eu nunca nem pensei em suicídio</template>
 		</category>
+    <category>
+			<pattern>^ <set>autodestrutivo</set> ^ <set>tentar</set> ^</pattern>
+			<template>Eu nunca nem pensei em suicídio</template>
+		</category>
 	<!-- fim 371 -->
 	<!-- id 375 -->
 		<category>
@@ -519,18 +560,24 @@
 		<category>
 			<pattern>RESPOSTA378</pattern>
 			<template>
-				No geral meus relacionamentos são normais, calmos. Eu sempre
-				fico preocupado com eles mas acredito que isso seja normal
-				também
+				No geral meus relacionamentos são normais, calmos
 			</template>
 		</category>
 		<!---->
 			<category>
-				<pattern>^ <set>relacao</set> ^ <set>calmo</set> ^ </pattern>
+				<pattern>^ <set>relacao</set> ^ <set>calmo</set> ^</pattern>
 				<template><srai>RESPOSTA378</srai></template>
 			</category>
 			<category>
 				<pattern>^ <set>relacao</set> ^ <set>irritavel</set> ^</pattern>
+				<template><srai>RESPOSTA378</srai></template>
+			</category>
+      <category>
+				<pattern>^ <set>calmo</set> ^ <set>relacao</set> ^</pattern>
+				<template><srai>RESPOSTA378</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>irritavel</set> ^ <set>relacao</set> ^</pattern>
 				<template><srai>RESPOSTA378</srai></template>
 			</category>
 	<!-- fim 378 -->
@@ -539,7 +586,7 @@
 			<pattern>RESPOSTA379</pattern>
 			<template>
 				Meus relacionamentos são na maioria tranquilos, não vejo
-				tanto meu amigos porque fico bastante em casa. E sobre minha
+				tanto meus amigos porque fico bastante em casa. E sobre minha
 				família, eles estão bem mas eu sempre fico preocupado com
 				eles, acredito que seja normal
 			</template>
@@ -576,10 +623,22 @@
 				<pattern>^ <set>gostar</set> ^ <set>serestar</set> ^ CENTRO ^ <set>focar</set> ^</pattern>
 				<template><srai>RESPOSTA383 384</srai></template>
 			</category>
+      <category>
+				<pattern>^ <set>focar</set> ^ <set>voce</set> ^ <set>gostar</set> ^</pattern>
+				<template><srai>RESPOSTA383 384</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>serestar</set> ^ CENTRO ^ <set>focar</set> ^ <set>gostar</set> ^</pattern>
+				<template><srai>RESPOSTA383 384</srai></template>
+			</category>
 	<!-- fim 383 384 -->
 	<!-- id 385 -->
 		<category>
 			<pattern>^ <set>gostar</set> ^ <set>ter</set> ^ <set>vantagem</set> ^</pattern>
+			<template>Não penso muito em ter vantagem não</template>
+		</category>
+    <category>
+			<pattern>^ <set>ter</set> ^ <set>vantagem</set> ^ <set>gostar</set> ^</pattern>
 			<template>Não penso muito em ter vantagem não</template>
 		</category>
 	<!-- fim 385 -->
@@ -597,10 +656,22 @@
 				<pattern>^ <set>fez</set> ^ <set>algo</set> ^ FORA ^ LEI ^</pattern>
 				<template><srai>RESPOSTA389</srai></template>
 			</category>
+      <category>
+				<pattern>^ <set>problema</set> ^ <set>lei</set> ^ <set>fez</set> ^ <set>algo</set> ^</pattern>
+				<template><srai>RESPOSTA389</srai></template>
+			</category>
+			<category>
+				<pattern>^ FORA ^ LEI ^ <set>fez</set> ^ <set>algo</set> ^</pattern>
+				<template><srai>RESPOSTA389</srai></template>
+			</category>
 	<!-- fim 389 -->
 	<!-- id 390 -->
 		<category>
 			<pattern>^ <set>ter</set> ^ <set>problema</set> ^ <set>lei</set> ^</pattern>
+			<template>Não tive problemas com a justiça</template>
+		</category>
+    <category>
+			<pattern>^ <set>lei</set> ^ <set>ter</set> ^ <set>problema</set> ^</pattern>
 			<template>Não tive problemas com a justiça</template>
 		</category>
 	<!-- fim 390 -->

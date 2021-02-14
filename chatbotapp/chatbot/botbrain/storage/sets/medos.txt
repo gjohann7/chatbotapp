@@ -2,3 +2,6 @@ medo
 medos
 temor
 temores
+temer
+teme
+temes

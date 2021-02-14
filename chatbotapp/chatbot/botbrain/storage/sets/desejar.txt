@@ -3,6 +3,10 @@ desejas
 desejar
 desejava
 desejam
+interessa
+interessas
+interessar
+interessam
 pretende
 pretendes
 pretender

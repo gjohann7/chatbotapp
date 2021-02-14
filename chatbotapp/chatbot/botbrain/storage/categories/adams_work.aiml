@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- qual -->
+    <category>
+      <pattern>^ QUE ^ <set>faz</set> ^ VIDA ^</pattern>
+      <template>Eu trabalho na área de Auxiliar de Ação Educativa</template>
+    </category>
+    <category>
+      <pattern>TRABALHA</pattern>
+      <template><srai>QUE FAZ VIDA</srai></template>
+    </category>
+    <category>
+      <pattern>TRABALHAS</pattern>
+      <template><srai>QUE FAZ VIDA</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>faz</set> ^ QUE ^ VIDA ^</pattern>
+      <template><srai>QUE FAZ VIDA</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>voce</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>QUE FAZ VIDA</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>trabalhar</set> ^ QUE ^</pattern>
+      <template><srai>QUE FAZ VIDA</srai></template>
+    </category>
+    <category>
+			<pattern>^ VOCE ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+		<category>
+			<pattern>^ EM QUE ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ EM QUE ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+		<category>
+			<pattern>^ VOCE ^ <set>ter</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ VOCE ^ <set>ter</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+		<category>
+			<pattern>^ QUAL ^ SUA ^ <set>profissao</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ SUA ^ <set>profissao</set> ^ QUAL ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ QUAL ^ <set>profissao</set> ^ SUA ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ SUA ^ <set>profissao</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ SUA ^ <set>profissao</set> ^ QUE ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ QUE ^ <set>profissao</set> ^ SUA ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ QUAL ^ <set>profissao</set> ^ <set>ter</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>ter</set> ^ <set>profissao</set> ^ QUAL ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>ter</set> ^ QUAL ^ <set>profissao</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>profissao</set> ^ <set>ter</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>ter</set> ^ <set>profissao</set> ^ QUE ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>ter</set> ^ QUE ^ <set>profissao</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ QUAL ^ <set>profissao</set> ^ <set>fazer</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ <set>profissao</set> ^ QUAL ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ QUAL ^ <set>profissao</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>profissao</set> ^ <set>fazer</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ <set>profissao</set> ^ QUE ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ QUE ^ <set>profissao</set> ^</pattern>
+			<template><srai>QUE FAZ VIDA</srai></template>
+		</category>
+  <!-- funcao -->
+    <category>
+      <pattern>^ <set>explicar</set> ^ <set>profissao</set> ^</pattern>
+      <template>
+        Eu trabalho com crianças, reforçar a aprendizagem, promover
+        jogos, brincadeiras, prevenir acidentes, ficar atento aos
+        sintomas de saúde, essas coisas
+      </template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ QUE ^ <set>faz</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ <set>faz</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ QUE ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ <set>tarefas</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ QUAL ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ <set>tarefas</set> ^ QUAL ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ QUAIS ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+      <pattern>^ <set>tarefas</set> ^ QUAIS ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ <set>tarefas</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUE ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>tarefas</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAL ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>tarefas</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAIS ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ QUE ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>tarefas</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ QUAL ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>tarefas</set> ^ QUAL ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ QUAIS ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>tarefas</set> ^ QUAIS ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ <set>tarefas</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUE ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>tarefas</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAL ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>tarefas</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAIS ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ QUE ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>tarefas</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ QUAL ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>tarefas</set> ^ QUAL ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ QUAIS ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>tarefas</set> ^ QUAIS ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>    
+
+    <category>
+      <pattern>^ QUE ^ <set>tarefas</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUE ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>tarefas</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAL ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>tarefas</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAIS ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ QUE ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>tarefas</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ QUAL ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>tarefas</set> ^ QUAL ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ QUAIS ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>tarefas</set> ^ QUAIS ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    
+    <category>
+      <pattern>^ QUE ^ <set>tarefas</set> ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUE ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>tarefas</set> ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAL ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>tarefas</set> ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAIS ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ QUE ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ <set>tarefas</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ QUAL ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ <set>tarefas</set> ^ QUAL ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ QUAIS ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ <set>tarefas</set> ^ QUAIS ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ <set>tarefas</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUE ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>tarefas</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAL ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>tarefas</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ QUAIS ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ QUE ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>tarefas</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ QUAL ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>tarefas</set> ^ QUAL ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ QUAIS ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>tarefas</set> ^ QUAIS ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>tarefas</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>tarefas</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+
+    
+    <category>
+      <pattern>^ QUE ^ <set>fazer</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ QUE ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ QUE ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>fazer</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ <set>fazer</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ QUE ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ QUE ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>fazer</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>    
+
+    <category>
+      <pattern>^ QUE ^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ QUE ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ QUE ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>fazer</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    
+    <category>
+      <pattern>^ QUE ^ <set>fazer</set> ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ QUE ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ QUE ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ <set>fazer</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ AUXILIAR ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ QUE ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ QUE ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>fazer</set> ^ QUE ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>fazer</set> ^</pattern>
+      <template><srai>EXPLICAR PROFISSAO</srai></template>
+    </category>
+  <!-- exemplo tarefas trabalho  -->
+		<category>
+			<pattern>^ EXEMPLO ^ <set>tarefas</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>tarefas</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ EXEMPLO ^ <set>tarefas</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>tarefas</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>tarefas</set> ^ <set>profissao</set> ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tarefas</set> ^ <set>profissao</set> ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>tarefas</set> ^ <set>trabalhar</set> ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>tarefas</set> ^ <set>trabalhar</set> ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ EXEMPLO ^ <set>tarefas</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ EXEMPLOS ^ <set>tarefas</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ EXEMPLO ^ <set>tarefas</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ EXEMPLOS ^ <set>tarefas</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ EXEMPLO ^ <set>fazer</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>fazer</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ EXEMPLO ^ <set>fazer</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>fazer</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ <set>profissao</set> ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>profissao</set> ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ <set>trabalhar</set> ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>trabalhar</set> ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ EXEMPLO ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ EXEMPLOS ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ EXEMPLO ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ EXEMPLOS ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ EXEMPLO ^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ EXEMPLO ^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLO ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLOS ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLO ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ EXEMPLOS ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ EXEMPLO ^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ EXEMPLO ^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ EXEMPLOS ^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ ACAO EDUCATIVA ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ ACAO EDUCATIVA ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>fazer</set> ^ ACAO EDUCATIVA ^ EXEMPLO ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ ACAO EDUCATIVA ^ EXEMPLOS ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ ACAO EDUCATIVA ^ EXEMPLO ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ ACAO EDUCATIVA ^ EXEMPLOS ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+    <category>
+			<pattern>^ ACAO EDUCATIVA ^ EXEMPLO ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+		<category>
+			<pattern>^ ACAO EDUCATIVA ^ EXEMPLOS ^ <set>fazer</set> ^</pattern>
+			<template><srai>EXPLICAR PROFISSAO</srai></template>
+		</category>
+  <!-- tempo -->
+    <category>
+      <pattern>^ TEMPO ^ <set>trabalhar</set> ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ TEMPO ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ TEMPO ^ <set>profissao</set> ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ TEMPO ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+
+    <category>
+      <pattern>^ DESDE ^ <set>trabalhar</set> ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ DESDE ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ DESDE ^ <set>profissao</set> ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ DESDE ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+
+    <category>
+      <pattern>^ TEMPO ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ TEMPO ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ TEMPO ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ TEMPO ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+
+    <category>
+      <pattern>^ DESDE ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ DESDE ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ DESDE ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ DESDE ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+
+    <category>
+      <pattern>^ TEMPO ^ ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ TEMPO ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ TEMPO ^ ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ TEMPO ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+
+    <category>
+      <pattern>^ DESDE ^ ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ DESDE ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ DESDE ^ ACAO EDUCATIVA ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ DESDE ^</pattern>
+      <template>Desde que me formei, já devem fazer uns bons anos</template>
+    </category>
+  <!-- desempenho -->
+    <category>
+      <pattern>FAZERTRABALHO</pattern>
+      <template>
+        Gosto de fazê-lo bem feito e não gosto quando não tenho nada
+        para fazer, não quero que pensem mal de mim se me virem sem
+        fazer nada
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>serestar</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>serestar</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>trabalhar</set> ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>profissao</set> ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>fazer</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>fazer</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ <set>trabalhar</set> ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ <set>profissao</set> ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ DESEMPENHO ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ DESEMPENHO ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ DESEMPENHO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ DESEMPENHO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    
+    <category>
+      <pattern>^ COMPORTAMENTO ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ COMPORTAMENTO ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ COMPORTAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ COMPORTAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ EXECUCAO ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ EXECUCAO ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ EXECUCAO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ EXECUCAO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ FUNCIONAMENTO ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ FUNCIONAMENTO ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ FUNCIONAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ FUNCIONAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ <set>falar</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>falar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>falar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ <set>fazer</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>fazer</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>fazer</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ COMO ^ <set>serestar</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ AUXILIAR DE ACAO EDUCATIVA ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ DESEMPENHO ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ DESEMPENHO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ COMPORTAMENTO ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ COMPORTAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ EXECUCAO ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ EXECUCAO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ FUNCIONAMENTO ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ FUNCIONAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ <set>falar</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>falar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ <set>fazer</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>fazer</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ COMO ^ <set>serestar</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ ACAO EDUCATIVA ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>fazer</set> ^ ACAO EDUCATIVA ^ COMO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ DESEMPENHO ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ DESEMPENHO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ COMPORTAMENTO ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ COMPORTAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ EXECUCAO ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ EXECUCAO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ FUNCIONAMENTO ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ FUNCIONAMENTO ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ <set>falar</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>falar</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+
+    <category>
+      <pattern>^ <set>fazer</set> ^ ACAO EDUCATIVA ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ ACAO EDUCATIVA ^ <set>fazer</set> ^</pattern>
+      <template><srai>FAZERTRABALHO</srai></template>
+    </category>
+  <!-- opiniao -->
+    <category>
+      <pattern>AMBIENTETRABALHO</pattern>
+      <template>Eu gosto do ambiente, acho tranquilo</template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ AMBIENTE ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ AMBIENTE ^ <set>profissao</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AMBIENTE ^ <set>trabalhar</set> ^ <set>pensar</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AMBIENTE ^ <set>profissao</set> ^ <set>pensar</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>gostar</set> ^ AMBIENTE ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>gostar</set> ^ AMBIENTE ^ <set>profissao</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AMBIENTE ^ <set>trabalhar</set> ^ <set>gostar</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ AMBIENTE ^ <set>profissao</set> ^ <set>gostar</set> ^</pattern>
+      <template><srai>AMBIENTETRABALHO</srai></template>
+    </category>
+
+
+    <category>
+      <pattern>GOSTARTRABALHO</pattern>
+      <template>Eu gosto do meu trabalho sim</template>
+    </category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ <set>gostar</set> ^ <set>fazer</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ <set>pensar</set> ^ <set>fazer</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ <set>gostar</set> ^ <set>fazer</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ <set>pensar</set> ^ <set>fazer</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ <set>pensar</set> ^ QUE ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ <set>pensar</set> ^ QUE ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ QUE ^ <set>pensar</set> ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ QUE ^ <set>pensar</set> ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ <set>gostar</set> ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ <set>pensar</set> ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ <set>gostar</set> ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ <set>pensar</set> ^ <set>este</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ <set>este</set> ^ <set>gostar</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>Eu trabalho na área de Auxiliar de Ação Educativa</that>
+			<pattern>^ <set>este</set> ^ <set>pensar</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ <set>este</set> ^ <set>gostar</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <that>
+        Eu trabalho com crianças reforçar a aprendizagem promover
+        jogos brincadeiras prevenir acidentes ficar atento aos
+        sintomas de saúde essas coisas
+      </that>
+			<pattern>^ <set>este</set> ^ <set>pensar</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+
+    <category>
+			<pattern>^ <set>gostar</set> ^ SEU ^ <set>profissao</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>gostar</set> ^ SUA ^ <set>profissao</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ SEU ^ <set>profissao</set> ^ <set>gostar</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ SUA ^ <set>profissao</set> ^ <set>gostar</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>pensar</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ <set>pensar</set> ^ QUE ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ QUE ^ <set>pensar</set> ^</pattern>
+			<template><srai>GOSTARTRABALHO</srai></template>
+		</category>
+    <category>
+      <pattern>^ <set>gostar</set> ^ <set>trabalhar</set> ^</pattern>
+      <template><srai>GOSTARTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>gostar</set> ^ <set>profissao</set> ^</pattern>
+      <template><srai>GOSTARTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>trabalhar</set> ^ <set>gostar</set> ^</pattern>
+      <template><srai>GOSTARTRABALHO</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>gostar</set> ^</pattern>
+      <template><srai>GOSTARTRABALHO</srai></template>
+    </category>
+	
+    <category>
+			<pattern>PRETENDERESSETRABALHO</pattern>
+			<template>Acho que nunca pensei muito sobre isso, mas estou satisfeito com ele</template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>trabalhar</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ <set>pretender</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>trabalhar</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>profissao</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ <set>pretender</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>profissao</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>trabalhar</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ <set>pretender</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ ACAO EDUCATIVA ^ <set>trabalhar</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>profissao</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ <set>pretender</set> ^ ACAO EDUCATIVA ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ ACAO EDUCATIVA ^ <set>profissao</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>trabalhar</set> ^ AUXILIAR ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ <set>pretender</set> ^ AUXILIAR ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ AUXILIAR ^ <set>trabalhar</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>profissao</set> ^ AUXILIAR ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ <set>pretender</set> ^ AUXILIAR ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ AUXILIAR ^ <set>profissao</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>trabalhar</set> ^ <set>este</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ <set>pretender</set> ^ <set>este</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>este</set> ^ <set>trabalhar</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>pretender</set> ^ <set>profissao</set> ^ <set>este</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ <set>pretender</set> ^ <set>este</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>este</set> ^ <set>profissao</set> ^ <set>pretender</set> ^</pattern>
+			<template><srai>PRETENDERESSETRABALHO</srai></template>
+		</category>
+
+
+    <category>
+      <pattern>SENTIRTRABALHO</pattern>
+      <template>
+        Gosto de fazê-lo bem feito e não quero que pensem mal de mim
+      </template>
+    </category>
+		<category>
+			<pattern>^ COMO ^ <set>sentir</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ COMO ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ QUE ^ <set>sentir</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ QUE ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>bem</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>sentir</set> ^ <set>bem</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>maumal</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>sentir</set> ^ <set>maumal</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ COMO ^ <set>sentir</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ COMO ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ QUE ^ <set>sentir</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ QUE ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>bem</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ <set>sentir</set> ^ <set>bem</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>maumal</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ <set>sentir</set> ^ <set>maumal</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ COMO ^ <set>sentir</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ COMO ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ QUE ^ <set>sentir</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ QUE ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>bem</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>sentir</set> ^ <set>bem</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>maumal</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>sentir</set> ^ <set>maumal</set> ^</pattern>
+			<template><srai>SENTIRTRABALHO</srai></template>
+		</category>
+
+
+    <category>
+			<pattern>OUTROINCOMODOTRABALHO</pattern>
+			<template>Não que eu me lembre</template>
+		</category>
+    <category>
+			<pattern>^ <set>outroa</set> ^ <set>incomodar</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>outroa</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>outroa</set> ^ <set>incomodar</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ <set>outroa</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>outroa</set> ^ <set>problema</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>problema</set> ^ <set>profissao</set> ^ <set>outroa</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>outroa</set> ^ <set>problema</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ <set>problema</set> ^ <set>outroa</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>outroa</set> ^ <set>problema</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>problema</set> ^ <set>trabalhar</set> ^ <set>outroa</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ <set>outroa</set> ^ <set>problema</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>trabalhar</set> ^ <set>problema</set> ^ <set>outroa</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>outroa</set> ^ <set>problema</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>problema</set> ^ AUXILIAR DE ACAO EDUCATIVA ^ <set>outroa</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>outroa</set> ^ <set>problema</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>problema</set> ^ <set>outroa</set> ^</pattern>
+			<template><srai>OUTROINCOMODOTRABALHO</srai></template>
+		</category>
+
+		
+		<category>
+			<pattern>INCOMODOTRABALHO</pattern>
+			<template>
+				Não sei, mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</template>
+		</category>
+    <category>
+			<pattern>^ <set>algo</set> ^ <set>incomodar</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>algo</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>alguem</set> ^ <set>incomodar</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>alguem</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>voce</set> <set>incomodar</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> <set>voce</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>algo</set> ^ <set>incomodar</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ <set>algo</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>alguem</set> ^ <set>incomodar</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ <set>alguem</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>voce</set> <set>incomodar</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> <set>voce</set> ^ <set>incomodar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+
+		<category>
+			<pattern>^ <set>problema</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>problema</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>problema</set> ^ <set>trabalhar</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>trabalhar</set> ^ <set>problema</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>problema</set> ^ AUXILIAR DE ACAO EDUCATIVA ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ AUXILIAR DE ACAO EDUCATIVA ^ <set>problema</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+  <!-- colegas -->
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>maumal</set> ^ <set>voce</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ BEM ^ <set>voce</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>pensar</set> ^ <set>maumal</set> ^ <set>voce</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>pensar</set> ^ BEM ^ <set>voce</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<!-- <category>
+			<pattern>^ QUE ^ <set>pensar</set> ^ <set>voce</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ QUE ^ <set>pensar</set> ^ <set>voce</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ COMO ^ <set>pensar</set> ^ <set>voce</set> ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ COMO ^ <set>pensar</set> ^ <set>voce</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category> -->
+
+		<category>
+			<pattern>^ <set>falar</set> ^ <set>maumal</set> ^ VOCE ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>falar</set> ^ BEM ^ VOCE ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>falar</set> ^ <set>maumal</set> ^ VOCE ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ <set>falar</set> ^ BEM ^ VOCE ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <!-- <category>
+			<pattern>^ QUE ^ <set>falar</set> ^ VOCE ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>profissao</set> ^ QUE ^ <set>falar</set> ^ VOCE ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ COMO ^ <set>falar</set> ^ VOCE ^ <set>profissao</set> ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>profissao</set> ^ COMO ^ <set>falar</set> ^ VOCE ^</pattern>
+			<template><srai>INCOMODOTRABALHO</srai></template>
+		</category> -->
+
+    <category>
+      <pattern>SENTIRPESSOASFALAR</pattern>
+			<template>Não sei direito, é uma impressão que tenho</template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ POR QUE ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ POR QUE ^ <set>pensar</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ PORQUE ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ PORQUE ^ <set>pensar</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>sentir</set> ^ POR QUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>pensar</set> ^ POR QUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>sentir</set> ^ PORQUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>pensar</set> ^ PORQUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+
+    <category>
+      <pattern>VERPESSOASFALAR</pattern>
+			<template>Não lembro de ninguém ter falado mal de mim</template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>ver</set> ^ <set>alguem</set> ^</pattern>
+      <template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>ouvir</set> ^ <set>alguem</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>ver</set> ^ <set>este</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>ouvir</set> ^ <set>este</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>este</set> ^ <set>ver</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>
+				Não sei mas sinto que as pessoas falam mal de mim
+				quando não estou por perto
+			</that>
+			<pattern>^ <set>este</set> ^ <set>ouvir</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+
+		<category>
+			<that>Não sei direito é uma impressão que tenho</that>
+			<pattern>^ <set>ver</set> ^ <set>alguem</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não sei direito é uma impressão que tenho</that>
+			<pattern>^ <set>ouvir</set> ^ <set>alguem</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não sei direito é uma impressão que tenho</that>
+			<pattern>^ <set>ver</set> ^ <set>este</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não sei direito é uma impressão que tenho</that>
+			<pattern>^ <set>ouvir</set> ^ <set>este</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>Não sei direito é uma impressão que tenho</that>
+			<pattern>^ <set>este</set> ^ <set>ver</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não sei direito é uma impressão que tenho</that>
+			<pattern>^ <set>este</set> ^ <set>ouvir</set> ^</pattern>
+			<template><srai>VERPESSOASFALAR</srai></template>
+		</category>
+
+    <category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ POR QUE ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ POR QUE ^ <set>pensar</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ PORQUE ^ <set>sentir</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ PORQUE ^ <set>pensar</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>sentir</set> ^ POR QUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>pensar</set> ^ POR QUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>sentir</set> ^ PORQUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>pensar</set> ^ PORQUE ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>ver</set> ^ <set>alguem</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>ouvir</set> ^ <set>alguem</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>ver</set> ^ <set>este</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>ouvir</set> ^ <set>este</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+    <category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>este</set> ^ <set>ver</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+		<category>
+			<that>Não lembro de ninguém ter falado mal de mim</that>
+			<pattern>^ <set>este</set> ^ <set>ouvir</set> ^</pattern>
+			<template><srai>SENTIRPESSOASFALAR</srai></template>
+		</category>
+
+  <topic name="trabalho">
+
+    <category>
+      <pattern>_</pattern>
+      <template>
+          <think><set name="topic">*</set></think>
+          <sr/>
+      </template>
+    </category>
+  </topic>
+  
+  <category>
+    <pattern>^ PORQUE ^ PENSARIAM ^ <set>maumal</set> ^</pattern>
+    <template>
+      Gosto de fazê-lo bem feito e não gosto quando não tenho nada
+      para fazer, não quero que pensem mal de mim se me virem sem
+      fazer nada
+    </template>
+  </category>
+  <category>
+    <pattern>^ QUE ^ PENSARIAM ^ <set>maumal</set> ^</pattern>
+    <template>
+      Gosto de fazê-lo bem feito e não gosto quando não tenho nada
+      para fazer, não quero que pensem mal de mim se me virem sem
+      fazer nada
+    </template>
+  </category>
+</aiml>

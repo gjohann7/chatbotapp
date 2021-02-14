@@ -5,7 +5,7 @@
 			<pattern>RESPOSTA87</pattern>
 			<template>
 				<think><set name="topic">atencao</set></think>
-				Tenho sim, fico muito preocupado com a saúde que às vezes
+				Às vezes eu tenho, quando fico muito preocupado com a saúde e
 				não consigo pensar em outra coisa
 			</template>
 		</category>
@@ -18,13 +18,22 @@
 			<pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ <set>focar</set> ^</pattern>
 			<template><srai>RESPOSTA87</srai></template>
 		</category>
+
+    <category>
+			<pattern>^ <set>dificuldade</set> ^ <set>pensar</set> ^ <set>ter</set> ^</pattern>
+			<template><srai>RESPOSTA87</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>dificuldade</set> ^ <set>focar</set> ^ <set>ter</set> ^</pattern>
+			<template><srai>RESPOSTA87</srai></template>
+		</category>
 	<!-- fim 87 -->
 	<!-- id 88 -->
 		<category>
 			<pattern>RESPOSTA88</pattern>
 			<template>
 				<think><set name="topic">atencao</set></think>
-				Ah, eu me distraio às vezes
+				Eu diria que não kk só quando fico pensando nas minhas dores
 			</template>
 		</category>
 		<!---->

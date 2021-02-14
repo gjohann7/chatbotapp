@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- id 203 204 205 206 -->
+		<category>
+			<pattern>RESPOSTA203 204 205 206</pattern>
+			<template>
+				Volta e meia eu fico nervoso, ansioso... Não sei
+				descrever
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>ansioso</set> ^</pattern>
+        <template><srai>RESPOSTA203 204 205 206</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>ansioso</set> ^</pattern>
+        <template><srai>RESPOSTA203 204 205 206</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>ansioso</set> ^</pattern>
+        <template><srai>RESPOSTA203 204 205 206</srai></template>
+      </category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ E ^ <set>ansioso</set> ^</pattern>
+				<template><srai>RESPOSTA203 204 205 206</srai></template>
+			</category>
+			<category>
+				<pattern>^ ES ^ <set>ansioso</set> ^</pattern>
+				<template><srai>RESPOSTA203 204 205 206</srai></template>
+			</category>
+			<category>
+				<pattern>^ <set>explicar</set> ^</pattern>
+				<that>Não sei descrever</that>
+				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
+			</category>
+			<category>
+				<pattern>^ QUE ^ <set>ansioso</set> ^</pattern>
+				<template>Às vezes tenho dores no corpo e fico pensando bastante nisso</template>
+			</category>
+		<!-- fim proprio -->
+	<!-- fim 203 204 205 206 -->
+	<!-- id 207 -->
+		<category>
+			<pattern>RESPOSTA207</pattern>
+			<template>
+				Eu tenho medo de não ter dinheiro para cuidar da minha
+				família. Medo de morrer por um doença grave e deixar minha
+				família desprotegida
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>medos</set> ^</pattern>
+        <template><srai>RESPOSTA207</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>medos</set> ^</pattern>
+        <template><srai>RESPOSTA207</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>medos</set> ^</pattern>
+        <template><srai>RESPOSTA207</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>ter</set> ^ <set>medos</set> ^</pattern>
+        <template><srai>RESPOSTA207</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>voce</set> ^ <set>medos</set> ^</pattern>
+        <template><srai>RESPOSTA207</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>medos</set> ^</pattern>
+        <template><srai>RESPOSTA207</srai></template>
+      </category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ <set>medos</set> ^</pattern>
+				<that>
+					Medo de morrer por um doença grave e deixar minha família desprotegida
+				</that>
+				<template>Sempre fico bem preocupado com as dores que sinto</template>
+			</category>
+      <category>
+				<pattern>^ <set>medos</set> ^ <set>qquestoes</set> ^</pattern>
+				<that>
+					Medo de morrer por um doença grave e deixar minha família desprotegida
+				</that>
+				<template>Sempre fico bem preocupado com as dores que sinto</template>
+			</category>
+		<!-- fim proprio -->
+	<!-- fim 207 -->
+	<!-- id 208 -->
+		<category>
+			<pattern>RESPOSTA208</pattern>
+			<template>Às vezes, mas nada demais</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>voce</set> ^ <set>sentir</set> ^ TENSO ^</pattern>
+			<template><srai>RESPOSTA208</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>voce</set> ^ TENSO ^</pattern>
+			<template><srai>RESPOSTA208</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ TENSO ^</pattern>
+			<template><srai>RESPOSTA208</srai></template>
+		</category>
+	<!-- fim 208 -->
+	<!-- id 212 -->
+		<category>
+			<pattern>RESPOSTA212</pattern>
+			<template>
+				São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>dor</set> ^ <set>partecorpo</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>partecorpo</set> ^ <set>voce</set> ^ <set>sentir</set> ^ <set>dor</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>dor</set> ^ <set>partecorpo</set> ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>dor</set> ^ <set>partecorpo</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>dor</set> ^ <set>partecorpo</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>partecorpo</set> ^ <set>sentir</set> ^ <set>dor</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>dor</set> ^ <set>partecorpo</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>partecorpo</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>partecorpo</set> ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>partecorpo</set> ^</pattern>
+        <template><srai>RESPOSTA212</srai></template>
+      </category>
+	<!-- fim 212 -->
+	<!-- id 224 225 -->
+		<category>
+			<pattern>RESPOSTA224 225</pattern>
+			<template>Não, acredito que esteja normal</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>cansado</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>cansado</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>cansado</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>serestar</set> ^ <set>cansado</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ <set>voce</set> ^ <set>cansado</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ <set>cansado</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>cansado</set> ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>cansado</set> ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>cansado</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>cansado</set> ^ <set>voce</set> ^ <set>serestar</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>cansado</set> ^ <set>serestar</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>cansado</set> ^ <set>serestar</set> ^</pattern>
+        <template><srai>RESPOSTA224 225</srai></template>
+      </category>
+	<!-- fim 224 225 -->
+	<!-- id 230 -->
+		<category>
+			<pattern>RESPOSTA230</pattern>
+			<template>Acho que não, não penso sobre isso</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>desesperanca</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>desesperanca</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desesperanca</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desesperanca</set> ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desesperanca</set> ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desesperanca</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>ter</set> ^ <set>desesperanca</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>voce</set> ^ <set>desesperanca</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desesperanca</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desesperanca</set> ^ <set>voce</set> ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desesperanca</set> ^ <set>ter</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desesperanca</set> ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA230</srai></template>
+      </category>
+	<!-- fim 230 -->
+	<!-- id 231 -->
+		<category>
+			<pattern>RESPOSTA231</pattern>
+			<template>Não sinto tédio</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>tedio</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>tedio</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>tedio</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tedio</set> ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tedio</set> ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tedio</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>ter</set> ^ <set>tedio</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>voce</set> ^ <set>tedio</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>tedio</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tedio</set> ^ <set>voce</set> ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tedio</set> ^ <set>ter</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tedio</set> ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA231</srai></template>
+      </category>
+	<!-- fim 231 -->
+	<!-- id 234 -->
+		<category>
+			<pattern>RESPOSTA234</pattern>
+			<template>Não sinto um vazio por dentro</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ VAZIO ^ DENTRO ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ VAZIO ^ DENTRO ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ VAZIO ^ DENTRO ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ VAZIO ^ DENTRO ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ VAZIO ^ DENTRO ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ VAZIO ^ DENTRO ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>ter</set> ^ VAZIO ^ DENTRO ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>voce</set> ^ VAZIO ^ DENTRO ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ VAZIO ^ DENTRO ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ VAZIO ^ DENTRO ^ <set>voce</set> ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ VAZIO ^ DENTRO ^ <set>ter</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+      <category>
+        <pattern>^ VAZIO ^ DENTRO ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA234</srai></template>
+      </category>
+	<!-- fim 234 -->
+	<!-- id 235 -->
+		<category>
+			<pattern>RESPOSTA235</pattern>
+			<template>Nunca me senti como se estivesse morto</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ MORTO ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ MORTO ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ SEM VIDA ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ SEM VIDA ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>      
+      <category>
+        <pattern>^ MORTO ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>
+      <category>
+        <pattern>^ MORTO ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>
+      <category>
+        <pattern>^ SEM VIDA ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>
+      <category>
+        <pattern>^ SEM VIDA ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA235</srai></template>
+      </category>
+	<!-- fim 235 -->
+	<!-- id 236 237 -->
+		<category>
+			<pattern>RESPOSTA236 237</pattern>
+			<template>Não. Eu me sinto como sempre</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>comum</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>comum</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>comum</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alegre</set> ^ <set>comum</set> ^ <set>voce</set> ^ <set>sentir</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alegre</set> ^ <set>comum</set> ^ <set>sentir</set> ^ <set>voce</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alegre</set> ^ <set>comum</set> ^ <set>sentir</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>serestar</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>comum</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ <set>voce</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>comum</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>comum</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alegre</set> ^ <set>comum</set> ^ <set>voce</set> ^ <set>serestar</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alegre</set> ^ <set>comum</set> ^ <set>serestar</set> ^ <set>voce</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alegre</set> ^ <set>comum</set> ^ <set>serestar</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>serestar</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ <set>voce</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ <set>maismenos</set> ^ <set>alegre</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>voce</set> ^ <set>serestar</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>serestar</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>maismenos</set> ^ <set>alegre</set> ^ <set>serestar</set> ^</pattern>
+        <template><srai>RESPOSTA236 237</srai></template>
+      </category>
+	<!-- fim 236 237 -->
+	<!-- id 239 240 -->
+		<category>
+			<pattern>RESPOSTA239 240</pattern>
+			<template>Não me sinto mais forte, sinto-me como normalmente</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>maismenos</set> ^ <set>forte</set> ^</pattern>
+        <template><srai>RESPOSTA239 240</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>maismenos</set> ^ <set>forte</set> ^</pattern>
+        <template><srai>RESPOSTA239 240</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>maismenos</set> ^ <set>forte</set> ^</pattern>
+        <template><srai>RESPOSTA239 240</srai></template>
+      </category>
+	<!-- fim 239 240 -->
+	<!-- id 241 -->
+		<category>
+			<pattern>RESPOSTA241</pattern>
+			<template>Não sinto não, ele está passando como sempre passou</template>
+		</category>
+		<!---->
+		<category>
+			<pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>acontecer</set> ^ <set>maismenos</set> ^ <set>rapido</set> ^</pattern>
+			<template><srai>RESPOSTA241</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>acontecer</set> ^ <set>maismenos</set> ^ <set>rapido</set> ^</pattern>
+			<template><srai>RESPOSTA241</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>acontecer</set> ^ <set>maismenos</set> ^ <set>rapido</set> ^</pattern>
+			<template><srai>RESPOSTA241</srai></template>
+		</category>
+	<!-- fim 241 -->
+	<!-- id 221 222 -->
+		<category>
+			<pattern>RESPOSTA221 222</pattern>
+			<template>Não me sinto triste</template>
+		</category>
+		<!---->		
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ <set>triste</set> ^</pattern>
+        <template><srai>RESPOSTA221 222</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ <set>triste</set> ^</pattern>
+        <template><srai>RESPOSTA221 222</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>triste</set> ^</pattern>
+        <template><srai>RESPOSTA221 222</srai></template>
+      </category>
+	<!-- fim 221 222 -->
+	<!-- id 209 -->
+		<category>
+			<pattern>RESPOSTA209</pattern>
+			<template>Tenho sim</template>
+		</category>
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ <set>relaxar</set> ^</pattern>
+			<template><srai>RESPOSTA209</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>conseguir</set> ^ <set>relaxar</set> ^</pattern>
+			<template><srai>RESPOSTA209</srai></template>
+		</category>
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>relaxar</set> ^</pattern>
+			<template><srai>RESPOSTA209</srai></template>
+		</category>
+    <category>
+			<pattern>^ <set>conseguir</set> ^ <set>relaxar</set> ^</pattern>
+			<template><srai>RESPOSTA209</srai></template>
+		</category>
+	<!-- fim 209 -->
+	<!-- id 210
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ <set>focar</set> ^</pattern>
+			<template>
+				Tenho sim, fico muito preocupado com a saúde que às vezes não consigo
+				pensar em outra coisa
+			</template>
+		</category>
+	fim 210 -->
+	<!-- id 211 -->
+		<category>
+			<pattern>^ <set>ter</set> ^ INSONIA ^</pattern>
+			<template>Não tenho insonia</template>
+		</category>
+    <category>
+			<pattern>^ INSONIA ^ <set>ter</set> ^</pattern>
+			<template>Não tenho insonia</template>
+		</category>
+    <category>
+			<pattern>^ <set>sentir</set> ^ INSONIA ^</pattern>
+			<template>Não tenho insonia</template>
+		</category>
+    <category>
+			<pattern>^ INSONIA ^ <set>sentir</set> ^</pattern>
+			<template>Não tenho insonia</template>
+		</category>
+	<!-- fim 211 -->
+	<!-- id 213 -->
+		<category>
+			<pattern>RESPOSTA213</pattern>
+			<template>
+				Não tenho certeza, já tive dores no peito mas não falaram
+				que eu tive isso
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>falar</set> ^ <set>dor</set> ^</pattern>
+				<that>Não tenho certeza já tive dores no peito mas não falaram que eu tive isso</that>
+				<template>Não me lembro agora o que o médico disse sobre as dores</template>
+			</category>
+      <category>
+				<pattern>^ <set>falar</set> ^ MAIS ^</pattern>
+				<that>Não tenho certeza já tive dores no peito mas não falaram que eu tive isso</that>
+				<template>Não me lembro agora o que o médico disse sobre as dores</template>
+			</category>
+      <category>
+				<pattern>^ <set>falar</set> ^ SOBRE ^</pattern>
+				<that>Não tenho certeza já tive dores no peito mas não falaram que eu tive isso</that>
+				<template>Não me lembro agora o que o médico disse sobre as dores</template>
+			</category>
+      <category>
+				<pattern>^ <set>falar</set> ^ <set>este</set> ^</pattern>
+				<that>Não tenho certeza já tive dores no peito mas não falaram que eu tive isso</that>
+				<template>Não me lembro agora o que o médico disse sobre as dores</template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ TAQUICARDIA ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ FALTA ^ AR ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ RESPIRAR ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>dificuldade</set> ^ RESPIRA ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ TAQUICARDIA ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ FALTA ^ AR ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>dificuldade</set> ^ RESPIRAR ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>dificuldade</set> ^ RESPIRA ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>sentir</set> ^ TAQUICARDIA ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ FALTA ^ AR ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>dificuldade</set> ^ RESPIRAR ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>dificuldade</set> ^ RESPIRA ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ TAQUICARDIA ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ FALTA ^ AR ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>dificuldade</set> ^ RESPIRAR ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>dificuldade</set> ^ RESPIRA ^ <set>sentir</set> ^</pattern>
+        <template><srai>RESPOSTA213</srai></template>
+      </category>
+	<!-- fim 213 -->
+	<!-- id 214 -->
+		<category>
+			<pattern>RESPOSTA214</pattern>
+			<template>Acho que sim, tenho estado mais nervoso</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^</pattern>
+				<that>Acho que sim tenho estado mais nervoso</that>
+				<template>Tenho sentido dores no corpo, fico preocupado com isso e acabo me estressando</template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>voce</set> ^ <set>irritavel</set> ^ <set>maismenos</set> ^ <set>frequentemente</set> ^ <set>anteriormente</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>voce</set> ^ <set>irritavel</set> ^ <set>maismenos</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>irritavel</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+      <category>
+        <pattern>^<set>voce</set> ^ <set>irritavel</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>voce</set> ^ <set>irritavel</set> ^ <set>maismenos</set> ^ <set>anteriormente</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>voce</set> ^ <set>irritavel</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>irritavel</set> ^ <set>voce</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>irritavel</set> ^ <set>voce</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA214</srai></template>
+      </category>
+	<!-- fim 214 -->
+	<!-- id 217 -->
+		<category>
+			<pattern>RESPOSTA217</pattern>
+			<template>
+				Minha esposa e filha falam que ando mais nervoso, acabo
+				discutindo mais
+			</template>
+		</category>
+		<!-- proprio -->
+			<category>
+        <pattern>^ NERVOSO ^</pattern>
+        <that>
+          Minha esposa e filha falam que ando mais nervoso acabo
+          discutindo mais
+        </that>
+        <template>
+          Não sei porque dizem isso, talvez eu esteja
+        </template>
+      </category>
+		<!-- fim proprio -->
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>discutido</set> ^ <set>maismenos</set> ^ <set>frequentemente</set> ^ <set>anteriormente</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>discutido</set> ^ <set>maismenos</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>discutido</set> ^ <set>maismenos</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>discutido</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>discutido</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>discutido</set> ^ <set>maismenos</set> ^ <set>anteriormente</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>discutido</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>voce</set> ^ <set>discutido</set> ^ <set>maismenos</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>discutido</set> ^</pattern>
+        <template><srai>RESPOSTA217</srai></template>
+      </category>
+	<!-- fim 217 -->
+	<!-- id 220 -->
+		<category>
+			<pattern>RESPOSTA220</pattern>
+			<template>Nunca tive esse tipo de vontade</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>matar</set> ^ <set>alguem</set> ^</pattern>
+        <template><srai>RESPOSTA220</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>matar</set> ^</pattern>
+        <template><srai>RESPOSTA220</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>matar</set> ^ <set>alguem</set> ^</pattern>
+        <template><srai>RESPOSTA220</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>matar</set> ^</pattern>
+        <template><srai>RESPOSTA220</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>matar</set> ^ <set>alguem</set> ^</pattern>
+        <template><srai>RESPOSTA220</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>matar</set> ^</pattern>
+        <template><srai>RESPOSTA220</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>matar</set> ^ <set>alguem</set> ^</pattern>
+        <template><srai>RESPOSTA220</srai></template>
+      </category>
+	<!-- fim 220 -->
+	<!-- id 229 -->
+		<category>
+			<pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>desaparecer</set> ^</pattern>
+			<template>Não sinto vontade de desaparecer não</template>
+		</category>
+    <category>
+			<pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>desaparecer</set> ^</pattern>
+			<template>Não sinto vontade de desaparecer não</template>
+		</category>
+    <category>
+			<pattern>^ <set>desaparecer</set> ^ <set>ter</set> ^ <set>desejar</set> ^</pattern>
+			<template>Não sinto vontade de desaparecer não</template>
+		</category>
+    <category>
+			<pattern>^ <set>desaparecer</set> ^ <set>sentir</set> ^ <set>desejar</set> ^</pattern>
+			<template>Não sinto vontade de desaparecer não</template>
+		</category>
+
+    <category>
+			<pattern>^ <set>desejar</set> ^ <set>desaparecer</set> ^</pattern>
+			<template>Não sinto vontade de desaparecer não</template>
+		</category>
+    <category>
+			<pattern>^ <set>desaparecer</set> ^ <set>desejar</set> ^</pattern>
+			<template>Não sinto vontade de desaparecer não</template>
+		</category>
+	<!-- fim 229 -->
+	<!-- id 238 -->
+		<category>
+			<pattern>RESPOSTA238</pattern>
+			<template>Não, acho que continuo do mesmo jeito de sempre</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>desejar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>falar</set> ^ <set>andar</set> ^ <set>ter</set> ^ <set>desejar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>andar</set> ^ <set>falar</set> ^ <set>ter</set> ^ <set>desejar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>desejar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>ter</set> ^ <set>desejar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ <set>desejar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>sentir</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>sentir</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>falar</set> ^ <set>andar</set> ^ <set>sentir</set> ^ <set>desejar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>andar</set> ^ <set>falar</set> ^ <set>sentir</set> ^ <set>desejar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>sentir</set> ^ <set>desejar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>sentir</set> ^ <set>desejar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>falar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>andar</set> ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>falar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>desejar</set> ^ <set>andar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>desejar</set> ^ <set>falar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>desejar</set> ^ <set>andar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>falar</set> ^ <set>andar</set> ^ <set>desejar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>andar</set> ^ <set>falar</set> ^ MAIS ^ <set>desejar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>desejar</set> ^ <set>falar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>frequentemente</set> ^ <set>desejar</set> ^ <set>andar</set> ^</pattern>
+        <template><srai>RESPOSTA238</srai></template>
+      </category>
+	<!-- fim 238 -->
+	<!-- id 242 251 -->
+		<category>
+			<pattern>RESPOSTA242 251</pattern>
+			<template>
+				<think><set name="topic">amigos</set></think>Não sei se tenho muitos amigos, mas tenho amigos sim kk
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ MUITOS ^ <set>amigos</set> ^</pattern>
+        <template><srai>RESPOSTA242 251</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>amigos</set> ^</pattern>
+        <template><srai>RESPOSTA242 251</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>amigos</set> ^ <set>ter</set> ^ MUITOS ^</pattern>
+        <template><srai>RESPOSTA242 251</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>amigos</set> ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA242 251</srai></template>
+      </category>
+	<!-- fim 242 251 -->
+	<topic name="amigos">
+	<!-- id THAT 251 243 -->
+		<category>
+			<pattern>$RESPOSTA243</pattern>
+			<template>Sim sim, amizades são importantes</template>
+		</category>
+		<!---->
+      <category>
+        <pattern># ELES ^ IMPORTANTES ^</pattern>
+        <template><srai>RESPOSTA243</srai></template>
+      </category>
+      <category>
+        <pattern># ELAS ^ IMPORTANTES ^</pattern>
+        <template><srai>RESPOSTA243</srai></template>
+      </category>
+      <category>
+        <pattern># SEUS ^ <set>amigos</set> ^ IMPORTANTES ^</pattern>
+        <template><srai>RESPOSTA243</srai></template>
+      </category>
+      <category>
+        <pattern># ELE ^ IMPORTANTE ^</pattern>
+        <template><srai>RESPOSTA243</srai></template>
+      </category>
+      <category>
+        <pattern># ELA ^ IMPORTANTE ^</pattern>
+        <template><srai>RESPOSTA243</srai></template>
+      </category>
+      <category>
+        <pattern># SEU ^ <set>amigos</set> ^ IMPORTANTE ^</pattern>
+        <template><srai>RESPOSTA243</srai></template>
+      </category>
+	<!-- fim THAT 251 243 -->
+	<!-- id 252 -->
+		<category>
+			<pattern># <set>ver</set> ^ <set>frequentemente</set> ^</pattern>
+			<template>Não os vejo com frequência</template>
+		</category>
+    <category>
+			<pattern># <set>frequentemente</set> ^ <set>ver</set> ^</pattern>
+			<template>Não os vejo com frequência</template>
+		</category>
+	<!-- fim 252 -->
+		<category>
+			<pattern>_</pattern>
+			<template>
+					<think><set name="topic">*</set></think>
+					<sr/>
+			</template>
+		</category>
+	</topic>
+	<!-- id 254 -->
+		<category>
+			<pattern>RESPOSTA254</pattern>
+			<template>Não tenho não! Eu em kk</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^ <set>amigos</set> ^ PARENTES ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^ PARENTES ^ <set>amigos</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^ <set>amigos</set> ^ PARENTE ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^ PARENTE ^ <set>amigos</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^ PARENTES ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^ PARENTE ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^ <set>amigos</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+
+      <category>
+        <pattern>^ <set>amigos</set> ^ PARENTES ^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ PARENTES ^ <set>amigos</set> ^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>amigos</set> ^ PARENTE ^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ PARENTE ^ <set>amigos</set> ^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ PARENTES ^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ PARENTE ^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>amigos</set> ^ <set>ter</set> ^ <set>relacao</set> ^ <set>intimo</set> ^</pattern>
+        <template><srai>RESPOSTA254</srai></template>
+      </category>
+	<!-- fim 254 -->
+	<!-- id THAT 254 255 -->
+		<category>
+			<pattern>RESPOSTA255</pattern>
+			<template>São relacionamentos normais apenas</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ <set>relacao</set> ^</pattern>
+        <that>Eu em kk</that>
+        <template><srai>RESPOSTA255</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>relacao</set> ^ <set>serestar</set> ^ <set>qquestoes</set> ^</pattern>
+        <that>Eu em kk</that>
+        <template><srai>RESPOSTA255</srai></template>
+      </category>
+	<!-- fim THAT 254 255 -->
+	<!-- id 256 -->
+		<category>
+			<pattern>RESPOSTA256</pattern>
+			<template>Não que eu saiba</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ INIMIGOS ^</pattern>
+        <template><srai>RESPOSTA256</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ INIMIGO ^</pattern>
+        <template><srai>RESPOSTA256</srai></template>
+      </category>
+      <category>
+        <pattern>^ INIMIGOS ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA256</srai></template>
+      </category>
+      <category>
+        <pattern>^ INIMIGO ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA256</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>alguem</set> ^ ODEIA ^</pattern>
+        <template><srai>RESPOSTA256</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ <set>alguem</set> ^ ODEIAS ^</pattern>
+        <template><srai>RESPOSTA256</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ ODIO ^ <set>alguem</set> ^</pattern>
+        <template><srai>RESPOSTA256</srai></template>
+      </category>
+	<!-- fim 256 -->
+	<!-- id THAT 256 257 -->
+		<category>
+			<pattern>RESPOSTA257</pattern>
+			<template>Tento ser uma boa pessoa</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>qquestoes</set> ^ <set>iniciar</set> ^</pattern>
+        <that>Não que eu saiba</that>
+        <template><srai>RESPOSTA257</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>iniciar</set> ^ <set>qquestoes</set> ^</pattern>
+        <that>Não que eu saiba</that>
+        <template><srai>RESPOSTA257</srai></template>
+      </category>
+	<!-- fim THAT 256 257 -->
+	<!-- id 215 216 -->
+		<category>
+			<pattern>RESPOSTA215 216</pattern>
+			<template>
+				Ah, acho que isso incomoda todo mundo quando é muito
+				exagerado. Fora nesses casos, eu não me incomodo
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>ruido</set> ^ <set>ruidoorigem</set> ^ <set>incomodar</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ruidoorigem</set> ^ <set>ruido</set> ^ <set>incomodar</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>incomodar</set> ^ <set>ruido</set> ^ <set>ruidoorigem</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>incomodar</set> ^ <set>ruidoorigem</set> ^ <set>ruido</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>incomodar</set> ^ <set>voce</set> ^ CRIANCAS ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>incomodar</set> ^ CRIANCAS ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ CRIANCAS ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ CRIANCAS ^ <set>voce</set> ^ <set>incomodar</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>incomodar</set> ^ <set>voce</set> ^ CRIANCA ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>voce</set> ^ <set>incomodar</set> ^ CRIANCA ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ CRIANCA ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ CRIANCA ^ <set>voce</set> ^ <set>incomodar</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ CRIANCA ^ <set>incomodar</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+      <category>
+        <pattern>^ CRIANCAS ^ <set>incomodar</set> ^</pattern>
+        <template><srai>RESPOSTA215 216</srai></template>
+      </category>
+	<!-- fim 215 216 -->
+	<!-- id 218 -->
+		<category>
+			<pattern>RESPOSTA218</pattern>
+			<template>Sobre ficar nervoso? Nervoso eu fico, mas não tanto assim kk</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>pensar</set> ^ <set>voce</set> ^ <set>explodir</set> ^</pattern>
+        <template><srai>RESPOSTA218</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>pensar</set> ^ <set>explodir</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA218</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>pensar</set> ^ VAI ^ <set>explodir</set> ^</pattern>
+        <template><srai>RESPOSTA218</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>pensar</set> ^ VAIS ^ <set>explodir</set> ^</pattern>
+        <template><srai>RESPOSTA218</srai></template>
+      </category>
+	<!-- fim 218 -->
+	<!-- id 219 -->
+		<category>
+			<pattern>RESPOSTA219</pattern>
+			<template>Eu ando nervoso ultimamente, mas não muito</template>
+		</category>
+		<!-- proprio -->
+			<category>
+				<pattern>^ <set>qquestoes</set> ^ NERVOSO ^</pattern>
+				<that>Eu ando nervoso ultimamente mas não muito</that>
+				<template>Preocupado com dores no corpo</template>
+			</category>
+      <category>
+				<pattern>^ <set>qquestoes</set> ^ ULTIMAMENTE ^</pattern>
+				<that>Eu ando nervoso ultimamente mas não muito</that>
+				<template>Preocupado com dores no corpo</template>
+			</category>
+		<!-- fim proprio -->
+		<!---->
+      <category>
+        <pattern>^ NERVOS ^ FLOR ^ PELE ^</pattern>
+        <template><srai>RESPOSTA219</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ MUITO ^ <set>irritavel</set> ^</pattern>
+        <template><srai>RESPOSTA219</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>sentir</set> ^ MUITO ^ <set>irritavel</set> ^</pattern>
+        <template><srai>RESPOSTA219</srai></template>
+      </category>
+	<!-- fim 219 -->
+	<!-- id 223 -->
+		<category>
+			<pattern>RESPOSTA223</pattern>
+			<template>Não.. eu continuo gostando das coisas como normalmente</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ COISAS ^ <set>gerar</set> ^ <set>prazer</set> ^ INDIFERENTES ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ COISA ^ <set>gerar</set> ^ <set>prazer</set> ^ INDIFERENTE ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ QUE ^ <set>gerar</set> ^ <set>prazer</set> ^ INDIFERENTE ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ QUE ^ <set>gerar</set> ^ <set>prazer</set> ^ INDIFERENTES ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ COISAS ^ <set>gerar</set> ^ <set>prazer</set> ^ NAO ^ <set>gerar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ COISA ^ <set>gerar</set> ^ <set>prazer</set> ^ NAO ^ <set>gerar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ QUE ^ <set>gerar</set> ^ <set>prazer</set> ^ NAO ^ <set>gerar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>      
+      <category>
+        <pattern>^ COISAS ^ <set>gerar</set> ^ <set>prazer</set> ^ NAO ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ COISA ^ <set>gerar</set> ^ <set>prazer</set> ^ NAO ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+      <category>
+        <pattern>^ QUE ^ <set>gerar</set> ^ <set>prazer</set> ^ NAO ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA223</srai></template>
+      </category>
+	<!-- fim 223 -->
+	<!-- id 226 -->
+		<category>
+			<pattern>RESPOSTA226</pattern>
+			<template>Estou bem quanto a isso</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ NAO <set>voce</set> ^ <set>alegrar</set> ^ NADA ^</pattern>
+        <template><srai>RESPOSTA226</srai></template>
+      </category>
+      <category>
+        <pattern>^ NADA ^ <set>voce</set> ^ <set>alegrar</set> ^</pattern>
+        <template><srai>RESPOSTA226</srai></template>
+      </category>
+      <category>
+        <pattern>^ NAO ^ <set>alegrar</set> <set>voce</set> ^ NADA ^</pattern>
+        <template><srai>RESPOSTA226</srai></template>
+      </category>
+      <category>
+        <pattern>^ NADA ^ <set>alegrar</set> ^ <set>voce</set> ^</pattern>
+        <template><srai>RESPOSTA226</srai></template>
+      </category>
+      <category>
+        <pattern>^ NAO ^ <set>alegrar</set> ^ MAIS ^</pattern>
+        <template><srai>RESPOSTA226</srai></template>
+      </category>
+	<!-- fim 226 -->
+	<!-- id 227 228 -->
+		<category>
+			<pattern>RESPOSTA227 228</pattern>
+			<template>Não que eu tenha percebido, tudo como antes</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>serestar</set> ^ SEM ^ APETITE ^ SONO ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ SEM ^ SONO ^ APETITE ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ SEM ^ APETITE ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ SEM ^ SONO ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>perder</set> ^ APETITE ^ SONO ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>perder</set> ^ SONO ^ APETITE ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>perder</set> ^ APETITE ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>perder</set> ^ SONO ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ MAIS ^ APETITE ^ SONO ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ MAIS ^ SONO ^ APETITE ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ MAIS ^ APETITE ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>serestar</set> ^ MAIS ^ SONO ^ <set>ultimos</set> ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>aumentar</set> ^ APETITE ^ SONO ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>aumentar</set> ^ SONO ^ APETITE ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>aumentar</set> ^ APETITE ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>aumentar</set> ^ SONO ^</pattern>
+        <template><srai>RESPOSTA227 228</srai></template>
+      </category>
+	<!-- fim 227 228 -->
+	<!-- id 232 -->
+		<category>
+			<pattern>RESPOSTA232</pattern>
+			<template>
+				Continuam normais, exceto à noite, quando não sou eu quem
+				fecha a casa, eu confiro todas as portas e janelas para ter
+				certeza de que estejam fechadas mesmo
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ ROTINEIRAS ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ ROTINEIRA ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tarefas</set> ^ ROTINEIRAS ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tarefas</set> ^ ROTINEIRA ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ ROTINEIRAS ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ ROTINEIRA ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tarefas</set> ^ ROTINEIRA ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>tarefas</set> ^ ROTINEIRAS ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ DIA A DIA ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>tarefas</set> ^ DIA A DIA ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ DIA A DIA ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>tarefas</set> ^ DIA A DIA ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ COTIDIANO ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>tarefas</set> ^ COTIDIANO ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ COTIDIANO ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>tarefas</set> ^ COTIDIANO ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ DIARIAS ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>tarefas</set> ^ DIARIAS ^ <set>tornar</set> ^ SER ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>fazer</set> ^ <set>tarefas</set> ^ DIARIAS ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>      
+      <category>
+        <pattern>^ <set>tarefas</set> ^ DIARIAS ^ <set>fardo</set> ^</pattern>
+        <template><srai>RESPOSTA232</srai></template>
+      </category>
+	<!-- fim 232 -->
+	<!-- id 233 -->
+		<category>
+			<pattern>RESPOSTA233</pattern>
+			<template>Não tenho preferência sobre isso</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>preferir</set> ^ <set>isolar</set> ^ <set>alguem</set> ^</pattern>
+        <template><srai>RESPOSTA233</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>preferir</set> ^ NAO ^ RECEBER ^ VISITA ^</pattern>
+        <template><srai>RESPOSTA233</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>preferir</set> ^ NAO ^ RECEBER ^ VISITAS ^</pattern>
+        <template><srai>RESPOSTA233</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>preferir</set> ^ <set>isolar</set> ^</pattern>
+        <template><srai>RESPOSTA233</srai></template>
+      </category>
+	<!-- fim 233 -->
+	<!-- id 244 -->
+		<category>
+			<pattern>RESPOSTA244 1</pattern>
+			<template>Não tenho propriedades</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>ter</set> ^ PROPRIEDADE ^</pattern>
+        <template><srai>RESPOSTA244 1</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>ter</set> ^ PROPRIEDADES ^</pattern>
+        <template><srai>RESPOSTA244 1</srai></template>
+      </category>
+      <category>
+        <pattern>^ PROPRIEDADE ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA244 1</srai></template>
+      </category>
+      <category>
+        <pattern>^ PROPRIEDADES ^ <set>ter</set> ^</pattern>
+        <template><srai>RESPOSTA244 1</srai></template>
+      </category>
+		<!---->
+    <category>
+      <pattern>RESPOSTA244 2</pattern>
+      <template>Não acho que seja alguém influente ou poderoso</template>
+    </category>
+		<!---->
+      <category>
+        <pattern>^ VOCE ^ <set>alguem</set> ^ <set>influente</set> ^</pattern>
+        <template><srai>RESPOSTA244 2</srai></template>
+      </category>
+      <category>
+        <pattern>^ E ^ <set>alguem</set> ^ <set>influente</set> ^</pattern>
+        <template><srai>RESPOSTA244 2</srai></template>
+      </category>
+      <category>
+        <pattern>^ ES ^ <set>alguem</set> ^ <set>influente</set> ^</pattern>
+        <template><srai>RESPOSTA244 2</srai></template>
+      </category>
+      <category>
+        <pattern>^ VOCE ^ <set>influente</set> ^</pattern>
+        <template><srai>RESPOSTA244 2</srai></template>
+      </category>
+      <category>
+        <pattern>^ E ^ <set>influente</set> ^</pattern>
+        <template><srai>RESPOSTA244 2</srai></template>
+      </category>
+      <category>
+        <pattern>^ ES ^ <set>influente</set> ^</pattern>
+        <template><srai>RESPOSTA244 2</srai></template>
+      </category>
+	<!-- fim 244 -->
+	<!-- id 245 246 -->
+		<category>
+			<pattern>RESPOSTA245 246</pattern>
+			<template>
+				Não me acho inteligente, apenas normal, não tive estudos tão
+				bons na minha infância
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ VOCE ^ <set>inteligente</set> ^</pattern>
+        <template><srai>RESPOSTA245 246</srai></template>
+      </category>
+      <category>
+        <pattern>^ E ^ <set>inteligente</set> ^</pattern>
+        <template><srai>RESPOSTA245 246</srai></template>
+      </category>
+      <category>
+        <pattern>^ ES ^ <set>inteligente</set> ^</pattern>
+        <template><srai>RESPOSTA245 246</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>pensar</set> ^ <set>inteligente</set> ^</pattern>
+        <template><srai>RESPOSTA245 246</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>pensar</set> ^ <set>inteligente</set> ^</pattern>
+        <template><srai>RESPOSTA245 246</srai></template>
+      </category>
+	<!-- fim 245 246 -->
+	<!-- id 247 -->
+		<category>
+			<pattern>RESPOSTA247</pattern>
+			<template>
+				<think><set name="topic">alteracaohumor</set></think>
+				Eu não tenho muita alteração de humor, pelo menos, nada
+				que eu note
+			</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ <set>qquestoes</set> PARTE ^ DIA ^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^ <set>qquestoes</set> ^ PARTE ^ DIA ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^ MANHA ^ TARDE ^ NOITE ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ INTENSAS ^ <set>qquestoes</set> ^ PARTE ^ DIA ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ INTENSAS ^ MANHA ^ TARDE ^ NOITE ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>qquestoes</set> HORARIO ^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ MANHA ^ TARDE ^ NOITE ^ <set>alteracao</set> ^ HUMOR ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^ <set>qquestoes</set> ^ HORARIO ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ INTENSAS ^ <set>qquestoes</set> ^ HORARIO ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>qquestoes</set> HORARIO ^ <set>alteracao</set> ^ HUMOR ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^ MANHA ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^ TARDE ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ <set>frequentemente</set> ^ NOITE ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ INTENSAS ^ MANHA ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ INTENSAS ^ TARDE ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>alteracao</set> ^ HUMOR ^ INTENSAS ^ NOITE ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ MANHA ^ <set>alteracao</set> ^ HUMOR ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ TARDE ^ <set>alteracao</set> ^ HUMOR ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+      <category>
+        <pattern>^ NOITE ^ <set>alteracao</set> ^ HUMOR ^</pattern>
+        <template><srai>RESPOSTA247</srai></template>
+      </category>
+	<!-- fim 247 -->
+	<topic name="alteracaohumor">
+	<!-- id 248 -->
+		<category>
+			<pattern>$RESPOSTA248</pattern>
+			<template>Não me lembro desde quando penso nesse assunto</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>este</set> ^ SINTOMAS ^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMA ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^ SINTOMA ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>este</set> ^ SINTOMA ^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>este</set> ^ SINTOMA ^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+      <category>
+				<pattern># <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^ <set>ter</set> ^ <set>este</set> ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>este</set> ^ <set>faz</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+			<category>
+				<pattern># <set>ter</set> ^ <set>este</set> ^ <set>ter</set> ^ <set>qquestoes</set> ^ TEMPO ^</pattern>
+				<template><srai>RESPOSTA248</srai></template>
+			</category>
+	<!-- fim 248 -->
+	<!-- id 249 -->
+		<category>
+			<pattern>$RESPOSTA249</pattern>
+			<template>
+				Até onde eu me conheço, não tenho problemas com alteracao de
+				humor frequentes
+			</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ DESENCADEOU ^ SINTOMA ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ DESENCADEOU ^ SINTOMAS ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ DESENCADEASTE ^ SINTOMA ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ DESENCADEASTE ^ SINTOMAS ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ DESENCADEASTE ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ DESENCADEOU ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+      <category>
+				<pattern># DESENCADEOU ^ SINTOMA ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># DESENCADEOU ^ SINTOMAS ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># DESENCADEASTE ^ SINTOMA ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># DESENCADEASTE ^ SINTOMAS ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># DESENCADEASTE ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+			<category>
+				<pattern># DESENCADEOU ^ <set>qquestoes</set> ^</pattern>
+				<template><srai>RESPOSTA249</srai></template>
+			</category>
+	<!-- fim 249 -->
+	<!-- id 250 -->
+		<category>
+			<pattern>$RESPOSTA250</pattern>
+			<template>Não prestei muita atenção nessas mudanças</template>
+		</category>
+		<!---->
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>faz</set> ^ PIORAR ^</pattern>
+				<template><srai>RESPOSTA250</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ <set>faz</set> ^ MELHORAR ^</pattern>
+				<template><srai>RESPOSTA250</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ PIORA ^</pattern>
+				<template><srai>RESPOSTA250</srai></template>
+			</category>
+			<category>
+				<pattern># <set>qquestoes</set> ^ MELHORAR ^</pattern>
+				<template><srai>RESPOSTA250</srai></template>
+			</category>
+	<!-- fim 250 -->
+		<category>
+			<pattern>_</pattern>
+			<template>
+					<think><set name="topic">*</set></think>
+					<sr/>
+			</template>
+		</category>
+	</topic>
+	<!-- id 253 -->
+		<category>
+			<pattern>RESPOSTA253</pattern>
+			<template>Acredito que eu me dê bem com eles</template>
+		</category>
+		<!---->
+      <category>
+        <pattern>^ COMO ^ DA ^ <set>familiares</set> ^</pattern>
+        <template><srai>RESPOSTA253</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>familiares</set> ^ DA ^ COMO ^</pattern>
+        <template><srai>RESPOSTA253</srai></template>
+      </category>
+      <category>
+        <pattern>^ COMO ^ <set>relacao</set> ^ <set>familiares</set> ^</pattern>
+        <template><srai>RESPOSTA253</srai></template>
+      </category>
+      <category>
+        <pattern>^ <set>relacao</set> ^ <set>familiares</set> ^ COMO ^</pattern>
+        <template><srai>RESPOSTA253</srai></template>
+      </category>
+	<!-- fim 253 -->
+</aiml>

@@ -1,0 +1,4110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- propria consulta --> 
+    <category>
+      <pattern>^ <set>pensar</set> ^ TIRAR ^ VIDA ^</pattern>
+      <template>Não, isso nunca</template>
+    </category>
+    <category>
+      <pattern>^ TIRAR ^ VIDA ^ <set>pensar</set> ^</pattern>
+      <template>Não, isso nunca</template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ TIRAR ^ VIDA ^</pattern>
+      <template>Não, isso nunca</template>
+    </category>
+    <category>
+      <pattern>^ TIRAR ^ VIDA ^ <set>desejar</set> ^</pattern>
+      <template>Não, isso nunca</template>
+    </category>
+    
+    <category>
+      <pattern>^ <set>falar</set> ^ <set>sobre</set> ^ <set>voce</set> ^</pattern>
+      <template><srai>RESPOSTA359</srai></template>
+    </category>
+    <category>
+      <pattern>^ <set>problema</set> ^ DIA A DIA ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ DIA A DIA ^ <set>problema</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>queixas</set> ^ DIA A DIA ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ DIA A DIA ^ <set>queixas</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>acontecendo</set> ^ <set>voce</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>voce</set> ^ <set>acontecendo</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>acontecendo</set> ^ <set>voce</set> ^ QUE ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>acontecendo</set> ^ QUE ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+
+    <category>
+      <pattern>^ <set>justificativa</set> ^ <set>consulta</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>consulta</set> ^ <set>justificativa</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ <set>assim</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ <set>serestar</set> ^ <set>assim</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>assim</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>assim</set> ^ <set>justificativa</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ NERVOSO ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ <set>serestar</set> ^ NERVOSO ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ NERVOSO ^ <set>qquestoes</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ NERVOSO ^ <set>justificativa</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ ANSIOSO ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ <set>serestar</set> ^ ANSIOSO ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ ANSIOSO ^ <set>qquestoes</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ ANSIOSO ^ <set>justificativa</set> ^</pattern>
+      <template>Sou uma pessoa muito preocupada</template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>ficar</set> ^ <set>ansioso</set> ^</pattern>
+      <template>Com a saúde e a segurança</template>
+    </category>
+    <category>
+      <pattern>^ <set>ficar</set> ^ <set>ansioso</set> ^ QUE ^</pattern>
+      <template>Com a saúde e a segurança</template>
+    </category>
+
+    <category>
+      <pattern>^ TEM ^ <set>sentir</set> ^ <set>ansioso</set> ^</pattern>
+      <template>Tenho me sentido assim sim</template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>situacao</set> ^</pattern>
+      <that>Tenho me sentido assim sim</that>
+      <template><srai>FALAR MAIS PREOCUPACAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>situacao</set> ^</pattern>
+      <that>Tenho me sentido assim sim</that>
+      <template><srai>FALAR MAIS PREOCUPACAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>situacao</set> ^</pattern>
+      <that>Tenho me sentido assim sim</that>
+      <template><srai>FALAR MAIS PREOCUPACAO</srai></template>
+    </category>
+    <category>
+      <pattern>^ QUANDO ^ <set>situacao</set> ^</pattern>
+      <that>Tenho me sentido assim sim</that>
+      <template><srai>FALAR MAIS PREOCUPACAO</srai></template>
+    </category>
+
+    <category>
+      <that>Com a saúde e a segurança</that>
+      <pattern>^ <set>poder</set> ^ <set>falar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <that>Com a saúde e a segurança</that>
+      <pattern>^ <set>este</set> ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <that>Com a saúde e a segurança</that>
+      <pattern>^ <set>falar</set> ^ MAIS ^ <set>este</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>poder</set> ^ <set>falar</set> ^ PREOCUPACAO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ PREOCUPACAO ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ MAIS ^ PREOCUPACAO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>poder</set> ^ <set>falar</set> ^ PREOCUPACOES ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ PREOCUPACOES ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ MAIS ^ PREOCUPACOES ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>poder</set> ^ <set>falar</set> ^ PREOCUPADO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ PREOCUPADO ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ MAIS ^ PREOCUPADO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    
+    <category>
+      <pattern>^ <set>falar</set> ^ NERVOSISMO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ NERVOSISMO ^ <set>falar</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ <set>ansioso</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ansioso</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ SIGNIFICA ^ <set>serestar</set> ^ NERVOSO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ NERVOSO ^ QUE ^ SIGNIFICA ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ NERVOSO ^ SIGNIFICA ^ QUE ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    
+    
+    <category>
+      <pattern>^ <set>poder</set> ^ <set>falar</set> ^ NERVOSO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ NERVOSO ^ <set>poder</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ MAIS ^ NERVOSO ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    
+    <category>
+      <pattern>^ ULTIMA ^ <set>dor</set> ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+    <category>
+      <pattern>^ ULTIMAS ^ <set>dor</set> ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+    <category>
+      <pattern>^ ULTIMO ^ <set>dor</set> ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+    <category>
+      <pattern>^ ULTIMOS ^ <set>dor</set> ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ ULTIMA ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ ULTIMAS ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ ULTIMO ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ ULTIMOS ^</pattern>
+      <template>
+        Semana passa eu senti, estava em casa já vendo TV e fiquei assistindo
+        para tentar me distrair da dor. Era na região dos braços
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>dor</set> ^ <set>partecorpo</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ <set>partecorpo</set> ^ <set>pensar</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>partecorpo</set> ^ <set>dor</set> ^ <set>pensar</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    
+    <category>
+      <pattern>^ <set>poder</set> ^ <set>falar</set> ^ <set>este</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>poder</set> ^ <set>falar</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ TIPO ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ TIPO ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ TIPO ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>dor</set> ^ <set>este</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>dor</set> ^</pattern>
+      <template>
+        São dores momentâneas, rápidas. Mas quando sinto, fico muito
+        focado nelas. Fico ansioso, meio tonto, com suores
+      </template>
+    </category>
+    <category>
+      <pattern>^ ONDE ^ <set>sentir</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ ONDE ^ <set>sentir</set> ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>partecorpo</set> ^ <set>sentir</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ <set>partecorpo</set> ^ <set>sentir</set> ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        Pode ser todos os dias ou todas as semanas.
+        Ultimamente elas ocorrem mais ou menos de dois em dois dias
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>
+        Pode ser todos os dias ou todas as semanas.
+        Ultimamente elas ocorrem mais ou menos de dois em dois dias
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ <set>anteriormente</set> ^</pattern>
+      <template>
+        Ultimamente elas ocorrem mais ou menos de dois em dois dias
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>anteriormente</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        Ultimamente elas ocorrem mais ou menos de dois em dois dias
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ <set>ultimos</set> ^</pattern>
+      <template>
+        Ultimamente elas ocorrem mais ou menos de dois em dois dias
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ultimos</set> ^ <set>dor</set> ^</pattern>
+      <template>
+        Ultimamente elas ocorrem mais ou menos de dois em dois dias
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>dor</set> ^ <set>ultimos</set> ^</pattern>
+      <template>Não sei, elas vem do nada</template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ <set>dor</set> ^ <set>ultimos</set> ^</pattern>
+      <template>Não sei, elas vem do nada</template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ <set>ultimos</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>Não sei, elas vem do nada</template>
+    </category>
+    <category>
+      <pattern>^ <set>dor</set> ^ <set>ultimos</set> ^ <set>justificativa</set> ^</pattern>
+      <template>Não sei, elas vem do nada</template>
+    </category>
+    <category>
+      <pattern>^ <set>ir</set> ^ <set>medico</set> ^</pattern>
+      <template>
+        Costumo ir ao médico para fazer exames, acredito no que eles
+        falam, mas recorro a outros médicos para ouvir opiniões 
+        diferentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>medico</set> ^ <set>ir</set> ^</pattern>
+      <template>
+        Costumo ir ao médico para fazer exames, acredito no que eles
+        falam, mas recorro a outros médicos para ouvir opiniões 
+        diferentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>problema</set> ^ SAUDE ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ SAUDE ^ <set>problema</set> ^</pattern>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>problema</set> ^ SEGURANCA ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ SEGURANCA ^ <set>problema</set> ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>problema</set> ^ PROTECAO ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ PROTECAO ^ <set>problema</set> ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>problema</set> ^ SEGURANCAS ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ SEGURANCAS ^ <set>problema</set> ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>problema</set> ^ PROTECOES ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ PROTECOES ^ <set>problema</set> ^</pattern>
+      <template>
+        Sobre questões de segurança, não ocorreu nada do tipo, mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ COMO ASSIM ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>explicar</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ POR EXEMPLO ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>faz</set> ^ <set>assegurar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>faz</set> ^ <set>qquestoes</set> ^ <set>assegurar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>este</set> ^ <set>faz</set> ^ <set>qquestoes</set> ^ <set>assegurar</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>assegurar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>assegurar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>este</set> ^ <set>qquestoes</set> ^ <set>assegurar</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>faz</set> ^ <set>assegurar</set> ^ SEGURANCA ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>faz</set> ^ <set>qquestoes</set> ^ <set>assegurar</set> ^ SEGURANCA ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <pattern>^ SEGURANCA ^ <set>faz</set> ^ <set>qquestoes</set> ^ <set>assegurar</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>assegurar</set> ^ SEGURANCA ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>assegurar</set> ^ SEGURANCA ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <pattern>^ SEGURANCA ^ <set>qquestoes</set> ^ <set>assegurar</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>falar</set> ^ MAIS ^ <set>este</set> ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ MAIS ^ SEGURANCA ^</pattern>
+      <template>
+        Por exemplo, antes de dormir, eu confiro se a porta, janelas
+        de casa estão bem trancadas. Mesmo se minha mulher já fechou
+        tudo, prefiro conferir eu mesmo, pois assim tenho mais
+        certeza de que está fechado mesmo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ <set>fez</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ FECHOU ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ FECHASTE ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ TRANCOU ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ TRANCASTE ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ <set>fez</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ FECHOU ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ FECHASTE ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ TRANCOU ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ TRANCASTE ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>confiar</set> ^ <set>conjuge</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ <set>confiar</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ <set>fez</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ <set>fez</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ FECHOU ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ FECHASTE ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ TRANCOU ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ TRANCASTE ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ <set>fez</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ FECHOU ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ FECHASTE ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ TRANCOU ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ TRANCASTE ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>confiar</set> ^ <set>conjuge</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ <set>confiar</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ FECHOU ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ FECHASTE ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ TRANCOU ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>conjuge</set> ^ TRANCASTE ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ FECHOU ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ FECHASTE ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ TRANCOU ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>conjuge</set> ^ TRANCASTE ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>confiar</set> ^ <set>conjuge</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Sobre questões de segurança não ocorreu nada do tipo mas
+        fico sempre preocupado em garantir que esteja tudo certo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ <set>confiar</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>confiar</set> ^ <set>conjuge</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <that>
+        Mesmo se minha mulher já fechou tudo prefiro conferir eu mesmo
+        pois assim tenho mais certeza de que está fechado mesmo
+      </that>
+      <pattern>^ <set>conjuge</set> ^ <set>confiar</set> ^</pattern>
+      <template>
+        Eu confio nela, mas ainda sim preciso conferir tudo
+        eu mesmo para ficar mais tranquilo
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>falar</set> ^ <set>medico</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>medico</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>medico</set> ^ QUE ^ <set>falar</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>medico</set> ^ <set>falar</set> ^ QUE ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ QUE ^ <set>falar</set> ^ ELES ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ QUE ^ ELES ^ <set>falar</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ ELES ^ QUE ^ <set>falar</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ ELES ^ <set>falar</set> ^ QUE ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ QUE ^ <set>falar</set> ^ ELE ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ QUE ^ ELE ^ <set>falar</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ ELE ^ QUE ^ <set>falar</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ ELE ^ <set>falar</set> ^ QUE ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ <set>falar</set> ^ QUE ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <that>
+        Costumo ir ao médico para fazer exames acredito no que eles
+        falam mas recorro a outros médicos para ouvir opiniões
+        diferentes
+      </that>
+      <pattern>^ QUE ^ <set>falar</set> ^</pattern>
+      <template>
+        Eles falam que não veem nada fora do normal sem ser a dor e
+        indicam que eu devo tomar algum remédio e descansar melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>diferente</set> ^ <set>medico</set> ^</pattern>
+      <template>Sim, quando posso. É bom ouvir opiniões diferentes</template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>medico</set> ^ <set>diferente</set> ^</pattern>
+      <template>Sim, quando posso. É bom ouvir opiniões diferentes</template>
+    </category>
+    <category>
+      <pattern>^ <set>diferente</set> ^ <set>medico</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>Sim, quando posso. É bom ouvir opiniões diferentes</template>
+    </category>
+    <category>
+      <pattern>^ <set>confiar</set> ^ <set>medico</set> ^</pattern>
+      <template>
+        Depende do médico, confio mais em especialistas, mas esses
+        são mais caros. Também fico em dúvida quando o médico é
+        muito jovem
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>medico</set> ^ <set>confiar</set> ^</pattern>
+      <template>
+        Depende do médico, confio mais em especialistas, mas esses
+        são mais caros. Também fico em dúvida quando o médico é
+        muito jovem
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>medico</set> ^</pattern>
+      <template>Não sei ao certo, mas vou costumeiramente</template>
+    </category>
+    <category>
+      <pattern>^ <set>medico</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>Não sei ao certo, mas vou costumeiramente</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>exame</set> ^ <set>fez</set> ^</pattern>
+      <template>Já fiz vários, para dores no peito, estômago, tonturas</template>
+    </category>
+    <category>
+      <pattern>^ <set>exame</set> ^ <set>fez</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>Já fiz vários, para dores no peito, estômago, tonturas</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>resultado</set> ^ <set>receber</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>receber</set> ^ <set>qquestoes</set> ^ <set>resultado</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ameacar</set> ^ <set>saude</set> ^</pattern>
+      <template>
+        Nada específico. Nunca se sabe o que pode acontecer nos dias de hoje
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>saude</set> ^ <set>ameacar</set> ^</pattern>
+      <template>
+        Nada específico. Nunca se sabe o que pode acontecer nos dias de hoje
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>assunto</set> ^ FINANCEIRA ^</pattern>
+      <template>
+        Tenho medo de ficar desempregado e não ter dinheiro nem para
+        as necessidades básicas
+      </template>
+    </category>
+    <category>
+      <pattern>^ FINANCEIRA ^ <set>assunto</set> ^</pattern>
+      <template>
+        Tenho medo de ficar desempregado e não ter dinheiro nem para
+        as necessidades básicas
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>assunto</set> ^ FINANCEIRAS ^</pattern>
+      <template>
+        Tenho medo de ficar desempregado e não ter dinheiro nem para
+        as necessidades básicas
+      </template>
+    </category>
+    <category>
+      <pattern>^ FINANCEIRAS ^ <set>assunto</set> ^</pattern>
+      <template>
+        Tenho medo de ficar desempregado e não ter dinheiro nem para
+        as necessidades básicas
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>ameacar</set> ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ <set>ameacar</set> ^ <set>profissao</set> ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ <set>perder</set> ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ <set>perder</set> ^ <set>profissao</set> ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>demitir</set> ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ <set>demitir</set> ^ <set>voce</set> ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ COMPROMETIDO ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ <set>profissao</set> ^ COMPROMETIDA ^</pattern>
+      <template>Não não, mas nunca se sabe o que pode acontecer</template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ SENTIR ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ SENTE ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ SENTES ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ SENTISTE ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ SENTIR ^ COMO ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ SENTE ^ COMO ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ SENTES ^ COMO ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ SENTISTE ^ COMO ^</pattern>
+      <template>
+        Ah, às vezes sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>fazer</set> ^ <set>algo</set> ^ <set>este</set> ^</pattern>
+      <template>Sim, vou ao médico falar sobre essas questões</template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>este</set> ^ <set>fazer</set> ^ <set>algo</set> ^</pattern>
+      <template>Sim, vou ao médico falar sobre essas questões</template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>falar</set> ^ <set>este</set> ^ <set>medico</set> ^</pattern>
+      <template>Já falei sim</template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>este</set> ^ <set>falar</set> ^ <set>medico</set> ^</pattern>
+      <template>Já falei sim</template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>medico</set> ^ <set>falar</set> ^ <set>este</set> ^</pattern>
+      <template>Já falei sim</template>
+    </category>
+    <category>
+      <that>Já falei sim</that>
+      <pattern>^ <set>QUE</set> ^ ELE ^ <set>falar</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <that>Já falei sim</that>
+      <pattern>^ ELE ^ <set>falar</set> ^ <set>QUE</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <that>Já falei sim</that>
+      <pattern>^ <set>QUE</set> ^ ELES ^ <set>falar</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <that>Já falei sim</that>
+      <pattern>^ ELES ^ <set>falar</set> ^ <set>QUE</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>QUE</set> ^ <set>medico</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>medico</set> ^ <set>falar</set> ^ <set>QUE</set> ^</pattern>
+      <template>
+        Nada grave. A maioria indica alguns remédios para dores e
+        descanso
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>pensar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ COMO ^ <set>assim</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>explicar</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ POR EXEMPLO ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>preocupar</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>muito</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>preocupar</set> ^ <set>muito</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>muito</set> ^ <set>ansioso</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>ansioso</set> ^ <set>muito</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>frequentemente</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>frequentemente</set> ^ <set>ansioso</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>pensar</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>frequentemente</set> ^ <set>pensar</set> ^ <set>ansioso</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>pensar</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ansioso</set> ^ <set>pensar</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>
+        É comum eu pensar nas minhas preocupações, fico muitas vezes
+        preocupado por estar preocupado e tento não pensar nisso.
+        Não é fácil pensar em outra coisa
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>pensar</set> ^ <set>este</set> ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>pensar</set> ^ <set>este</set> ^ <set>incomodar</set> ^ VIDA ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>pensar</set> ^ <set>voce</set> ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>pensar</set> ^ VIDA ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>este</set> ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>este</set> ^ <set>incomodar</set> ^ VIDA ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ <set>voce</set> ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>
+        Ainda mais que fico pensando nas minhas próprias
+        preocupações
+      </that>
+      <pattern>^ VIDA ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ <set>pensar</set> ^ <set>este</set> ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ <set>pensar</set> ^ <set>este</set> ^ <set>incomodar</set> ^ VIDA ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ <set>pensar</set> ^ <set>voce</set> ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ <set>pensar</set> ^ VIDA ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ <set>este</set> ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ <set>este</set> ^ <set>incomodar</set> ^ VIDA ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ <set>voce</set> ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>Não é fácil pensar em outra coisa</that>
+      <pattern>^ VIDA ^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>preocupar</set> ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>preocupar</set> ^ <set>incomodar</set> ^ VIDA ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>voce</set> ^ <set>incomodar</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ VIDA ^ <set>incomodar</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>incomodar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>incomodar</set> ^ VIDA ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>incomodar</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <pattern>^ VIDA ^ <set>incomodar</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Acho que ficar sempre preocupado e ansioso interfere cerca
+        de uns 60 ou 70 porcento no meu dia-a-dia. Ainda,
+        acabo a fazer menos viagens do que gostaria
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ <set>falar</set> ^ MAIS ^ <set>este</set> ^</pattern>
+      <template>
+        Ah, eu sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ <set>falar</set> ^ MAIS ^ <set>este</set> ^</pattern>
+      <template>
+        Ah, eu sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ <set>algo</set> ^ MAIS ^ <set>incomodar</set> ^</pattern>
+      <template>
+        Ah, eu sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ <set>incomodar</set> ^ MAIS ^ <set>algo</set> ^</pattern>
+      <template>
+        Ah, eu sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ COMO ^ <set>assim</set> ^</pattern>
+      <template>
+        Ah, eu sinto o coração mais
+        acelerado, de mau humor.. até falta de energia e
+        concentração. Ainda mais que fico pensando nas minhas
+        próprias preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>preocupar</set> ^ <set>muito</set> ^</pattern>
+      <template>
+        Talvez elas sejam um pouco excessivas, que me consomem muito
+        tempo já que estou sempre preocupado com algum coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>muito</set> ^ <set>pensar</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Talvez elas sejam um pouco excessivas, que me consomem muito
+        tempo já que estou sempre preocupado com algum coisa
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>algo</set> ^ ESPECIFICO ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Acho que não, talvez estejam todas ligadas, não sei explicar
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>algo</set> ^ ESPECIFICO ^</pattern>
+      <template>
+        Acho que não, talvez estejam todas ligadas, não sei explicar
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>algo</set> ^ ESPECIFICOS ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Acho que não, talvez estejam todas ligadas, não sei explicar
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>algo</set> ^ ESPECIFICOS ^</pattern>
+      <template>
+        Acho que não, talvez estejam todas ligadas, não sei explicar
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>algo</set> ^ PARTICULAR ^ <set>preocupar</set> ^</pattern>
+      <template>
+        Acho que não, talvez estejam todas ligadas, não sei explicar
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>algo</set> ^ PARTICULAR ^</pattern>
+      <template>
+        Acho que não, talvez estejam todas ligadas, não sei explicar
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ MENOS ^ <set>ansioso</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ MENOS ^ <set>ansioso</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>melhorar</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>melhorar</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>mudar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>mudar</set> ^ QUE ^ <set>voce</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ <set>pensar</set> ^ SOLUCAO ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ <set>pensar</set> ^ SOLUCOES ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ SOLUCAO ^ <set>pensar</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <that>É uma rotina de preocupações</that>
+      <pattern>^ SOLUCOES ^ <set>pensar</set> ^</pattern>
+      <template>
+        Acho que se a minha preocupação sobre as doenças desaparecesse,
+        talvez eu ficaria melhor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>algo</set> ^ MAIS ^ <set>incomodar</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>incomodar</set> ^ MAIS ^ <set>algo</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>COMO</set> ^ <set>sentir</set> ^ <set>trabalhar</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>sentir</set> ^ <set>profissao</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>trabalhar</set> ^ COMO ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>profissao</set> ^ COMO ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>sentir</set> ^ <set>outros</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>outros</set> ^ COMO ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ VONTADE ^ <set>outros</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>outros</set> ^ <set>sentir</set> ^ VONTADE ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>outros</set> ^ <set>sentir</set> ^ VONTADE ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>outros</set> ^ <set>situacao</set> ^ <set>incomodar</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>incomodar</set> ^ <set>outros</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <that>
+        Tenho receio de enfrentar algumas situações em que elas
+        estão presentes
+      </that>
+      <pattern>^ QUE ^ <set>situacao</set> ^</pattern>
+      <template>
+        Por exemplo, quando vou à secretaria ou à sala de
+        professores da escola, eu me sinto inferior. Fico
+        atrapalhado com as palavras, sinto-me inferior
+      </template>
+    </category>
+    <category>
+      <that>
+        Tenho receio de enfrentar algumas situações em que elas
+        estão presentes
+      </that>
+      <pattern>^ QUAIS ^ <set>situacao</set> ^</pattern>
+      <template>
+        Por exemplo, quando vou à secretaria ou à sala de
+        professores da escola, eu me sinto inferior. Fico
+        atrapalhado com as palavras, sinto-me inferior
+      </template>
+    </category>
+    <category>
+      <that>
+        Tenho receio de enfrentar algumas situações em que elas
+        estão presentes
+      </that>
+      <pattern>^ PORQUE ^</pattern>
+      <template>
+        Por exemplo, quando vou à secretaria ou à sala de
+        professores da escola, eu me sinto inferior. Fico
+        atrapalhado com as palavras, sinto-me inferior
+      </template>
+    </category>
+    <category>
+      <that>
+        Tenho receio de enfrentar algumas situações em que elas
+        estão presentes
+      </that>
+      <pattern>^ POR QUE ^</pattern>
+      <template>
+        Por exemplo, quando vou à secretaria ou à sala de
+        professores da escola, eu me sinto inferior. Fico
+        atrapalhado com as palavras, sinto-me inferior
+      </template>
+    </category>
+    <category>
+      <that>
+        Tenho receio de enfrentar algumas situações em que elas
+        estão presentes
+      </that>
+      <pattern>^ COMO ASSIM ^</pattern>
+      <template>
+        Por exemplo, quando vou à secretaria ou à sala de
+        professores da escola, eu me sinto inferior. Fico
+        atrapalhado com as palavras, sinto-me inferior
+      </template>
+    </category>
+    <category>
+      <that>
+        Tenho receio de enfrentar algumas situações em que elas
+        estão presentes
+      </that>
+      <pattern>^ <set>explicar</set> ^</pattern>
+      <template>
+        Por exemplo, quando vou à secretaria ou à sala de
+        professores da escola, eu me sinto inferior. Fico
+        atrapalhado com as palavras, sinto-me inferior
+      </template>
+    </category>
+    <category>
+      <that>
+        Tenho receio de enfrentar algumas situações em que elas
+        estão presentes
+      </that>
+      <pattern>^ POR EXEMPLO ^</pattern>
+      <template>
+        Por exemplo, quando vou à secretaria ou à sala de
+        professores da escola, eu me sinto inferior. Fico
+        atrapalhado com as palavras, sinto-me inferior
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ PORQUE ^</pattern>
+      <template>
+        Como eu disse, eles tem mais estudos que eu
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ POR QUE ^</pattern>
+      <template>
+        Como eu disse, eles tem mais estudos que eu
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>explicar</set> ^</pattern>
+      <template>
+        Como eu disse, eles tem mais estudos que eu
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>acontecer</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>
+        Sempre que estou em uma situação dessas, mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>frequentemente</set> ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Sempre que estou em uma situação dessas, mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>Como eu disse eles tem mais estudos que eu</that>
+      <pattern>^ <set>acontecer</set> ^ <set>frequentemente</set> ^</pattern>
+      <template>
+        Sempre que estou em uma situação dessas, mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>Como eu disse eles tem mais estudos que eu</that>
+      <pattern>^ <set>frequentemente</set> ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Sempre que estou em uma situação dessas, mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>ficar</set> ^ <set>assim</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Sim, quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>ficar</set> ^ <set>assim</set> ^ LUGAR ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>ficar</set> ^ <set>assim</set> ^ LUGARES ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>situacao</set> ^ <set>ficar</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>acontecer</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>acontecer</set> ^ LUGARES ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>acontecer</set> ^ LUGAR ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ ONDE ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico atrapalhado com as palavras sinto me inferior
+      </that>
+      <pattern>^ <set>acontecer</set> ^ ONDE ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>Como eu disse eles tem mais estudos que eu</that>
+      <pattern>^ <set>ficar</set> ^ <set>assim</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>Como eu disse eles tem mais estudos que eu</that>
+      <pattern>^ <set>situacao</set> ^ <set>ficar</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>Como eu disse eles tem mais estudos que eu</that>
+      <pattern>^ <set>acontecer</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>Como eu disse eles tem mais estudos que eu</that>
+      <pattern>^ ONDE ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>Como eu disse eles tem mais estudos que eu</that>
+      <pattern>^ <set>acontecer</set> ^ ONDE ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Sempre que estou em uma situação dessas mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </that>
+      <pattern>^ <set>ficar</set> ^ <set>assim</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Sempre que estou em uma situação dessas mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </that>
+      <pattern>^ <set>situacao</set> ^ <set>ficar</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Sempre que estou em uma situação dessas mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </that>
+      <pattern>^ <set>acontecer</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Sempre que estou em uma situação dessas mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </that>
+      <pattern>^ ONDE ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <that>
+        Sempre que estou em uma situação dessas mas quando são
+        pessoas mais conhecidas eu me sinto mais à vontade
+      </that>
+      <pattern>^ <set>acontecer</set> ^ ONDE ^</pattern>
+      <template>
+        Quando tenho que almoçar na escola, evito sentar em
+        frente aos professores, fica até difícil de comer
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>COMO</set> ^ <set>relacionamento</set> ^ <set>outros</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>relacionamento</set> ^ <set>outros</set> ^ <set>COMO</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>relacionamento</set> ^ <set>outros</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>relacionamento</set> ^ <set>outros</set> ^ <set>profissao</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>relacionamento</set> ^ <set>outros</set> ^ <set>profissao</set> ^ COMO ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>relacionamento</set> ^ <set>outros</set> ^ <set>profissao</set> ^</pattern>
+      <template>
+        Eu me sinto pouco à vontade quando fico perto de pessoas com
+        mais estuduos ou dinheiro. Tenho receio de enfrentar algumas
+        situações em que elas estão presentes
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>outros</set> ^ <set>falar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Não sei, mas não quero que elas pensem ou falem mal de mim
+      </template>
+    </category>
+    <category>
+      <that>Não sei mas não quero que elas pensem ou falem mal de mim</that>
+      <pattern>^ QUE ^ <set>falar</set> ^ <set>voce</set> ^</pattern>
+      <template>Não sei também, vai que eu incomodo e não percebo</template>
+    </category>
+    <category>
+      <that>Não sei mas não quero que elas pensem ou falem mal de mim</that>
+      <pattern>^ <set>falar</set> ^ <set>voce</set> ^ QUE ^</pattern>
+      <template>Não sei também, vai que eu incomodo e não percebo</template>
+    </category>
+    <category>
+      <pattern>^ <set>ouvir</set> ^ <set>outros</set> ^ <set>falar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Não me recordo de ter ouvido ninguém falando de mim
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ver</set> ^ <set>outros</set> ^ <set>falar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Não me recordo de ter ouvido ninguém falando de mim
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>ouvir</set> ^ <set>outros</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Não me recordo de ter ouvido ninguém falando de mim
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>ver</set> ^ <set>outros</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Não me recordo de ter ouvido ninguém falando de mim
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ouvir</set> ^ <set>voce</set> ^ <set>outros</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Não me recordo de ter ouvido ninguém falando de mim
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ver</set> ^ <set>voce</set> ^ <set>outros</set> ^ <set>falar</set> ^</pattern>
+      <template>
+        Não me recordo de ter ouvido ninguém falando de mim
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>outros</set> ^ <set>ver</set> ^ <set>voce</set> ^</pattern>
+      <template>Ah, tenho essa sensação mas é só isso também</template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>outros</set> ^ <set>voce</set> ^ <set>ver</set> ^</pattern>
+      <template>Ah, tenho essa sensação mas é só isso também</template>
+    </category>
+    <category>
+      <pattern>^ <set>outros</set> ^ <set>ver</set> ^ <set>voce</set> ^</pattern>
+      <template>Ah, tenho essa sensação mas é só isso também</template>
+    </category>
+    <category>
+      <pattern>^ <set>outros</set> ^ <set>voce</set> ^ <set>ver</set> ^</pattern>
+      <template>Ah, tenho essa sensação mas é só isso também</template>
+    </category>
+    <category>
+      <that>Ah tenho essa sensação mas é só isso também</that>
+      <pattern>^ COMO ASSIM ^</pattern>
+      <template>
+        Não tem como eu saber o que realmente acontece sem eu
+        perguntar kk também não irei perguntar
+      </template>
+    </category>
+    <category>
+      <that>Ah tenho essa sensação mas é só isso também</that>
+      <pattern>^ <set>explicar</set> ^</pattern>
+      <template>
+        Não tem como eu saber o que realmente acontece sem eu
+        perguntar kk também não irei perguntar
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>acontecer</set> ^ <set>enfrentar</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>sentir</set> ^ <set>enfrentar</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>enfrentar</set> ^ <set>situacao</set> ^ QUE ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>enfrentar</set> ^ <set>situacao</set> ^ COMO ^ <set>sentir</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>acontecer</set> ^ <set>situacao</set> ^ <set>enfrentar</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>sentir</set> ^ <set>situacao</set> ^ <set>enfrentar</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>situacao</set> ^ <set>enfrentar</set> ^ QUE ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>situacao</set> ^ <set>enfrentar</set> ^ COMO ^ <set>sentir</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>enfrentar</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>situacao</set> ^ <set>enfrentar</set> ^</pattern>
+      <template>
+        Fico com falta se ar, um aperto no peito, suores. Logo que
+        posso tento sair da situação
+      </template>
+    </category>
+    <category>
+      <that>Logo que posso tento sair da situação</that>
+      <pattern>^ <set>depois</set> ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <that>Logo que posso tento sair da situação</that>
+      <pattern>^ <set>acontecer</set> ^ <set>depois</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <that>Logo que posso tento sair da situação</that>
+      <pattern>^ <set>depois</set> ^ <set>terminar</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>depois</set> ^ <set>situacao</set> ^ <set>acontecer</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>acontecer</set> ^ <set>depois</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>depois</set> ^ <set>situacao</set> ^ <set>terminar</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>depois</set> ^ <set>acontecer</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>depois</set> ^ <set>terminar</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Eu até penso no que aconteceu, mas não me sinto mais
+        ansioso, pois já passou
+      </template>
+    </category>
+    <category>
+      <that>
+        Eu até penso no que aconteceu mas não me sinto mais
+        ansioso pois já passou
+      </that>
+      <pattern>^ COMO ^ <set>sentir</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Fico preocupado, o que eu sinto pode ser sintoma de alguma
+        doença
+      </template>
+    </category>
+    <category>
+      <that>
+        Eu até penso no que aconteceu mas não me sinto mais
+        ansioso pois já passou
+      </that>
+      <pattern>^ COMO ^ <set>voce</set> ^ <set>sentir</set> ^</pattern>
+      <template>
+        Fico preocupado, o que eu sinto pode ser sintoma de alguma
+        doença
+      </template>
+    </category>
+    <category>
+      <that>
+        Eu até penso no que aconteceu mas não me sinto mais
+        ansioso pois já passou
+      </that>
+      <pattern>^ <set>sentir</set> ^ <set>voce</set> ^ COMO ^</pattern>
+      <template>
+        Fico preocupado, o que eu sinto pode ser sintoma de alguma
+        doença
+      </template>
+    </category>
+    <category>
+      <that>
+        Eu até penso no que aconteceu mas não me sinto mais
+        ansioso pois já passou
+      </that>
+      <pattern>^ <set>voce</set> ^ <set>sentir</set> ^ COMO ^</pattern>
+      <template>
+        Fico preocupado, o que eu sinto pode ser sintoma de alguma
+        doença
+      </template>
+    </category>
+    <category>
+      <that>
+        Eu até penso no que aconteceu mas não me sinto mais
+        ansioso pois já passou
+      </that>
+      <pattern>^ QUE ^ <set>pensar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Fico preocupado, o que eu sinto pode ser sintoma de alguma
+        doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ <set>mudar</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>mudar</set> ^ <set>desejar</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ <set>melhorar</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>melhorar</set> ^ <set>desejar</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico preocupado o que eu sinto pode ser sintoma de alguma
+        doença
+      </that>
+      <pattern>^ <set>este</set> ^ <set>incomodar</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>
+        Fico preocupado o que eu sinto pode ser sintoma de alguma
+        doença
+      </that>
+      <pattern>^ <set>este</set> ^ <set>incomodar</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>
+        Eu até penso no que aconteceu mas não me sinto mais
+        ansioso pois já passou
+      </that>
+      <pattern>^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <that>
+        Eu até penso no que aconteceu mas não me sinto mais
+        ansioso pois já passou
+      </that>
+      <pattern>^ <set>incomodar</set> ^ <set>este</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>desejar</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ <set>situacao</set> ^ COMO ^</pattern>
+      <template>
+        Gostaria de mudar. Não dar tanta importância para essas
+        coisas. Estar mais bem disposto, de não ser tão exagerado
+        e estar mais à vontade
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>sentir</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Geralmente fico nervoso, mas enfrento o que devo fazer. Mas
+        quando as coisas não saem como pretendo fico de mau humor
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>enfrentar</set> ^ <set>situacao</set> ^</pattern>
+      <template>
+        Geralmente fico nervoso, mas enfrento o que devo fazer. Mas
+        quando as coisas não saem como pretendo fico de mau humor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>situacao</set> ^ COMO ^</pattern>
+      <template>
+        Geralmente fico nervoso, mas enfrento o que devo fazer. Mas
+        quando as coisas não saem como pretendo fico de mau humor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>enfrentar</set> ^ <set>situacao</set> ^ COMO ^</pattern>
+      <template>
+        Geralmente fico nervoso, mas enfrento o que devo fazer. Mas
+        quando as coisas não saem como pretendo fico de mau humor
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ TEMPO ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ TEMPO ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ DESDE ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ DESDE ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ ANOS ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ ANOS ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ ANO ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ ANO ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ MESES ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ MESES ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ MES ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ MES ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ SEMANAS ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ SEMANAS ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ SEMANA ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ SEMANA ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ DIAS ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ DIAS ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ <set>assim</set> ^ DIA ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    <category>
+      <pattern>^ DIA ^ <set>sentir</set> ^ <set>assim</set> ^</pattern>
+      <template>
+        Acho que sempre fui assim, desde pequeno
+      </template>
+    </category>
+    
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>sintoma</set> ^ FISICO ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICO ^ <set>ter</set> ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>ter</set> ^ <set>sintoma</set> ^ FISICOS ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICOS ^ <set>ter</set> ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ TEMPO ^ <set>sentir</set> ^</pattern>
+      <that>
+        Às vezes são dores no peito outras no estômago Não sei ao certo
+      </that>
+      <template>
+        Já nem me lembro mais
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sentir</set> ^ TEMPO ^</pattern>
+      <that>
+        Às vezes são dores no peito outras no estômago Não sei ao certo
+      </that>
+      <template>
+        Já nem me lembro mais
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ <set>sintoma</set> ^ FISICO ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>sintoma</set> ^ FISICO ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>sintoma</set> ^ FISICO ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>sintoma</set> ^ FISICOS ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAIS ^ <set>sintoma</set> ^ FISICOS ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUAL ^ <set>sintoma</set> ^ FISICOS ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICO ^ QUE ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICO ^ QUAIS ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICO ^ QUAL ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICOS ^ QUE ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICOS ^ QUAIS ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>sintoma</set> ^ FISICOS ^ QUAL ^</pattern>
+      <template>
+        Às vezes são dores no peito, outras no estômago. Não sei ao certo
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ ANSIEDADE ^ VOCE ^</pattern>
+      <template>
+        Acho que é quando eu fico muito nervoso antes de algo
+        acontecer
+      </template>
+    </category>
+    <category>
+      <pattern>^ VOCE ^ QUE ^ ANSIEDADE ^</pattern>
+      <template>
+        Acho que é quando eu fico muito nervoso antes de algo
+        acontecer
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>pensar</set> ^ <set>preocupar</set> ^ <set>muito</set> ^</pattern>
+      <template>Acho que sim, eu me preocupo muito com tudo</template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>muito</set> ^ <set>pensar</set> ^</pattern>
+      <template>Acho que sim, eu me preocupo muito com tudo</template>
+    </category>
+    <category>
+      <pattern>^ MEU ^ NOME ^ E *</pattern>
+      <template>
+        <think><set name="student"><star index="4"/></set></think>
+        Olá, <get name="student"/>
+      </template>
+    </category>
+    <category>
+      <pattern>^ ME ^ <set>chamar</set> *</pattern>
+      <template><srai>MEU NOME E <star index="4"/></srai></template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>esperar</set> ^ QUE ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>desejar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>esperar</set> ^ <set>consulta</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>posso</set> ^ <set>ajudar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ COMO ^ <set>posso</set> ^ <set>voce</set> ^ <set>ajudar</set> ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>posso</set> ^ <set>ajudar</set> ^ <set>voce</set> ^ COMO ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>posso</set> ^ <set>voce</set> ^ <set>ajudar</set> ^ COMO ^</pattern>
+      <template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>desejar</set> ^</pattern>
+      <that>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </that>
+      <template>Ah, para aproveitar melhor a vida</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ AQUI ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ AQUI ^ <set>qquestoes</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ ELAS ^ <set>ansioso</set> ^</pattern>
+      <that>
+        Estou aqui por indicação da minha esposa e filha pois elas
+        acreditam que eu esteja muito nervoso
+      </that>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ ELA ^ <set>ansioso</set> ^</pattern>
+      <that>
+        Estou aqui por indicação da minha esposa e filha pois elas
+        acreditam que eu esteja muito nervoso
+      </that>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ ESPOSA ^ <set>ansioso</set> ^</pattern>
+      <that>
+        Estou aqui por indicação da minha esposa e filha pois elas
+        acreditam que eu esteja muito nervoso
+      </that>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ FILHA ^ <set>ansioso</set> ^</pattern>
+      <that>
+        Estou aqui por indicação da minha esposa e filha pois elas
+        acreditam que eu esteja muito nervoso
+      </that>
+      <template>
+        Por exemplo, quando tenho qualquer dor ou sintoma físico, eu
+        fico muito apreensivo, acho posso vir a ter alguma doença
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ QUE ^ INDICARAM ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>vir</set> ^ <set>consulta</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>qquestoes</set> ^ <set>serestar</set> ^ <set>consulta</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>consulta</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ <set>serestar</set> ^ <set>consulta</set> ^ <set>qquestoes</set> ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>voce</set> ^ <set>preocupar</set> ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>preocupar</set> ^ <set>voce</set> ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>voce</set> ^ <set>preocupar</set> ^ QUE ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>preocupar</set> ^ <set>voce</set> ^ QUE ^</pattern>
+      <template>
+        O que mais me preocupa são questões que ameaçam a vida da
+        minha família ou a minha. Por exemplo, qualquer um pode pegar
+        uma doença sem perceber e na verdade ser algo sério. Mas
+        também me preocupo com questões financeiras. É uma rotina de
+        preocupações
+      </template>
+    </category>
+  <!-- motivo/o que te trouxe aqui -->
+    <category>
+      <pattern>^ QUE ^ <set>procurar</set> ^ <set>ajuda</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>procurar</set> ^ <set>ajuda</set> ^ QUE ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>procurar</set> ^ <set>ajuda</set> ^ <set>justificativa</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>procurar</set> ^ <set>ajuda</set> ^ <set>justificativa</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ <set>ajuda</set> ^ PSICOLOGICA ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>falar</set> ^ COMIGO ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>falar</set> ^ <set>psicologa</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>falar</set> ^ <set>psicologa</set> ^ QUE ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ TROUXERAM ^ AQUI ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ TROUXERAM ^ CONSULTA ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ TROUXERAM ^ <set>psicologa</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ TROUXERAM ^ TERAPIA ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>justificativa</set> ^ TROUXERAM ^ PSICOTERAPIA ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>procurar</set> ^ <set>psicologa</set> ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>procurar</set> ^ TERAPIA ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ QUE ^ <set>procurar</set> ^ PSICOTERAPIA ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>procurar</set> ^ <set>psicologa</set> ^ QUE ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>procurar</set> ^ TERAPIA ^ QUE ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+    <category>
+      <pattern>^ <set>procurar</set> ^ PSICOTERAPIA ^ QUE ^</pattern>
+      <template>
+        Estou aqui por indicação da minha esposa e filha, pois elas
+        acreditam que eu esteja muito nervoso
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ MAIOR ^ <set>dificuldade</set> ^ MOMENTO ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+    <category>
+      <pattern>^ MAIOR ^ <set>dificuldade</set> ^ AGORA ^</pattern>
+      <template>Ando sempre nervoso e preocupado</template>
+    </category>
+
+
+		<category>
+			<pattern>^ QUE ^ <set>pensar</set> ^ VOCE ^ <set>ter</set> ^</pattern>
+			<template>Eu não tenho ideia mesmo</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ VOCE ^ <set>ter</set> ^ QUE ^</pattern>
+			<template>Eu não tenho ideia mesmo</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>algo</set> ^ MAIS ^ <set>incomodar</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ MAIS ^ <set>algo</set> ^ <set>incomodar</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>algo</set> ^ MAIS ^ <set>desejar</set> ^ <set>falar</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ MAIS ^ <set>algo</set> ^ <set>desejar</set> ^ <set>falar</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>incomodar</set> ^ <set>algo</set> ^ MAIS ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>incomodar</set> ^ MAIS ^ <set>algo</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ <set>falar</set> ^ <set>algo</set> ^ MAIS ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ <set>falar</set> ^ MAIS ^ <set>algo</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ ACRESCENTAR ^ <set>algo</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>desejar</set> ^ ACRESCENTA ^ <set>algo</set> ^</pattern>
+			<template>
+				Acho que são só as dores, preocupações e o nervosismo às
+				vezes mesmo
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ ORDEM ^ MAIS ^ <set>incomodar</set> ^</pattern>
+			<template>Acho que dores, preocupações e nervosismo</template>
+		</category>
+		<category>
+			<pattern>^ ORDENAR ^ MAIS ^ <set>incomodar</set> ^</pattern>
+			<template>Acho que dores, preocupações e nervosismo</template>
+		</category>
+		<category>
+			<pattern>^ ORDENACAO ^ MAIS ^ <set>incomodar</set> ^</pattern>
+			<template>Acho que dores, preocupações e nervosismo</template>
+		</category>
+		<category>
+			<pattern>^ ORDEM ^ <set>incomodar</set> ^ MAIS ^</pattern>
+			<template>Acho que dores, preocupações e nervosismo</template>
+		</category>
+		<category>
+			<pattern>^ ORDENAR ^ <set>incomodar</set> ^ MAIS ^</pattern>
+			<template>Acho que dores, preocupações e nervosismo</template>
+		</category>
+		<category>
+			<pattern>^ ORDENACAO ^ <set>incomodar</set> ^ MAIS ^</pattern>
+			<template>Acho que dores, preocupações e nervosismo</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>serestar</set> ^ PROBLEMA ^</pattern>
+			<template>Acho que eu me preocupo demais às vezes</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>serestar</set> ^ PROBLEMAS ^</pattern>
+			<template>Acho que eu me preocupo demais às vezes</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>serestar</set> ^ DOENTE ^</pattern>
+			<template>Acho que eu me preocupo demais às vezes</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>serestar</set> ^ DIFICULDADES ^</pattern>
+			<template>Acho que eu me preocupo demais às vezes</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ <set>serestar</set> ^ DIFICULDADE ^</pattern>
+			<template>Acho que eu me preocupo demais às vezes</template>
+		</category>
+
+		<category>
+			<pattern>^ <set>pensar</set> ^ PRECISA ^ AJUDA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ PRECISAS ^ AJUDA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ NECESSITA ^ AJUDA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ NECESSITAS ^ AJUDA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ PRECISA ^ AUXILIO ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ PRECISAS ^ AUXILIO ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ NECESSITA ^ AUXILIO ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>pensar</set> ^ NECESSITAS ^ AUXILIO ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+
+    <category>
+			<pattern>^ AJUDA ^ <set>pensar</set> ^ PRECISA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AJUDA ^ <set>pensar</set> ^ PRECISAS ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AJUDA ^ <set>pensar</set> ^ NECESSITA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AJUDA ^ <set>pensar</set> ^ NECESSITAS ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AUXILIO ^ <set>pensar</set> ^ PRECISA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AUXILIO ^ <set>pensar</set> ^ PRECISAS ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AUXILIO ^ <set>pensar</set> ^ NECESSITA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AUXILIO ^ <set>pensar</set> ^ NECESSITAS ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+
+		<category>
+			<that>Fico pensamento mais nas dores</that>
+			<pattern>^ <set>fazer</set> ^ <set>algo</set> ^ <set>dor</set> ^</pattern>
+			<template>Já fui ver médicos sobre as dores</template>
+		</category>
+		<category>
+			<that>Fico pensamento mais nas dores</that>
+			<pattern>^ <set>dor</set> ^ <set>fazer</set> ^ <set>algo</set> ^</pattern>
+			<template>Já fui ver médicos sobre as dores</template>
+		</category>
+	<!-- melhorar -->
+		<category>
+			<pattern>^ QUE ^ <set>acontecer</set> ^ <set>ansioso</set> ^ <set>terminar</set> ^</pattern>
+			<template>Eu nem percebo o que acontece nesses momentos</template>
+		</category>
+		<category>
+			<pattern>^ QUANDO ^ <set>ansioso</set> ^ <set>terminar</set> ^</pattern>
+			<template>
+				Depois de um tempo às vezes passa, ou eu tento me distrair também
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>fazer</set> ^ <set>melhorar</set> ^</pattern>
+			<template>Melhorar o quê</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ QUE ^ <set>melhorar</set> ^</pattern>
+			<template>Melhorar o quê</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>algo</set> ^ <set>melhorar</set> ^</pattern>
+			<template>Melhorar o quê</template>
+		</category>
+		<category>
+			<pattern>^ <set>melhorar</set> ^ QUE ^ <set>fazer</set> ^</pattern>
+			<template>Melhorar o quê</template>
+		</category>
+		<category>
+			<pattern>^ <set>melhorar</set> ^ <set>fazer</set> ^ QUE ^</pattern>
+			<template>Melhorar o quê</template>
+		</category>
+		<category>
+			<pattern>^ <set>melhorar</set> ^ <set>fazer</set> ^ <set>algo</set> ^</pattern>
+			<template>Melhorar o quê</template>
+		</category>
+
+		<category>
+			<that>Melhorar o quê</that>
+			<pattern>^ <set>ansioso</set> ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<that>Melhorar o quê</that>
+			<pattern>^ <set>dor</set> ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>fazer</set> ^ <set>sentir</set> ^ MELHOR ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ QUE ^ <set>sentir</set> ^ MELHOR  ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>algo</set> ^ <set>sentir</set> ^ MELHOR  ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ MELHOR  ^ QUE ^ <set>fazer</set> ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ MELHOR  ^ <set>fazer</set> ^ QUE ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ MELHOR  ^ <set>fazer</set> ^ <set>algo</set> ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>fazer</set> ^ <set>sentir</set> ^ <set>bem</set> ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ QUE ^ <set>sentir</set> ^ <set>bem</set>  ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>algo</set> ^ <set>sentir</set> ^ <set>bem</set>  ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>bem</set>  ^ QUE ^ <set>fazer</set> ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>bem</set>  ^ <set>fazer</set> ^ QUE ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+		<category>
+			<pattern>^ <set>sentir</set> ^ <set>bem</set>  ^ <set>fazer</set> ^ <set>algo</set> ^</pattern>
+			<template>Às vezes fico pensando até passar. Ou tento me distrair</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>voce</set> ^ <set>ajudar</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+		<category>
+			<pattern>^ <set>algo</set> ^ <set>voce</set> ^ <set>ajudar</set> ^</pattern>
+			<template>Quando jogo eu me distraio mais, fico concentrado no jogo</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>voce</set> ^ <set>acalmar</set> ^</pattern>
+			<template>
+				Conferir a opinião dos médicos. E quando jogo eu me distraio
+				mais, fico concentrado no jogo
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>algo</set> ^ <set>voce</set> ^ <set>acalmar</set> ^</pattern>
+			<template>
+				Conferir a opinião dos médicos. E quando jogo eu me distraio
+				mais, fico concentrado no jogo
+			</template>
+		</category>
+
+		<category>
+			<pattern>^ QUE ^ <set>fazer</set> ^ <set>relaxar</set> ^</pattern>
+			<template>
+				Jogar cartas, assistir o que estiver passando na tv com
+				minha família
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ QUE ^ <set>relaxar</set> ^</pattern>
+			<template>
+				Jogar cartas, assistir o que estiver passando na tv com
+				minha família
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>relaxar</set> ^ QUE ^ <set>fazer</set> ^</pattern>
+			<template>
+				Jogar cartas, assistir o que estiver passando na tv com
+				minha família
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>relaxar</set> ^ <set>fazer</set> ^ QUE ^</pattern>
+			<template>
+				Jogar cartas, assistir o que estiver passando na tv com
+				minha família
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>fazer</set> ^ <set>algo</set> ^ <set>relaxar</set> ^</pattern>
+			<template>
+				Jogar cartas, assistir o que estiver passando na tv com
+				minha família
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>relaxar</set> ^ <set>fazer</set> ^ <set>algo</set> ^</pattern>
+			<template>
+				Jogar cartas, assistir o que estiver passando na tv com
+				minha família
+			</template>
+		</category>
+	<!-- ajuda -->
+		<category>
+			<pattern>^ COMO ^ <set>poder</set> ^ <set>ajudar</set> ^</pattern>
+			<template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+		</category>
+		<category>
+			<pattern>^ QUE ^ <set>poder</set> ^ <set>ajudar</set> ^</pattern>
+			<template>
+        Gostaria que me explicassem o que eu tenho em termos
+        psíquicos, queria não ser tão preocupado e levar a vida mais
+        descontraída
+      </template>
+		</category>
+    <category>
+			<pattern>^ <set>voce</set> ^ <set>querer</set> ^ AJUDA ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set>voce</set> ^ <set>querer</set> ^ AUXILIO ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+    <category>
+			<pattern>^ AJUDA ^ <set>voce</set> ^ <set>querer</set> ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+		<category>
+			<pattern>^ AUXILIO ^ <set>voce</set> ^ <set>querer</set> ^</pattern>
+			<template>
+				Não sei, não pensei muito nisso. Fico pensamento mais nas
+				dores
+			</template>
+		</category>
+</aiml>

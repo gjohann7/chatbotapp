@@ -53,11 +53,11 @@
   </category>
   <category>
     <pattern>^ SIM ^</pattern>
-    <template>Sim o quê? kk</template>
+    <template>Sim</template>
   </category>
   <category>
     <pattern>^ NAO ^</pattern>
-    <template>Não o quê? kk</template>
+    <template>Não</template>
   </category>
   <category>
     <pattern>HM ^</pattern>
@@ -149,47 +149,47 @@
   </category>
   <category>
     <pattern>^ <set>cumprimentos</set> ^ TUDO ^</pattern>
-    <template>Tudo sim e contigo?</template>
+    <template>Tudo sim</template>
   </category>
   <category>
     <pattern>^ <set>cumprimentos</set> ^ COMO ^</pattern>
-    <template>Bem e tu?</template>
+    <template>Bem</template>
   </category>
   <category>
     <pattern>^ TUDO BEM ^</pattern>
-    <template>Tudo sim e contigo?</template>
+    <template>Tudo sim</template>
   </category>
   <category>
     <pattern>^ TUDO CERTO ^</pattern>
-    <template>Tudo sim e contigo?</template>
+    <template>Tudo sim</template>
   </category>
   <category>
     <pattern>^ TUDO OK ^</pattern>
-    <template>Tudo sim e contigo?</template>
+    <template>Tudo sim</template>
   </category>
   <category>
     <pattern>^ TUDO OKAY ^</pattern>
-    <template>Tudo sim e contigo?</template>
+    <template>Tudo sim</template>
   </category>
   <category>
     <pattern>^ COMO ^ VAI ^ <set>voce</set> ^</pattern>
-    <template>Bem e tu?</template>
+    <template>Bem</template>
   </category>
   <category>
     <pattern>^ COMO ^ <set>voce</set> ^ ESTA ^</pattern>
-    <template>Bem e tu?</template>
+    <template>Bem</template>
   </category>
   <category>
     <pattern>^ COMO ^ ESTA ^</pattern>
-    <template>Bem e tu?</template>
+    <template>Bem</template>
   </category>
   <category>
     <pattern>^ COMO ^ ESTAS ^</pattern>
-    <template>Bem e tu?</template>
+    <template>Bem</template>
   </category>
   <category>
     <pattern>^ COMO ^ <set>voce</set> ^ ESTAS ^</pattern>
-    <template>Bem e tu?</template>
+    <template>Bem</template>
   </category>
   <!--  -->
   <category>
@@ -645,59 +645,59 @@
 
   <category>
     <pattern>^ FALAR ^ MAIS ^</pattern>
-    <template>Falar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ FALA ^ MAIS ^</pattern>
-    <template>Falar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ FALE ^ MAIS ^</pattern>
-    <template>Falar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ FALES ^ MAIS ^</pattern>
-    <template>Falar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ EXPLICAR ^ MAIS ^</pattern>
-    <template>Explicar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ EXPLICA ^ MAIS ^</pattern>
-    <template>Explicar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ EXPLICE ^ MAIS ^</pattern>
-    <template>Explicar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ EXPLICES ^ MAIS ^</pattern>
-    <template>Explicar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ CONTAR ^ MAIS ^</pattern>
-    <template>Contar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ CONTA ^ MAIS ^</pattern>
-    <template>Contar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ CONTE ^ MAIS ^</pattern>
-    <template>Contar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ CONTES ^ MAIS ^</pattern>
-    <template>Contar mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ DIZER ^ MAIS ^</pattern>
-    <template>Dizer mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ DIGA ^ MAIS ^</pattern>
-    <template>Dizer mais sobre o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
 
   <category>
@@ -711,7 +711,7 @@
 
   <category>
     <pattern>^ E ^ QUE ^ MAIS ^</pattern>
-    <template>Que mais o quê?</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
   <category>
     <pattern>^ <set>algo</set> ^ MAIS ^</pattern>
@@ -728,6 +728,6 @@
 
   <category>
     <pattern>^ POR QUE ^</pattern>
-    <template>Por que o quê</template>
+    <template>Pode perguntar de forma clara</template>
   </category>
 </aiml>

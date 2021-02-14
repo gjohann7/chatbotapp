@@ -4,3 +4,13 @@ questao
 questoes
 assunto
 assuntos
+dificuldade
+dificuldades
+complicacao
+complicacoes
+aborrecimento
+aborrecimentos
+incomodo
+incomodos
+inconveniente
+inconvenientes
