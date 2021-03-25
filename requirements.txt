@@ -63,7 +63,7 @@ python-engineio==3.12.1
 python-socketio==4.5.1
 python-telegram-bot==12.0.0
 pytz==2020.1
-PyYAML==5.3b1
+PyYAML==5.4
 redis==3.3.11
 regex==2020.4.4
 requests==2.22.0
