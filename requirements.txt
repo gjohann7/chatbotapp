@@ -51,7 +51,7 @@ psycopg2==2.8.5
 pycodestyle==2.5.0
 pycparser==2.20
 Pygments==2.6.1
-PyJWT==1.5.3
+PyJWT==2.4.0
 pymessenger==0.0.7.0
 pymongo==3.10.0
 PyMySQL==0.9.3
