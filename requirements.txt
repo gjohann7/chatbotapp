@@ -33,7 +33,7 @@ imagesize==1.2.0
 isodate==0.6.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
-joblib==0.14.1
+joblib==1.2.0
 kik==1.5.0
 line-bot-sdk==1.15.0
 lxml==4.4.2
